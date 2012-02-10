@@ -1,0 +1,886 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles arts &amp; crafts classifieds  - craigslist</title>
+  <meta name="description" content="los angeles arts &amp; crafts classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/art/index.rss" title="RSS feed for craigslist | arts &amp; crafts  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/art/">arts & crafts</a>
+   <div id="satabs">
+    <a href="/art/">all los angeles</a>
+    <a href="/wst/art/">westside-southbay</a>
+    <a href="/sfv/art/">SF valley</a>
+    <a href="/lac/art/">central LA</a>
+    <a href="/sgv/art/">san gabriel valley</a>
+    <a href="/lgb/art/">long beach / 562</a>
+    <a href="/ant/art/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/art" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="art" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">arts & crafts</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art" selected="">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:30:46 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih" id="images:3nb3ma3l75V65Y45U5b9g07e51c5852a115e8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602188714.html">Wood frame for hanging art</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m23o73l85O45Y35S5b9g06dc8914dd2c16f7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602181718.html">Native American War Shield</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3pa3o03l05Z25Q55R2b9g8efb1dc774fa1771.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602152159.html">small VASE, ceramic southwest style</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3of3l95Z65U45S1b9g0f55c7c620451917.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602094442.html">Paris street oil painting Wood framed art</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n83oc3pf5V05W45U2b9gf719c940620c1899.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602032960.html">Biblical writings on wood - Hebrew</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93pa3oa5Z35W05S6b9g22bb3bd325ba1373.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602010006.html">Medicine Bag - white leather</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m13p83o45W15P25X6b9g45a0997dedfc16f9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602002450.html">Table Runner</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3m93pf5V05X15R2b9g5b5308ce27d71f2e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601996473.html">Native American Talking Sticks, set</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3p83l85O05P45X4b9g1ef9ff13fd541c65.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601990897.html">Vase - southwest style "Love Jug"</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3o93l15Z65Q05R1b9g0116e499909813c0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601976424.html">Native American ceramic decor</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13mf3o55U25P25X3b9g079621d5c0411070.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601968843.html">SouthWestern decorative Canteens</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3mb3p55U05P05R0b9g61a0ee92571a1829.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601963419.html">Medicine Bags (2)</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3mb3oe5O55Q35T2b9c38544141d3061068.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2595776388.html">Wall Art</a>
+    <font size="-1"> (Simi Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05P25R43n63kc3ofb9na0e61dbc56e0122f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614515592.html">Art Prints for Sale</a>
+    <font size="-1"> (W.LA/Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43m23p85O45V35W1b99b9179d045a651577.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2590143102.html">Air Brush Compressor-New</a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73k13ld5Q65W25P1b943e5e044a388a1717.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2581907732.html">Carson Gladson</a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25U55S33kd3pd3l7b9n305cfcd802ab1651.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614513589.html">DECORATION ITEMS FOR WEDDINGS &amp; SPECIAL EVENTS   S</a>
+    <font size="-1"> (SANTA MARIA, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3pa3l25Z35U55S5b9g6cfc018088491436.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601941443.html">Dream Catcher</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ma3p63l15O65Z45P3b9g253e3999da4e16ea.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601937908.html">Flying Eagle Framed Print</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3k53me5Q55S15R5b9g3d7327c81e101c16.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601929826.html">Native American Limited Edition Framed Print</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73k33lf5Y35Z65X2b9gf31c3a35cdd014b5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601826100.html">Framed Iridology mapping print</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13k93ob5Z45T55Q5b9g0f67b73dd86412fe.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601812617.html">Framed oil painting - Mountain Landscape</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ob3p33lf5Z65X45R0b9gc83a3069d2d21c05.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2601808119.html">Framed oil painting - Fruit</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13m23p45Q25X65S3b8t9608e198897c1a4c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2571180588.html">David Garibaldi  Elvis on cavas  LIST FOR $995.00</a>
+    <font size="-1"> (torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3pe3o95Y65W05P0b8tb2163cf194ec19c6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2571165035.html">Audrey on canvas by David Garibaldi  sells for $995.00</a>
+    <font size="-1"> (torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Y35T53ka3p73leb9n284be2fdc8be117e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614506743.html">Rare and interesting Al Hirschfeld,Mark Goodson and others. Signed </a>
+    <font size="-1"> (NORTHRIDGE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05W15P33n33me3o7b9nc1857d3682051ed4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614498011.html">SATIN CHOCOLATE CHAIR COVERS</a>
+    <font size="-1"> (SANTA MARIA,CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25T15P13kf3o63l4b9nbe0ba93984fe1f13.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614495762.html">ARTIST'S EASEL</a>
+    <font size="-1"> (Third Street near Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k63m33o45Y15T55X5b8pcdde780c85d210de.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2566411395.html">Chinese Drawing Of Roosters</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53m63lf5V55U25R2b9d5652778063dd10d2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2596625483.html">Headless Woman Sculpture</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z65T55S53n93k13pcb9nef566cd4c3f113e4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614491595.html">WHITE PLASTIC DECORATIVE COLUMNS SET</a>
+    <font size="-1"> (SANTA MARIA,CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m33p43o95V05S65R6b923f3645a3841f1a30.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2578642391.html">2 Japanese Wood Block Prints </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25T45W43m73oc3l3b9na1eca950ab631741.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2614490273.html">SMALL DRY ERASE BOARD</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23m93o05Z45P35S5b9jf841da2f85d81b4b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2606818093.html">^*^*^*^*^*^PERFECT DECOR FOR YOUR L.A. OR HOLLYWOOD OFFICE or BUSINESS</a>
+    <font size="-1"> (Orange County)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3kb3m45T25Z55X1b9i1a6dfcf5bf591551.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2605412655.html">original antiques art pieces</a>
+    <font size="-1"> (silver lake/ echo park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5P05X45R53o73p03l4b9nbf1feed88e7a14ad.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614483353.html">L'INSTANT TATTINGER POSTER FRAMED, GRACE KELLY/DIOR DRESS CHAMPAGNE AD</a>
+    <font size="-1"> (Downtown LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93m43p65V65U45X3b91477f5b4dde9d1bf0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2577787805.html">I HAVE A CRICUT AND LOTS MORE THAT COMES WITH IT </a>
+    <font size="-1"> (LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k63o03l65P05X05R6b935babbb5207381703.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2580685124.html">Easel </a>
+    <font size="-1"> (San Gabriel )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45Z65Q33m23od3l0b9n197bf7105e7b14ed.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614479402.html">BALLROOM COTTON IVORY CHAIR COVERS</a>
+    <font size="-1"> (SANTA MARIA,CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614473870.html">ImagesAsArt Photos And Graphics Fine Art </a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45P65R43k63m63o3b9na3f57f1bf9b119c8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614471480.html">ROUND TABLE COVERS AND MORE</a>
+    <font size="-1"> (SANTA MARIA,CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45Q35T03n33kb3mfb9nf6d83ab469b412d3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2614471048.html">Huge Lot of Sizzix supplies for sale! </a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U45R05S13mc3pc3l7b9n37df7f6b01d9158f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614469959.html">Dada Art, metal, painting</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13m13p45W05P55S2b9g690ee0f6d1ab18be.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602604938.html">Salvador Dali </a>
+    <font size="-1"> (San Diego)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3od3pb5O25V25U3b9c835b3d9cabb71d85.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2594735864.html">Leroy Neiman's Olympic Fencing</a>
+    <font size="-1"> (San Diego)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65W25U63md3oa3leb9nd5110b7297ec1747.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614465776.html">elivs james dean marlynn painting</a>
+    <font size="-1"> (Los Angeles )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43k43l75Y35W05P3b9h87ed0f70476112b2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2603835357.html">Decorate Your Own Piggy Bank (Boxed, New) Melissa and Doug</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3k93l65V65O65U2b9l77a9a6f345021e52.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2609956442.html">Arts and Crafts Toys Melissa and Doug (New)</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614464333.html">sewing supplies come take it all call 818 579 4041</a>
+    <font size="-1"> (north Hollywood burbank)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05V05W23nb3k23o3b9nd96a59b71bed1474.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614461780.html">Silk Indoor Plant</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Q25R23n73k23m0b9n33614346832a1d52.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614460234.html">Bamboo Wall Display Fixture</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93m53lc5Y15Q35U6b9g642a2cc6b8791c6c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2602603118.html">--------Leroy Neiman Serigraph--------</a>
+    <font size="-1"> (Ca)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05P25X63nb3k13peb9na1deab66b8e91eaf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614456300.html">Home Decor - Vase w/ Branches &amp; Straw</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2602441637.html">*** Rustic Bronzed and Copper Blue Wall Panel All Painted. . </a>
+    <font size="-1"> (downtown)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Z05T53n63kd3m4b9n86c2c983458f1fd3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614454218.html">GREX Genesis XS airbrush</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q65S35R63nf3k13pfb9nbee9df043eab1aab.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614451306.html">Lectro-Stik Waxer - De Lux Model</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3k33pa5Q65Z05S0b9aa9e6962dbcb51b2f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2592247072.html">Pictures: Seashell Etchings (4)</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3oe3p35Y35T25U0b9g5e226c5d9db111a4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2602810057.html">3 Handmade Persian Rugs</a>
+    <font size="-1"> (Tarzana)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05T05W63n33kb3p6b9na56dfd299cb413d7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614442453.html">Arts and Crafts Toys Melissa and Doug (New)</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Q65R13n43o83ldb9nb810017f70bf17de.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614439973.html">Wildly vibrant painting! intricate and thought provoking design! </a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35T65U63k93m23l3b9n07be46be9117109b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614439044.html">Modern Straw Decor</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/art/2587749084.html">3rd row seat</a>
+    <font size="-1"> (a.v)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55U45P33me3o53l1b9ne7f9b76cb2f81849.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614432919.html">Very rare and unique Bob Marley artwork! Unlike anything else!</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43pb3o15Z25P15X4b9g76275b13f3601c03.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2602882874.html">stained glass AMAZING</a>
+    <font size="-1"> (winnetka)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z25U25R53nf3kf3lbb9naafea090c94610b6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614430752.html">Unfuck The World! Powerful art piece! Protest! Must see rare print!</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m13pd3o95Y65O25R0b9c0803d091e5371988.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2595879091.html">CLEOPATRA stained glass</a>
+    <font size="-1"> (winnetka)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U55X05R03pe3o73leb9n892b9d9eb62a1cc2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2614425590.html">PURPLE &amp; WHITE DOTS PURSE/CELL CHARM</a>
+    <font size="-1"> (ROSEMEAD)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15O65W53n13m73pdb9n6b0a00c6cd4614f4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2614422992.html">The Cuttiest Baby Shower Balloons 75% off retail </a>
+    <font size="-1"> (baldwin park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3p33o85T25Q35W1b9d237f172d60c01114.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2597628493.html">hopeArtist art for sale</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614420192.html">*** PEACE IN YELLOW original 24*40</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3ma3lc5Y05Q45R0b9ga23426adcfba10c3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2597410742.html">Huge art deco poster</a>
+    <font size="-1"> (Eagle Rock)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05Q35S63kc3ob3l8b9ncc2c09db94261286.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614418758.html">SERGIO BUSMANTE BRASS SCULPTURE</a>
+    <font size="-1"> (LOS ANGELES CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45U25X23na3mb3l2b9n3d86a3a763cb1794.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614417387.html">Vibrant Landscape 30" x 40". Not your average landscape! very unique!</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45O35U63n73od3leb9nb2d271ee3f6615d1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614416908.html">Tommy Bahama Style Bamboo Lamp</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55W25S43n13m83pbb9nbf6388d87b5d15fa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614416884.html">MEMORY Quilts from tshirts</a>
+    <font size="-1"> (Stow, Ohio)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2614414392.html">Framed Picture Photo of an AFGHAN Dog</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2614411413.html">Framed Art from The Circus Circus Casino - Las Vegas </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25T55W03n73m93p1b9n9309dac7cb7b1710.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614407895.html">Beautiful and mysterious canal landscape! 36" x 48" very unique</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3pf3ob3l25Y35U15R4b8qd62455fc91e019e8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2567174650.html">Oil paintings /protraits</a>
+    <font size="-1"> (long beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3p13l35Z25Q45S4b9ib422bc169b0f18b8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2605806768.html">Must Sell Make Offer Assorted Bird Art</a>
+    <font size="-1"> (Near Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614402154.html">Z Gallerie - Eric Waugh's Bravo Frame - like NEW</a>
+    <font size="-1"> (Tarzana)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q05Z35U63kc3m03o2b9n26e28270ef881e3b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2614401676.html">Beautiful and intriguing landscape. Not the typical landscape at all!</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3md3o33p05V15Q45S2b9i7be68506f67c104f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2605807623.html">Must Sell Make Offer Stain Glass Piece&amp; Wooden Mirror and </a>
+    <font size="-1"> (Near Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23p03lf5Y35P25S5b9ic243a40357501864.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2605808419.html">Must Sell Make Offer Assorted Art</a>
+    <font size="-1"> (Near Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55P55R33n03m53odb9nc93c3ffdf23417f3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614397535.html">Modern Decorative Vase Bowl</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73o83pf5Q45T05W1b9d0fdb8cb7e1e61f03.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2599485932.html">Large Paintings for Sale - 8 feet long</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73p23oe5V45P35S5b92fee6de9a891f1a06.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2579408770.html">Rock Poster - 2003 Death Cab for Cutie Poster by Tara McPherson</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65O05Q13m23pb3lcb9na3a42fd1e10411ed.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614393741.html">Modern Wall Decorative Piece - "Behave" Sign</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15X65R23nb3o23lbb9ncc20f7a74efa153d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614390372.html">Animation Cells</a>
+    <font size="-1"> (Westwood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35P55R63n23me3pab9n38871d7b0ee01fba.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614389711.html">Japanese Screen</a>
+    <font size="-1"> (Westwood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Z25W53n73m13l8b9nc421d1730f321ac5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614386096.html">Beautiful Bathroom Wall Art</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k63p73l65T15Q25R4b9h52fbec8a98b5121a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2603684199.html">R.H. inner fenderwell for 97 Chevy/GMC truck</a>
+    <font size="-1"> (South Gate)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05R35S23n03m03l5b9na3c89b0b36671729.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614377221.html">West Elm Block Wall Shelves</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3me3o35Y25O65V5b8oebce20c282981504.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/art/2564829748.html">Display your art in Style Beautiful Solid Oak -China Cabinet</a>
+    <font size="-1"> (Canoga Park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35T05U53n93k53l5b9ne239e76faf1d1522.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614370798.html">ABSTRACT ORIGINALS....each... </a>
+    <font size="-1"> (MARINA DEL REY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z35W25S43n13ka3lcb9n3b250892b23c1b41.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614369696.html">SAILBOAT PRINTS from..........</a>
+    <font size="-1"> (Maina del Rey)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Y65P23n73me3ldb9n9b49ff9147731696.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/art/2614361833.html">HANDMADE EARRINGS, BRACELETS, NECKLACES!!!</a>
+    <font size="-1"> (HAWTHORNE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/art/2614357694.html">**** MY CLOWN BEST FRIEND FOREVER --- original by PEACE 30*40</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/art/2614353629.html">92-95 civic hatch honda factory oem car cover</a>
+    <font size="-1"> (626 alhambra)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3o33p15Z45U05X1b9j6a6209fa08d11d7a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/art/2607427673.html">Paintings by Artist Maija</a>
+    <font size="-1"> (Ontario)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/art/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

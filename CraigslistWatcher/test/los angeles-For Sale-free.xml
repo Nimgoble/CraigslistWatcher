@@ -1,0 +1,838 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles free stuff classifieds  - craigslist</title>
+  <meta name="description" content="los angeles free stuff classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/zip/index.rss" title="RSS feed for craigslist | free stuff  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/zip/">free stuff</a>
+   <div id="satabs">
+    <a href="/zip/">all los angeles</a>
+    <a href="/wst/zip/">westside-southbay</a>
+    <a href="/sfv/zip/">SF valley</a>
+    <a href="/lac/zip/">central LA</a>
+    <a href="/sgv/zip/">san gabriel valley</a>
+    <a href="/lgb/zip/">long beach / 562</a>
+    <a href="/ant/zip/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/zip" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="zip" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">free stuff</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip" selected="">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:27:55 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614529956.html">Toddler/Preschooler Chair</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614527357.html">TO GIVE AWAY BOW FLEX MUST GO</a>
+    <font size="-1"> (los angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05T25U23n63m03lab9n54f2bb66e80f11e0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614516484.html">2 Simmons Twin Box Spring Mattress Holders &amp; King Size Metal Frame</a>
+    <font size="-1"> (downtown los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614514304.html">KENMORE REFRIGERATOR - WORKING</a>
+    <font size="-1"> (Stonebrook)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614510644.html">FREE! - NICE MAC LAPTOP - NEEDS REPAIR</a>
+    <font size="-1"> (los angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614496676.html">Serta full size mattress with box spring</a>
+    <font size="-1"> (90048)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614493724.html">$10 truck load of wood pallets</a>
+    <font size="-1"> (Littlerock)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15X15R03n33md3p5b9n816a4e213e1a1cda.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614487461.html">ornimental blue grass </a>
+    <font size="-1"> (Pasadena )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614485445.html">(5) 50# bags of concrete - just add water</a>
+    <font size="-1"> (562) N. Long Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25Y35W23n33m13ofb9ne9813e4d1c691b65.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614479028.html">Free TV &amp; DVD Player</a>
+    <font size="-1"> (Lancaster)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55O35Q43m23o33lfb9nc6c5564f6015191d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614476595.html">Ironing board and new cover</a>
+    <font size="-1"> (Eagle Rock)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614474067.html">Free boat covers </a>
+    <font size="-1"> (Santa Clarita)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65P25X13m53o53p5b9n7bf0a8a2f0731b6c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614474033.html">Cords, shoes &amp; shelf</a>
+    <font size="-1"> (studio city)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15O25S53n33m63lcb9nd2bb946715b91b66.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614468306.html">free granite!!!! lots of it!</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614454120.html">bag of baby stuff</a>
+    <font size="-1"> (altadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614449167.html">Free Live Rocks and Sand</a>
+    <font size="-1"> (Redondo Beach or Lawndale CA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25T05Z03k63o33leb9n24a9bd4f6e6d1914.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614442243.html">Slip Cover Couch</a>
+    <font size="-1"> (Winnetka)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614439882.html">CHILDS CARSEAT</a>
+    <font size="-1"> (los angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65P05X43k53m33o2b9n747ab7ab1dfc15d9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614436838.html">Free 17" LCD Monitor</a>
+    <font size="-1"> (Agoura Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614434055.html">MOVING, FREE COMPACT FRIDGE</a>
+    <font size="-1"> (Hancock)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614433617.html">golds gym workout bench</a>
+    <font size="-1"> (West LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614424750.html">FREE Shipping Boxes</a>
+    <font size="-1"> (Mar Vista/Venice)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Y55T53k43m63p0b9n708b72aebdf01aa0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614411997.html">Curb alert** free clothes and tvs</a>
+    <font size="-1"> (Lancaster)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614395489.html">small red lava rocks</a>
+    <font size="-1"> (Tarzana)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614394888.html">OLDER TELEVISION FREE - FIRST COME, FIRST SERVED</a>
+    <font size="-1"> (los angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U45X55R33m63o23ldb9n937d68668b77164e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614391939.html">Brown sofa with pullout bed</a>
+    <font size="-1"> (West Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614389989.html">Lots of free Furniture &amp; TV</a>
+    <font size="-1"> (Hollywood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35U25P53nf3k13p3b9nf7902e1ce19b1eff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614386994.html">Best brand white cement</a>
+    <font size="-1"> (San Fernando Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z65W05U43k33ma3p1b9nf082e5e0df511a66.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614380497.html">Free Rich Top Soil Dirt!</a>
+    <font size="-1"> (Hawthorne)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T65P15X23m33od3l5b9nf5b217db562f1900.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614377104.html">FREE! Guava / Guayaba Fruit ;)</a>
+    <font size="-1"> (VAN NUYS)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614371935.html">Free photoshoot: models/actors/entertainerts/musicians</a>
+    <font size="-1"> (LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614367949.html">zuchinis </a>
+    <font size="-1"> (NO. ALHAMBRA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3mc3of5Z65P35S5b9aa8c391d981b21db5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2592690727.html">Free Clean Dirt</a>
+    <font size="-1"> (East L.A / Boyle Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614363501.html">FREE MOVING BOXES</a>
+    <font size="-1"> (WEST LANCASTER)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25W45S23nf3o53l7b9n2be05057160917d9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614353577.html">2 sticks of memory, 256 MB SDR DIMM, 128 MB DDR</a>
+    <font size="-1"> (West Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614350657.html">twin size futon</a>
+    <font size="-1"> (burbank)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q05U35R23k03p23l8b9n80c46d9cfb3a1239.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614335942.html">Solar powered hot tub Still in good state</a>
+    <font size="-1"> (Long Beach / 562)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35W25R03nf3m43l4b9nadda2dcc4a6111e3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614333442.html">Outdoor lights</a>
+    <font size="-1"> (2133 Glencoe, Venice, 90291)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614314842.html">BOXES OF FREE BOOKS</a>
+    <font size="-1"> (SANTA CLARITA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614311315.html">LUMINARC glassware </a>
+    <font size="-1"> (Hollywood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Z35S03n03kb3l0b9n4300cd6a6c231b03.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614307935.html">Dining Room Set - Pickup This Week</a>
+    <font size="-1"> (Central Los Angeles 213/323)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mc3oe3la5T15X55S5b9i6fd543ea9b1013cf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2604864194.html">Free Free Bird of Paradise (2)</a>
+    <font size="-1"> (Culver city)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614300208.html">FREE FURNITURE</a>
+    <font size="-1"> (SIGNAL HILL)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35V05S43n03p03l1b9n95b775ba2c701b9f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614295084.html">White Leather Couch &amp; Loveseat</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614289770.html">Bag of 6T/Med Girl's Shirts</a>
+    <font size="-1"> (Altadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614283919.html">Free Decomposed Granite pebbles and gravel</a>
+    <font size="-1"> (Glendale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614280139.html">Free Soil for Gardening Planting  Fill Dirt </a>
+    <font size="-1"> (Glendale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614276699.html">Free Womens Haircut!</a>
+    <font size="-1"> (Downtown)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614275213.html">FREE Moving Boxes</a>
+    <font size="-1"> (Los Angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2605783573.html">Glass Frameless Mirror 5'x4'</a>
+    <font size="-1"> (Glendale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05Q45P13n43o53p6b9n05aa5e14e2a91153.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614271538.html">Night Blooming Cactus</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65W35R43n03m83oeb9n65a10a974fe514c5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614268851.html">Free Landscaping Mexican River Rocks Large and Small</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614267542.html">Free Infant Gerber cereal</a>
+    <font size="-1"> (burbank)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614262441.html">KING SIZE BED</a>
+    <font size="-1"> (torrance)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614260202.html">CARPET &amp; PADDING</a>
+    <font size="-1"> (Echo Park)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q65P55R63n43k83p0b9nfdafd920801b16ff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614257467.html">window </a>
+    <font size="-1"> (Altadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614253139.html">Free Ikea White Bookcase</a>
+    <font size="-1"> (Long Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T35W45R43ka3ma3lcb9neea5478ed0b312f7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614247255.html">Ikea Futon</a>
+    <font size="-1"> (Melrose/Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614246746.html">Free Plants</a>
+    <font size="-1"> (Montrose/La Crescenta)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05V25S23n33o33lbb9nc7de5890210312fb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614244909.html">Free love seat - you pick up</a>
+    <font size="-1"> (Long Beach (El Dorado Park))</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614243287.html">Moving boxes and Blankets</a>
+    <font size="-1"> (Silverlake )</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614239101.html">Men's T-shirts, dress shirts L tall</a>
+    <font size="-1"> (Long Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614235600.html">Mini wooden clothespins (great for arts &amp; crafts projects)</a>
+    <font size="-1"> (Highland Park)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614227691.html">FREE Bedding, Clothes and MORE</a>
+    <font size="-1"> (Glendale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614225405.html">FREE: work benches, saw horses, saws</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45T05S23n63kd3pcb9nb3b39bebb31316ad.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614216252.html">Free Wine Chiller</a>
+    <font size="-1"> (Granada Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614210562.html">2 TV'S</a>
+    <font size="-1"> (Long Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614207212.html">Upholstered Chair, free</a>
+    <font size="-1"> (Pasadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614204172.html">Computer desk, baby books, etc</a>
+    <font size="-1"> (West LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614203975.html">FREE folding round green table</a>
+    <font size="-1"> (Chatsworth)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Z15P43kf3p23lcb9n8480b158d889166b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614197568.html">Free Couch!</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614193991.html">Blue Sofa</a>
+    <font size="-1"> (west la)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614188487.html">Free Aloe Vera plants</a>
+    <font size="-1"> (Reseda)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614179645.html">LARGE ADVENT TV </a>
+    <font size="-1"> (KTOWN)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614168532.html">Big Red Couch</a>
+    <font size="-1"> (Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614158090.html">Free full size mattress + box spring</a>
+    <font size="-1"> (Downtown LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05W15X13ne3k63mfb9n891ee1c36e4e163a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614157503.html">Free Dirt</a>
+    <font size="-1"> (North Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25U35X33mf3p43obb9nf1eb3fdaea4b116d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614148710.html">Free glass table with wrought iron legs</a>
+    <font size="-1"> (1721 N. Spring St. Los Angeles, CA 90012)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15P15R43m53p13lcb9n1972f710de8f1388.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614143757.html">Coat </a>
+    <font size="-1"> (East Palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614138169.html">DJ Start up Biz Guide</a>
+    <font size="-1"> (pasadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614130021.html">Plywood - 1 free sheet thickness is 5/8's</a>
+    <font size="-1"> (La Verne)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614119799.html">FREE STUFF! TODAY!</a>
+    <font size="-1"> (Beverly Hills)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614117915.html">** FREE FRIDGE!! **</a>
+    <font size="-1"> (TARZANA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614114433.html">Queen Mattress and Wood Frame</a>
+    <font size="-1"> (hollywood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614110383.html">1985 bronco shell great dog house</a>
+    <font size="-1"> (Hollywood and highland)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614106216.html">CRAYONS - 33 Boxes, 16 colors ea. - FREE</a>
+    <font size="-1"> (Highland Park)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614091725.html">Free Couch + Matching Loveseat</a>
+    <font size="-1"> (altadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/zip/2614077199.html">Xerox 6R258</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15T15S63ka3m43l8b9n1068aedf158516fd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2614071112.html">White sofa</a>
+    <font size="-1"> (Echo Park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Z45W03k23md3p0b9n304d7b4375741210.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614069499.html">FREE - Big Blue Comfy Couch</a>
+    <font size="-1"> (Bundy  &amp; Wilshire)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614062592.html">Loveseat</a>
+    <font size="-1"> (Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05O05P63k13m33o3b9nd63aca31505d17ad.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2614060042.html">2 Weight benches - </a>
+    <font size="-1"> (venice/centinella)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35O55S53n33m43lbb9n0495e857e7921cce.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2614036647.html">Blackberry Pearl Accessories</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35U15X53n13oa3lfb9na68bf119e35413ee.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/zip/2614021173.html">Kenmore Electric Dryer</a>
+    <font size="-1"> (Palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2602599456.html">Free Jacuzzi-SPA &amp; scrap metal</a>
+    <font size="-1"> (Pico Rivera)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2614000254.html">(FAKE).....Free. (Lakewood )</a>
+    <font size="-1"> (long beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/zip/2613991378.html">///////////////Boxes needed\\\\\\\\\\\</a>
+    <font size="-1"> (Los Angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/zip/2613990324.html">Memory Foam - Queen Size Bed </a>
+    <font size="-1"> (South Pasadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45T35P53n73mb3l7b9ne477022ce9871972.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/zip/2613986998.html">Free TV (needs minor repair)</a>
+    <font size="-1"> (Carson)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/zip/2613973728.html">FREE R/O Waste Water</a>
+    <font size="-1"> (Howard Hughs Center)</font>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/zip/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

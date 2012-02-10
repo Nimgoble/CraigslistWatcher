@@ -1,0 +1,901 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles antiques classifieds  - craigslist</title>
+  <meta name="description" content="los angeles antiques classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/atq/index.rss" title="RSS feed for craigslist | antiques  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/atq/">antiques</a>
+   <div id="satabs">
+    <a href="/atq/">all los angeles</a>
+    <a href="/wst/atq/">westside-southbay</a>
+    <a href="/sfv/atq/">SF valley</a>
+    <a href="/lac/atq/">central LA</a>
+    <a href="/sgv/atq/">san gabriel valley</a>
+    <a href="/lgb/atq/">long beach / 562</a>
+    <a href="/ant/atq/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/atq" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="atq" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">antiques</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq" selected="">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:29:27 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih" id="images:5Z25U65P03kd3pd3l3b9ncc7a9a1121b21a54.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614534416.html">Antique Bone China, Germany, MINT</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25Z55S33k13mb3odb9n2f9457c0834e1fef.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614531729.html">Antique Humpback Steamer Tin Trunk &amp; Wood</a>
+    <font size="-1"> (West Hawthorne ~ Del Aire)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93p23ob5O35U35S3b9d0d96608b44931b0d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2596590338.html">Playboy Statue, Hammond Clock, Arrow Stapler, Electrical Face Massager</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z35W45P23k33m53lcb9nc970bbc9e5851820.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614531149.html">GRAND STYLE ANTIQUE DOUBLE-PEDESTAL LAWYERS DESK</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53ob3l45O55Z15S1b9g02d9e35bc8a319db.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2602251720.html">Miniature Brass Carriage Clock</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T65U05S23n23k83o5b9n61a9296abd07194c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614524042.html">Hollywood Regency 2 Doors Cabinet/Nightstand/end Table</a>
+    <font size="-1"> (la)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05Q35T33k63o93pfb9n55120ba23099125d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614517162.html">American Oak dining chairs 2 +2</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25Z65S43kc3p33o3b9n3e7312775eb81260.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2614515773.html">Mahogany Antique Dining Room Set Table Buffet Hutch Cabinet</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05V05Z43kd3p83l9b9n722094a909ce1b2d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614515237.html">Antique Rocking Chair</a>
+    <font size="-1"> (Chatsworth)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35T35Z43nc3p63o6b9nd92574f73613181f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2614514850.html">Antique  chair</a>
+    <font size="-1"> (palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3oc3l85V55Z35P3b9b1222dadda56c1763.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2593420775.html">Cash Register- 1897 Model 313</a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2603671993.html">Occupied Japan Blue Bird Service Tray 1946-1949</a>
+    <font size="-1"> (Palmdale, near mall)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13mc3p55O55Z55X3b977e18603fec621891.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2586041762.html">MOVING SALE!! Painting On Porcelain..Authentic!!</a>
+    <font size="-1"> (SANTA MONICA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65Y45P33kb3pd3ldb9n20ff154fb8111bde.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614508189.html">Victorian SETTEE / 2 Seat Sofa-delivery</a>
+    <font size="-1"> (burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05Q45S63kf3mb3o4b9nd6198367031919bc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614507821.html">ANTIQUE MAHOGANY DESK CHAIR</a>
+    <font size="-1"> (WEST LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33od3pc5Y45Q25W4b9jceb123d599e21acf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2606212454.html">GI cott</a>
+    <font size="-1"> (whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U25P15X03md3p83o2b9n33b21387176914c0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614505767.html">amazing Mid Century James Mont sty Credenza/Dresser</a>
+    <font size="-1"> (la)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Z25R43k93me3o5b9n3cad691f568f1e23.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614505147.html">Engineers Slide Ruler 1948</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33mc3l45V15X55S2b976005966419ca1ebd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2586041385.html">NUDE PAINTING ON PORCELAIN!</a>
+    <font size="-1"> (SANTA MONICA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55T05Q13ka3ob3ldb9nd81812ce55a018bb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614503361.html">Vintage Mini Bike   Japan moped scooter road bike motor bike</a>
+    <font size="-1"> (Burbank / EL Monte)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05S05R33k43p63l8b9n8ca8676d4e0c15e1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614502623.html">1950's DESK  </a>
+    <font size="-1"> (WEST LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55W35S43nc3p83l2b9n3a2e26a2a2e31c4d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614501747.html">Solid Wood Cabinet</a>
+    <font size="-1"> (West Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z25X25S23n43p73l0b9nf8a497d26d431f0a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614498887.html">Waiter/Butler Ash Collector</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35T25X03nd3kd3p5b9n983a3de3b48f11c8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614498484.html">Gold Panner</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55Z05R23n13o83ldb9n531068a7286c1664.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614497476.html">Vintage Hamilton-Beach Mixer For Sale</a>
+    <font size="-1"> (W.LA/Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Q55X63n13m03leb9n86a30d242ffe1acd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614496631.html">ANTIQUE ROLL-TOP DESK</a>
+    <font size="-1"> (3rd st. near Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U35S25R33pb3o53l8b9n9752ea702e9e13ee.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2614496606.html">the federal glass company snack set</a>
+    <font size="-1"> (alhambra, ca)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3pb3ob5O45Q05W3b9h9efaccbe8a2a1275.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2604014418.html">Two Tiered Cocktail Table</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23k63o75O45Y55P5b9gbc07e6e4b325164a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2602722312.html">Antique Lamp With Gold Colored Rose Motiff</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3m93o95V05T25S1b8p6ffcee9564421089.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2566395416.html">Antique Leather Bellow For Fire Place Or Wood Stove</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3kf3l95W65X05R6b8p31db2eb070371911.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2566388229.html">Victorian Piano Stool With Iron Base</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k03of3ld5Z05W65U6b928f1446b9d39518d8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578372848.html">3 Wrought Iron Butterfly Chairs Mid Century Eames Era</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3o03la5O15Y55X1b8q49da6085d2551106.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2567104104.html">Vintage Water Color Landscape French Signed Artist</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53p73o85P05X05S3b9250d6727a58a51a0f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578323140.html">Antique Solid Oak Ice Box With Original Brass Hardware</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3mf3ld5Q45T25R2b960941616af7111178.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2584600402.html">Round Glass Table With White Wicker Base</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03k93mc5Y45O05Z6b96da1d2138c7fa1a09.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2584574613.html">Political Poster 1960s Los Angeles Campaign</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3o33p15Q05T35S2b9877565483a56e1e55.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2589233991.html">Victorian Rocking Chair </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73kf3ma5Y05P25S6b9d9533e23b8b8a1918.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2596608338.html">2 Antique Blue Chairs</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W55R05S23n53k13p2b9n110e387bb3fe1652.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614492706.html">Antique Paper Towel Holder</a>
+    <font size="-1"> (West Adams Heights, USC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m03o23pd5V55U65P2b9d75e56c284dcf1fda.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2596580004.html">Small Gold Table </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53of3l45V05X45S6b96e944e0a369141afd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2584664812.html">His &amp; Hers Oak Rocking Chairs</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n63k43mf5O35Q15T5b9670a9b86219c31ba1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2584590412.html">2 Large Cement Figural Planters</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mb3pf3l95Y65O35R2b9d530248b2085c1c8c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2596528796.html">Antique Style Column Plant Stand</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13m63p45Z25U35X3b92ae700df824c61531.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578881835.html">Hand Painted Chinese Low Table Artist Signed</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3me3p33l55T55Q25W4b92f940f4769b47184c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578740470.html">Vintage Tea/Flower Cart</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3o63l35U35X65S3b929a5aec32d44b11c6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578731228.html">Iron Plant Stand</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k83m43lb5V25X15S5b929e7c9f1125f3103d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578686243.html">Spanish Tile Top Oak Dining Table</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53kd3pc5Y15P25X3b8p6daba7875ee21b63.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2566224012.html">Antique Iron Based Pub Table With Tile Top &amp; 2 Iron Bar Stools</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3mf3p35T65Q05Z5b921c5d95eafc561433.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2578609059.html">Framed Vintage Sampler</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43k63o85Z45P15R2b9d8a992e7c78b81f2a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2597392776.html">Antique Chinese Chest &amp; Cabinet</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03m33p25O65T65S0b9600806693c70e16d0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2584565224.html">Vintage Hutch </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13kd3l55V35T45U0b9jf683d36564e21b72.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2607379132.html">Antique Hand Woven Persian Rug</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3m33l45V65Z35P2b9j047797fb772e1f0d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2607378021.html">Mahogany Marble Top Table With Lyre Base</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n83m83oa5O25Q25P3b9ffb938583aac81689.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2601092042.html">Amazing Vintage Travel BAR CASE only $25</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93pc3l25O05U55R3b9l4dfd4601aae4147b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2611052594.html">Red Painted Mirror</a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z55R55S43nc3k43l5b9n15d8c3d43e78191c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614487045.html">1930's small oak secretary desk - $200 (Long Beach)</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3pa3l05O45T55U4b9cda50efe926e11768.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2595927316.html">Antique Dresser w/ Mirrors </a>
+    <font size="-1"> (Calabasas)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93k13m45U55P55X5b9i520f9fb91ad41430.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2605367126.html">100% wool rug hand made</a>
+    <font size="-1"> (silver lake/ echo pak)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q15U65R13kb3pe3lbb9n592420dd0a0f18a7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614479879.html">Beautiful Limoges Clock and Matching Vases</a>
+    <font size="-1"> (Westwood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45U35R33n03o73pfb9n37eaa7a322d01049.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2614476949.html">Antique Duncan Phyfe Drop Leaf Table Seats 12</a>
+    <font size="-1"> (Littlerock)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Q15R33m53o23l4b9n1706c6ccb02b18f1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614476555.html">GEORGE ROSS 1963 painting</a>
+    <font size="-1"> (glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55V25T53nb3k23oeb9nb5a7647cf717100d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614476263.html">ANTIQUE HERALDIC WOODEN LION</a>
+    <font size="-1"> (Third St. near Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35T15S33na3k13o6b9n64889ee764a61c96.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614475421.html">ANTIQUE TIFFANY-TYPE STAINED-GLASS SHADE</a>
+    <font size="-1"> (Third St near Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q55P55X03mc3p63ofb9n732488e6ae991f76.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614473892.html">VINTAGE POOL TABLE</a>
+    <font size="-1"> (Third St near Fairfax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35W35S03pa3oe3lbb9nfe8b12fc747a18b3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614473339.html">1930's solid cedar hope chest</a>
+    <font size="-1"> (Long Beach-Belmont Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Z45X23kc3me3l4b9nb8d0383e23bb1506.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614473296.html">TREASURE TRUNK/ Chest</a>
+    <font size="-1"> (Santa Monica / Downtown LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2583665037.html">BRASS ANTIQUE BED  FULL SIZE 54'' X 75'', 1900'S </a>
+    <font size="-1"> (LANCASTER/LOS ANGELES)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35U45P33ne3ka3p6b9n57ea3eafce6c12e2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614472260.html">Tons of old VINTAGE FABRIC Barkcloth Atomic Floral</a>
+    <font size="-1"> (Juniper st)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55Z05P43k93mc3p4b9n0c0dc9d85ffd1853.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614471561.html">ANTIQUE G.E. MODEL H-639 TABLE RADIO/PHONOGRAPH</a>
+    <font size="-1"> (THIRD ST near FAIRFAX)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Z55P23n43m43pab9n9d62275b192b1a39.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614468532.html">LITTLE GIRL SLEEPING PICTURE</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65T45P13nf3k43ocb9ndffb04a62d4c1fe5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614467851.html">"God's Greatest Blessing" Picture - Artist, Maud Tousey Fangel  </a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3ka3m85Z15X45S3b9g1d93f410f22c1144.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2602550170.html">ANTIQUE CANDY APPLE RED GLASS LAMP SHADE 1950'S</a>
+    <font size="-1"> (AZUSA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43mb3l75Y25T05S6b97352487dceaa9185d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2586460365.html">MILK GLASS TEA CUPS &amp; SAUCER </a>
+    <font size="-1"> (AZUSA )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23m43o95T65W55S1b97d99c93566d301e05.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2586444148.html">19 piece TEA SET JAP. GEISHA will separate @ $4 ea </a>
+    <font size="-1"> (Azusa )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93o53l55V15Z05W1b9g236e36ce852a1542.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2602437844.html">PINK DEPRESSION spooner VASE 1930's $18</a>
+    <font size="-1"> (Azusa )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55X65R33kb3oa3p7b9n0f626ed6d1c51d25.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614463743.html">FRANCISCAN APPLE TEAPOT W/2 TEACUPS</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43k93m85V45W35U2b9bd7f9146a636f1f8d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2593430752.html">Oak Roll Top Desk</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m83o93lc5W55U35P0b9j41041e609e9218b6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2606589565.html">Secretary</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55X55R43n13k93o3b9n427f950e3a6d15e5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614461653.html">BEAUTIFUL CUT GLASS PUNCH BOWL SET</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55X35S33n43m93lbb9n04e93059290b114c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614459369.html">FRANCISCAN APPLE PITCHER</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q15T55W03n33pa3l0b9nb0670392a3c61bc5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/atq/2614446679.html">Buffet</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T25W15U33m63o63l9b9n5f7baecf2e7713e3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/atq/2614445928.html">Hannahs Furniture Company Walnut Parlor Table</a>
+    <font size="-1"> (TORRANCE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35T25S13k53m53p3b9n6ccdd4b4ace71b0c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614442859.html">Old Rocking Chair</a>
+    <font size="-1"> (Simi Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Q65R03n83k63p3b9nd4df0115481313df.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614442124.html">ARMOIRE Late 1800's European Burled Walnut</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33kc3p85Y05Q05R0b9if82b4018ad7612e4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2605117938.html">Mirror</a>
+    <font size="-1"> (W. Toluca Lake)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Z55P23k63m83pcb9nf84738790e241a38.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614440547.html">Dresser 1870's European Dark Walnut</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3m93ld5V55T65S3b8tb17545e9366b1f26.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2572314551.html">&gt;&gt;&gt;&gt;&gt;&gt;&gt;VINTAGE PEWTER SOUP TUREEN &lt;&lt;&lt;&lt;&lt;&lt;</a>
+    <font size="-1"> (AZUSA )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3kf3oc5V55O45Q4b8td5a738ea71e01d39.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2572057192.html">2  GUARDIAM WARE ITEMS MUST C</a>
+    <font size="-1"> (AZUSA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45W55P43k83p03l6b9na321e3f1f3bf175f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614439926.html">1950's wedgewood gas stove</a>
+    <font size="-1"> (high desert)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W45U25S03ne3ma3p8b9nc63758afecc91304.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614439720.html">Vintage Butter Churn</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m13p13lc5V15P45X2b9c8965fc8426291ef4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2595030454.html">RARE 1930 GREEN &amp; CREAM ANTIQUE STOVE or best offer </a>
+    <font size="-1"> (AZUSA )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35V35U03m93oe3l5b9n7902b3d2c2971b6a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2614438923.html">Sideboard / Buffet    Late 1800's Burled Walnut </a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T35W25P43mf3oa3l9b9n6187cb759b481248.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/atq/2614436490.html">Singer Antique Sewing Machines</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Q25W53k03o73l3b9ne5555da3ee16118e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2614433363.html">Dukes of hazard </a>
+    <font size="-1"> (Av)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3me3lb5O65Z65S5b9l6415c353d2de1739.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2610985990.html">IRRADESCENT ANTIQUE/VINTAGE LAMP</a>
+    <font size="-1"> (WINNETKA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mb3pa3l15W65U35S5b9gdfad7cd48ef61157.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2602887545.html">antique VINTAGE clothes hamper  FUN FANCY 50S</a>
+    <font size="-1"> (winnetka)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3k03l65V15X15S2b9cd9ef00649a5719fa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2595304460.html">BEAUTIFUL OCCUPIED JAPAN DISHES</a>
+    <font size="-1"> (AZUSA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13m03l85V45Y05O1b9c29204edb64f215c6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/atq/2595323001.html">6 LARGE PYREX ITEMS $25 EACH OBO</a>
+    <font size="-1"> (AZUSA )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35P55X53ne3ob3lfb9n04855b0134e8184e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/atq/2614431026.html">Smutg glass</a>
+    <font size="-1"> (Av)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33od3lc5Y25W05X4b9h261c4ae0258c1173.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/atq/2602979405.html">ANTIQUE/ VINTAGE yellow metal table &amp; top from the 1960s.</a>
+    <font size="-1"> (winnetka)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/atq/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

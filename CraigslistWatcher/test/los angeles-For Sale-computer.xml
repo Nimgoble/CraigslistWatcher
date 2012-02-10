@@ -1,0 +1,895 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles computers &amp; tech classifieds  - craigslist</title>
+  <meta name="description" content="los angeles computers &amp; tech classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/sys/index.rss" title="RSS feed for craigslist | computers &amp; tech  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/sys/">computers & tech</a>
+   <div id="satabs">
+    <a href="/sys/">all los angeles</a>
+    <a href="/wst/sys/">westside-southbay</a>
+    <a href="/sfv/sys/">SF valley</a>
+    <a href="/lac/sys/">central LA</a>
+    <a href="/sgv/sys/">san gabriel valley</a>
+    <a href="/lgb/sys/">long beach / 562</a>
+    <a href="/ant/sys/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/sys" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="sys" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">computers & tech</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys" selected="">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:35:24 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="https://reporting.bsa.org/usa/home.aspx?pr=1&amp;HBX_OU">reporting software piracy</a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=34">computer forum</a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=3232">apple/mac forum</a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=1991">linux forum</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614538705.html">Brenthaven MacBook Backpack</a>
+    <font size="-1"> (Santa Monica / Venice)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3me3p75O65W65R4b8pf96f61e4247b126a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2565090650.html">HP LASER PRINTERS -  HP 2300 HP 2200 HP 1160</a>
+    <font size="-1"> (Sun Valley CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614538418.html">LOTS OF RAM &amp; hard driveS</a>
+    <font size="-1"> (LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05Z05P43k03o13l0b9n2b19fcb372ff1d33.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614538187.html">Hynix 2x2GB DDR3-1066 PC3 8500 RAM Pulled from an Apple MB Pro</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53pe3o85W65P15S2b9i1bfbc210086e1ba5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2604832183.html">17 inch Gateway Monitor for Computer- Black. Great Condition!</a>
+    <font size="-1"> (West Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3ob3l55Y45Q15U4b99cf0eb26a7a0d13c1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2591192225.html">TREND MICRO Titanium AntiVirus and AntiSpyware+,  1 User License    </a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13k33l15Y55V05U3b995b7d529f276e1f6c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2591190921.html">Original HP LaserJet 96A Black Print Cartridge in Retail Packaging    </a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3o63ld5Z65P45S2b99e994062aefe21ed9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2591190590.html">Targus Defcon Laptop/Notebook Security Serialized Combo Cable Lock</a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k63m43l25T15Q45U5b996066a183e670132a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2591189369.html">Internal CD-Rewriter EIDE/ATAPI Interface 52x24x52.  $10. New In Box. </a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m33oc3le5T55X55S3b9903c21754dfe919f5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2591189094.html">Netgear Prosafe Wireless Access Point.  $ 85. New In Box. </a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3pd3oe3le5Y55Q55T0b9i2af69c6a137f1301.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2604825590.html">MAC MINI- APPLE DESKTOP COMPUTER. CHEAP!</a>
+    <font size="-1"> (WEST HILLS)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614536465.html">Touchpad Touchstone Charger &amp; Cover / Folio</a>
+    <font size="-1"> (San Gabriel)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614536238.html">brand new apple ipad 16gb</a>
+    <font size="-1"> (Arcadia, CA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614535186.html">Mag Innovision InnoVision 986N 18 in.CRT</a>
+    <font size="-1"> (El Segundo)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45Z05Q23kd3mc3l3b9n1ce3f63d450c1922.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614534486.html">Apple G4 Tower w/monitor, and keyboard (1.25 GHz)</a>
+    <font size="-1"> (Mar Vista)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13kc3m75O15P55S4b9h2dc481aebdfd1817.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2603857907.html">SONY VAIO VPC-EH15FX/W LAPTOP 15.6" WHITE INTEL CORE-i5 NOTEBOOK      </a>
+    <font size="-1"> (San Fernando Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3o43l35P35X55S1b8p0c9ed82ecb1a1dd9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2566057469.html">Like New Gateway 11.6-Inch Laptop Win7, Intel Core2 CPU, Wifi, WebCam</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q15W55P63n83k93p1b9n6423471677fa1ab5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614533539.html">HP/Compaq Desktop Computer</a>
+    <font size="-1"> (West Hills, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65O35W43k03p53o2b9nb63592976ecf1d59.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614533351.html">HP DESKJET 3845 COLOR PRINTER, KEYBOARD &amp; MOUSE</a>
+    <font size="-1"> (GLENDALE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614531775.html">Toshiba A215 for sale!!!</a>
+    <font size="-1"> (ontario)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65P35X33kc3oc3l6b9nfc3b90364e381665.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614531694.html">Windows XP Home Edition UPGRADE</a>
+    <font size="-1"> (Carson)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3kd3p15T25W15P0b97d833d20fb69b1d40.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2578452051.html">Epson Dot Matrix Printer, HP Scanner, Cyber &amp; Strip Surge Protecters</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T65Z25S23k43pc3o8b9nb386f79b93731223.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614530396.html">***BRAND NEW Epson Artisan 725 All-in-One Printer ***</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q45U15X13m63p13l5b9n1c9a71aa7b62184f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614529966.html">MSI U-100 mini netbook laptop for $229 O.B.O.</a>
+    <font size="-1"> (Van Nuys )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25Z35W63na3k53m0b9n3c04b99bc39c17b0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/sys/2614529933.html">MODEM (motorola for At&amp;T)</a>
+    <font size="-1"> (Lomita )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T65U15S63nc3kb3m2b9nc508e4d151f715b0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614529667.html">Asus X52-F X2 LAPTOP!</a>
+    <font size="-1"> (Eagle Rock)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3o53p83le5W45X25R6b9h510f6b3b98bc113e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2603699068.html">HP Pavilion dm4 14" LAPTOP 4GB 500GB CORE i5 NOTEBOOK NEW</a>
+    <font size="-1"> (CANOGA PARK)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45U35X23k13o83lfb9ncd3902edabfa103d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614529153.html">DYMO LABELWRITER 450 </a>
+    <font size="-1"> (TORRANCE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15O35T03kf3mc3p2b9n3bde271691c314bc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614529104.html">DELL LATITUDE D610 $ 169.99 O.B.O</a>
+    <font size="-1"> (Van Nuys 91401)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3p83la5O15T05W6b9hda53208b9a1f1a4e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2603878936.html">DELL INSPIRON 14R N4010 LAPTOP CORE-i3 BLACK NOTEBOOK </a>
+    <font size="-1"> (San Fernado Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3ka3pc5T45P05X1b9h26168b3cfedb1d0d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2603901127.html">SAMSUNG N150Plus 250GB HDD LAPTOP 10.1" BLACK 7 HOURS BATTERY NETBOOK</a>
+    <font size="-1"> (San Fernando Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614528650.html">Search Engine Optimization | Website Ranking</a>
+    <font size="-1"> (Los Angeles | SF Valley)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614528622.html">HP TOUCHPAD 32 GB</a>
+    <font size="-1"> (Westwood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15T05Z23n23mb3o5b9n7b22161feeb71710.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614528090.html">I MAC G5 17 " FOR $ 120.00 O.B.O</a>
+    <font size="-1"> (Van nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65X65R03n13p43ofb9nd117ca79175b144d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614527985.html">12'' Apple/Mac ibook G4 - for parts</a>
+    <font size="-1"> (West LA)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Y35T53m93o63p6b9n1fdcd918df111574.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614527790.html">Protools Digi003 Rack Factory</a>
+    <font size="-1"> (Monrovia)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z55W05X53m33o73l1b9n50d9212367c31d43.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614527291.html">Networking racks</a>
+    <font size="-1"> (Wilshire/Western)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3pa3od5V45X05R1b9j9ad178c561401f48.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2606802105.html">POWER MAC G5 750gb</a>
+    <font size="-1"> (la)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m93oa3la5V15Q05X4b9k52d4e257603d16c4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2609169251.html">Modern Computer Desk (3) + Matching Chair</a>
+    <font size="-1"> (Mar Vista)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mf3pa3l05Y05V05S2b96b7047e933e9d159d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2586002881.html">RHINO CANON LASERCLASS 710 TONER CTG (7621A001AA) FOR USE ON CANON FX7</a>
+    <font size="-1"> (WEST COVINA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53md3l05Q45T15W1b967e411470cd6415be.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2586002293.html"> HP LJ 4100 BLK TNR CTG </a>
+    <font size="-1"> (West Covina)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15T25X13k23pa3obb9nad1c5ac4b1571c7f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614525055.html">Dell Dimension 4600 PC Combo $349</a>
+    <font size="-1"> (Canoga Park, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65T55R43n03m23o8b9nae2fe659a0071099.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614523706.html">LINKSYS WPS54G Wireless Print Server 54Mbps 802.11g B/G</a>
+    <font size="-1"> (arcadia)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2589395480.html">HP Monitor</a>
+    <font size="-1"> (Torrance)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Q45R13nc3p73lfb9nb5cd1a91868a187e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/sys/2614522365.html">new 7" WiFi Android 2.2 Tablet PC </a>
+    <font size="-1"> (Los Angeles-Cerritos)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614522117.html">17" monitor. Not flat screen!</a>
+    <font size="-1"> (626 area/ 10 fwy)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05P45S03n23kf3lfb9n87aacf0aeb9f1ed7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614522001.html">laserjet 5si/5s1 Toner Cartridge</a>
+    <font size="-1"> (Wilshire/Western)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65Q25P13k23m33o8b9nc32fabee13771103.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614521233.html">CUSTOM BUILT COMPUTER TOWER ONLY IN GOOD CONDITION 40GB/640Mb/1.15GHZ</a>
+    <font size="-1"> (SYLMAR CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65Z55T33m73o73p8b9n437921b57cb31470.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614517422.html">EMACHINES COMPUTER TOWER ONLY,IN VERY GOOD CONDITION,40GB,512MB,2.17GH</a>
+    <font size="-1"> (SYLMAR CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m63pe3l15O15Y05W3b8uc3671ba5277c1ac1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2572990802.html">PowerMac G4 Tower</a>
+    <font size="-1"> (Thousand Oaks)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3o93le5T05P05R4b9d7816c1e18728110a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2589228555.html">**Light 14" Dell Centrino Laptop (XP,Office,512MB,40GB,DVD/CDRW,Wifi)</a>
+    <font size="-1"> (monterey park or alhambra)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23pf3ld5Y35Z15W2b984c73e77e294e18e9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2588838453.html">ACER S243SL 24" Widescreen LCD Monitor</a>
+    <font size="-1"> (West Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2588841840.html">2 Patriot 2GB PC3/8500 1066Mhz So-dimm</a>
+    <font size="-1"> (West Hollywood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13oe3l35U55X55S6b9j185b19cb099b1936.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2607600244.html">Apple G4 PowerMac</a>
+    <font size="-1"> (Encino)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q05W35X33mc3od3l7b9n723a49d29f1d1013.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614513919.html">Genuine Apple 45W AC Power Adapter</a>
+    <font size="-1"> (Lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45Z35X13pe3ob3l8b9n6dd7b4b41b371ca1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/sys/2614513484.html">commercial printer</a>
+    <font size="-1"> (palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05Q15U13kb3mb3lab9n4f410b8a90de1684.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614513061.html">Belkin F5D8236-4 Wireless Router</a>
+    <font size="-1"> (Rosemead)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614512955.html">VARIETY OF COMPUTER PROGRAMS / SOFTWARE</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25Z55R33k53mc3o8b9n7d09341a35ca1275.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614512499.html">~*Like nEw LExMaRk Wi-Fi PrOFfesSiOnAl 4-In-OnE PrInTeR*~</a>
+    <font size="-1"> (North Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/sys/2611095453.html">Dell Desktop Computer- All Stock, works great, brand new windows XP</a>
+    <font size="-1"> (Palmdale, near mall)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2603562825.html">Unibody MacBook (2008) 2.4 GHz</a>
+    <font size="-1"> (SFV/West LA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65W65X53k93me3o4b9n582f2a6f22cb1643.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614508823.html">HP C8222A Mobile Printer Battery</a>
+    <font size="-1"> (lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Y35U13n13k23leb9nef2d65e9f2c717e3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614508828.html">SONY VAIO  PCG-7184L EXCELLENT CONDITION..WOW!!!!!!!!!!!</a>
+    <font size="-1"> (LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35U45X63o03p73l0b9n908c1080142b1495.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/sys/2614508162.html">KASPERSKY ANTI -VIRUS</a>
+    <font size="-1"> (LAKEWOOD)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45W15X23n93ka3p0b9n972b5743af0910b9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2614507606.html">epson stylus cx7400 series all in one!</a>
+    <font size="-1"> (woodland hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614507318.html">HP 02 computer ink cartridges</a>
+    <font size="-1"> (Hawthorne)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35V05R53m53o23l5b9na53c3544e594140a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614506705.html">HP DESIGNJET 500 (42')</a>
+    <font size="-1"> (WLA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614505156.html">MacBook Air 1.4/2/64 + LOADED</a>
+    <font size="-1"> (Westwood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m43p33l05Y55Q55P6b9j572482ff2a1d1e67.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2607506607.html">Apple VGA Display Adapter 4 mac connect 2nd Monitor ORIGINAL APPLE</a>
+    <font size="-1"> (ARCADIA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45W05X13n03oe3l3b9n7435054f6aa41e2b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614503533.html">Dell Latitude , 6 gb Ram,Business Edition,Win 7 Pro</a>
+    <font size="-1"> (Lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25W65S63k93oc3lbb9n0f92303fc9cd1e76.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614503023.html">HP Officejet 7300 Series InkJet Printer</a>
+    <font size="-1"> (Manhattan Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35U55R03pe3oa3ldb9nba6f3dded9d215f2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614502406.html">DELL Latitude D620 Intel Core 2 Duo T5600(1.83GHz) 14.1" </a>
+    <font size="-1"> (Hollywood/LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2602994450.html">Apple Macbook Pro i5 2.53GHz 4GB Ram ( NEW ) LION OS X</a>
+    <font size="-1"> (213/323 area )</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U05P65X23n93ka3o6b9n07bc1640f0951b41.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614502110.html">SAMSUNG LTN133AT01-001 LAPTOP LCD SCREEN 13.3" WXGA</a>
+    <font size="-1"> (lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614501263.html">2 HP P4 PC</a>
+    <font size="-1"> (ROSEMEAD/PASADENA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z45U25R13n03kd3ofb9n89aa80a19c271aa2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614500278.html">HP 3930 INkjet Printer , </a>
+    <font size="-1"> (Lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45Z15U03n53m53o9b9n383711fb24481993.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614500228.html">Toner for Pitney Bowes 9900/9910/9920/9930/9950 Fax Machines</a>
+    <font size="-1"> (Wilshire/Western)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3pd3oc5Z05U25S2b9l1b42198bcacb155b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/sys/2610987846.html">iMac G5</a>
+    <font size="-1"> (Tarzana)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15V65S43k33m73l7b9n9433d9496534112a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/sys/2614498656.html">32" HDTV LCD Samsung 720p 1080i w wall bracket</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Z45S43m03p63ofb9n9074676c039c1013.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/sys/2614498511.html">Mac G5 Tower 2.0GHZ w/ pro tools 8 le</a>
+    <font size="-1"> (long beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614496172.html">Apple Bluetooth Wireless Keyboard A1016 - Very Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33ka3pe5Q65U25S3b9jc1d2e7bf738817aa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2606807236.html">REWARD PAID:  Lost MacBook Pro 15" 2.66ghz 8gb 750gb</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15W05S13ne3o43l7b9n9ed6e44d2f8d129c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614493443.html">Pitney Bowes/ Imagistics 9900/ 9910/ 9920/ 9930</a>
+    <font size="-1"> (Wilshire/Western)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05T45X53k33ma3o3b9na56e5ff0345914ba.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/sys/2614492844.html">Dell D530</a>
+    <font size="-1"> (North Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65T15X33m83oe3p2b9n141b4759d77e1a8c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2614492677.html">APPLE CINEMA DISPLAY 23" with a DVI  to ADC Adapter</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65O65Z43k53ob3l4b9n4fc563b0b45f14ac.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614492607.html">cordless keyboard mouse</a>
+    <font size="-1"> (hawthorn)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Z25S33nd3p63o8b9nfdb20f0d1e581f88.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/sys/2614492135.html">Lexmark Wireless Printer X9575 Pro Fax, Printer, Copier, Scanner</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13pa3l55V65Y25Z6b93fc24cb558f3f17f1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580973663.html">Apple Airport Extreme - Model: A1034 - Like New Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3mb3of5O25Z25T4b933e6d77751ce51916.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580975167.html">SanDisk Micro SD Card 4GB &amp; Micro SD Card 4GB with Adapter - New</a>
+    <font size="-1"> (San Gabriel )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3k83lc5T05Z35S3b93f17c819bca50141d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580975381.html">Kingston SD Card 2GB &amp; 4GB - Brand New</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3ka3oe5O55Q65P5b93fc6f1f91ea7b1163.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580976785.html">Wireless Cordless Keyboard + Mouse - Logitech Model LX710 - Very Good </a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3m43oe5O35Y55X2b93c04fa406616c18c1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580960756.html">Laser Mouse Model 6000 Microsoft - Good Condition</a>
+    <font size="-1"> (San Gabriel )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3m43l75T45W05R4b9376a88eb2c22711ee.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580976969.html">USB Speakerphone by mVox - Model MV100 - Brand new</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3p53l55O05V45Q5b93bf51440cc43c1568.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580959813.html">HP 15" Laptop Bag - Like New Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580959494.html">Laptop Dell Leather Carrying Case - Very good condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93pb3lc5Z55X65R5b934b8a00e27a001b0d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580974204.html">Ethernet - Network card 10-100- SMC 1211 TX - Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3m33pd5Q65T05R2b93b2afddf6a704165a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580960238.html">Trendnet Wireless AP Router - Model TEW-431BRP</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3oa3l25Q25T55S2b93cc14abb08a7f12b3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580961254.html">Westell B90-327W15-06 VersaLink Wireless DSL Modem - Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93k33l75W55P05S4b93e321242f107a1fcc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580958644.html">2Wire DSL AT&amp;T Gateway Modem Model 2701 HG-B - Very Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23mf3pe5O55X35S5b935102860b3a351cfb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/sys/2580957901.html">2Wire DSL Modem Model 1701HG Gateway - Wireless</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/sys/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

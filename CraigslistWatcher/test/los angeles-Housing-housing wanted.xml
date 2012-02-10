@@ -1,0 +1,901 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles all housing wanted classifieds  - craigslist</title>
+  <meta name="description" content="los angeles all housing wanted classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/hsw/index.rss" title="RSS feed for craigslist | all housing wanted  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/H?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/hsw/">all housing wanted</a>
+   <div id="satabs">
+    <a href="/hsw/">all los angeles</a>
+    <a href="/wst/hsw/">westside-southbay</a>
+    <a href="/sfv/hsw/">SF valley</a>
+    <a href="/lac/hsw/">central LA</a>
+    <a href="/sgv/hsw/">san gabriel valley</a>
+    <a href="/lgb/hsw/">long beach / 562</a>
+    <a href="/ant/hsw/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/hsw" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="hsw" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">housing wanted</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option value="ggg">
+         <option value="hhh">
+         <option disabled="" value="">
+         <option value="aap">
+         <option value="nfa">
+         <option value="hou">
+         <option value="apa">
+         <option value="swp">
+         <option value="hsw" selected="">
+         <option value="off">
+         <option value="prk">
+         <option value="reb">
+         <option value="reo">
+         <option value="rea">
+         <option value="rew">
+         <option value="roo">
+         <option value="sha">
+         <option value="sbw">
+         <option value="sub">
+         <option value="vac">
+         <option disabled="" value="">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">rent:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+        <select name="bedrooms">
+         <option value="">
+         <option value="1">
+         <option value="2">
+         <option value="3">
+         <option value="4">
+         <option value="5">
+         <option value="6">
+         <option value="7">
+         <option value="8">
+        </select>
+        <label>
+         <input type="checkbox" name="addTwo" value="purrr">
+        </label>
+        <label>
+         <input type="checkbox" name="addThree" value="wooof">
+        </label>
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:35:38 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.bbbsouthland.org/">L.A. Better Business Bureau</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.bbb.org/alerts/article.asp?ID=593">
+        <b>"foreclosure rescue" fraud alert</b>
+       </a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=6">housing forum</a>
+      </span>
+      <span class="hl">
+       <a href="/about/FHA">stating a discriminatory preference in a housing post is illegal</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614537251.html">$1000 Looking to move Nov 1 or Dec 1</a>
+    <font size="-1"> (Southbay)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/swp/2605449812.html">Trade your CA home for my NYC apt for Christmas/New Year's</a>
+    <font size="-1"> (Manhattan/New York)</font>
+    <small class="gc">
+     <a href="/swp/">housing swap</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2585966989.html">female looking for room</a>
+    <font size="-1"> (hollywood)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2614521631.html">$1200 Looking to move in Nov/Dec</a>
+    <font size="-1"> (Southbay)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2614520731.html">couple needs couch/floor to crash on near the beach, tonight ONLY :)</a>
+    <font size="-1"> (Venice Beach)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614517703.html">$9001300 Ideal roommate looking for private room w/ bath</a>
+    <font size="-1"> (WLA, SM, BH, Century City)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sha/2614515669.html">Room/Bath Needed</a>
+    <font size="-1"> (LA County)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614511445.html">$1000 Need Homestay in LA</a>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614507297.html">$400 Looking for room to rent</a>
+    <font size="-1"> (West San Fernando Valley)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sbw/2614505056.html">Needed for one month</a>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sha/2614493391.html">$350 Looking for a room to share</a>
+    <font size="-1"> (Downey, CA.)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614489052.html">$500 couch surfer looking for a place</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2614481347.html">$450 I'm looking for a room ...</a>
+    <font size="-1"> (Glendale Eagle Rock Atwater Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614461248.html">$200 "Awesome Guy Looking For Temp Couch Or Room"?</a>
+    <font size="-1"> (NoHo Area)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2614458096.html">$700 / 400ft&sup2; - Wanted: WEST SIDE santa monica, venice, culver city</a>
+    <font size="-1"> (santa monica)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2591159734.html">$400 Looking to rent a room for a few months</a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614447730.html">will work for room </a>
+    <font size="-1"> (west la or anywhere)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614431648.html">$300 Single male looking for room</a>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614407430.html">$700 Very Friendly 61-62couple w/Jobs Sks; Own bath</a>
+    <font size="-1"> (west valley)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614400215.html">$500 / 12ft&sup2; - need a roon</a>
+    <font size="-1"> (canoga park)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/swp/2609536502.html">$2800 / 2br - 1260ft&sup2; - Permanent Swap Luxury Hi-Rise Ft. Lauderdale Condo for L.A.</a>
+    <font size="-1"> (Downtown Ft. Lauderdale (Las Olas))</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/swp/">housing swap</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2603849784.html">$400 Desperately Need A Room Or Living Room To Rent By Oct..</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/sha/2595924071.html">**PROFESSIONAL HOME ASSISTANT ** CARETAKER/HOME/ GROUNDS** </a>
+    <font size="-1"> (AV SFV SIMI)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614354276.html">$450 need a room with bath</a>
+    <font size="-1"> (san fernando )</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2607763803.html">$1100 Friendly, responsible seeking place to stay</a>
+    <font size="-1"> (Santa Monica / Marina Del Rey)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614325098.html">$525 Student needs a room to rent/share asap</a>
+    <font size="-1"> (Northridge/CSUN)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sha/2614324136.html">$300400 Need place in Long Beach</a>
+    <font size="-1"> (LB United States)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2614322368.html">$100 Temp</a>
+    <font size="-1"> (Santa Monica)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614313228.html">$500600 Room Wanted  </a>
+    <font size="-1"> (ANY NICE AREA)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614303237.html">$700  male 50's w/job Pro-Organizr/ Gardener/ Fixer type, Working</a>
+    <font size="-1"> (west san fernando valley)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2614293105.html">$700 looking for place to live work and rerent</a>
+    <font size="-1"> (Anywhere in LA)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/hou/2614291157.html">$900 / 900ft&sup2; - looking to share apartment</a>
+    <font size="-1"> (hollywood)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2614289448.html">Part Time Nanny in Exchange for Room &amp; Board</a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614287390.html">$625 Looking for room to rent w/ cat</a>
+    <font size="-1"> (West San Fernando Valley only)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2614284485.html">$800 one bed room wanted</a>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/sha/2614264815.html">$635 Need Roommate for Master Bedroom</a>
+    <font size="-1"> (Montebello)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/sha/2614256247.html">$800 RN, Need a place to stay!!</a>
+    <font size="-1"> (SGV area.)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2614249708.html">Handyman looking for apartment.</a>
+    <font size="-1"> (West Side)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2614223107.html">Grad Student Seeking Place</a>
+    <font size="-1"> (Westwood)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2608925175.html">Girl here looking 4 a room ASAP</a>
+    <font size="-1"> (Hermosa,Manhatan,Redondo,El segundo Beac)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2605471521.html">$300 WANTED: Female Roomate between 18-25</a>
+    <font size="-1"> (Los Angeles, SF Valley, W Hollywood, etc)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2607255942.html">$1890 Minutes from the beach</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2589966369.html">$100 Private Room Need Asap!!!</a>
+    <font size="-1"> (North Hollywood)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2614202781.html">LOOKING FOR RENTAL</a>
+    <font size="-1"> (Beach)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2589962469.html">Need Help Around House Exchange for Room?</a>
+    <font size="-1"> (North Hollywood)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/sha/2614184036.html">$650 Pasadena/Duarte/Arcadia/Sierra Madre </a>
+    <font size="-1"> (monrovia)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614173865.html">$450 Laid Back College Student Seeks Room</a>
+    <font size="-1"> (Near SCV/Canyon Country)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2602323763.html">$600 WANTED: 1 BEDROOM APT</a>
+    <font size="-1"> (Long Beach,Ca ONLY)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614148239.html">$350450 Looking to rent a room</a>
+    <font size="-1"> (Glendale/Burbank)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2614146287.html">$300 looking to share room or couch with a shemale</a>
+    <font size="-1"> (hollywood)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2614145948.html">House needed for film location</a>
+    <font size="-1"> (90066)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614137698.html">$500 Looking for Room Near CSUN</a>
+    <font size="-1"> (($400 - 550))</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sha/2614137680.html">$500 Couple Friendly Room For Rent??</a>
+    <font size="-1"> (Long Beach)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/sha/2614115727.html">$650 Housing needed</a>
+    <font size="-1"> (Valencia)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sha/2614115404.html">$650 Need Room by Oct. 1st</a>
+    <font size="-1"> (Near ELAC)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/hou/2614108573.html">$900 looking for available apt for rent ASAP hollywood,weho,downtown,Ktown </a>
+    <font size="-1"> (Hollywood - Downtown LA)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2598521659.html">Parking Needed</a>
+    <font size="-1"> (Santa Monica)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/hou/2614096789.html">$1 Quiet, responsible workaholic seeks housing 12/1/2011 </a>
+    <font size="-1"> (West Hollywood)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614083625.html">$650 I need a room</a>
+    <font size="-1"> (Valencia, Santa Clarita)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/hou/2614061699.html">$1500 / 1250ft&sup2; - COMPLETELY REMODELED</a>
+    <font size="-1"> (CLAREMONT)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614061603.html">$600 Laid back surfer chick/student needs a place</a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2614057914.html">$800 *** DJ /MUSICIAN GRAPHIC DESIGNER - SEEKING ROOM IN HOUSE ONLY!!! ****</a>
+    <font size="-1"> (CULVER CITY AREA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614055893.html">$600 Couple needs Room ASAP</a>
+    <font size="-1"> (SF VALLEY)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/sbw/2614055856.html">$750 Need November rental</a>
+    <font size="-1"> (Long Beach)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2614046512.html">Housing Wanted</a>
+    <font size="-1"> (Los Angeles County Area)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2575448794.html">$250 !Add a roommate without adding a room, bed or couch!</a>
+    <font size="-1"> (Westside preferred.)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/hou/2614040399.html">House Sitter in exchange for room and board</a>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/hou/2584156930.html">$750 / 11ft&sup2; - pet friendly / stable tenant </a>
+    <font size="-1"> (downtown LA)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2614011174.html">$600 Room needed asap for 2 females!</a>
+    <font size="-1"> (Northridge)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2614011162.html">$10501195 Apartment or House to Rent</a>
+    <font size="-1"> (Lakewood, Bellflower and Cerritos)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2614009138.html">$650 / 320ft&sup2; - looking for a cozy studio/single apartment</a>
+    <font size="-1"> (in and around long beach, ca)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2614008883.html">$950 Need Clean spacious one bedroom housing</a>
+    <font size="-1"> (Downey, Whittier, Cerritos)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sbw/2595905904.html">Working female seeking month to month</a>
+    <font size="-1"> (SFV, Silverlake, Los Feliz)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2595907536.html">Seeking drama free roommate(s)!</a>
+    <font size="-1"> (Silverlake, Los Feliz, Studio City...)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sbw/2613967050.html">$850 / 190ft&sup2; - Room 4 Rent 2450 Sq. Ft. House Upscale, Safe Area 2 Blks S of Ventura</a>
+    <font size="-1"> (Encino, Sherman Oaks, SFV)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/hou/2613962145.html">$600 Studio closeby CSULB w/parking &amp;utilities paid</a>
+    <font size="-1"> (Long Beach)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/swp/2613956123.html">My West Hollywood Studio for your NYC studio</a>
+    <font size="-1"> (Holloway Drive, W. Hollywood)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/swp/">housing swap</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2613935015.html">$450 Looking to move in Asap</a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2610398302.html">$500 Work for rent</a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/swp/2613899837.html">$6495 / 3br - 1700ft&sup2; - Steps to the Beach &amp; Ocean Views!</a>
+    <font size="-1"> (Manhattan Beach)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/swp/">housing swap</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2613884009.html">$600 Female Student seeking housing until Late Dec. - West Hollywood</a>
+    <font size="-1"> (West Hollywood)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2613883036.html">$1200 / 500ft&sup2; - Happy couple seeking home near beach.</a>
+    <font size="-1"> (Santa Monica / Marina / Venice)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2613878544.html">$900 25/F lookin to live near the beach!</a>
+    <font size="-1"> (Marina Del Rey/Venice)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/swp/2613862938.html">$1350 / 2br - 2 bedroom lux. condo</a>
+    <font size="-1"> (winnetka)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/swp/">housing swap</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/hou/2613856155.html">$300 Couple Seeking Housing</a>
+    <font size="-1"> (Los Angeles)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2610409372.html">$350 female preferd</a>
+    <font size="-1"> (Los Angeles/ anywhere)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2613846629.html">$1177 Wanted Apartment for Retired Senior on Westside</a>
+    <font size="-1"> (West Los Angeles  )</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/hou/2613836220.html">Looking for a studio in West Hollywood</a>
+    <font size="-1"> (West Hollywood)</font>
+    <small class="gc">
+     <a href="/hou/">apts wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2613822360.html">$650 Looking for roommate/room.</a>
+    <font size="-1"> (Hollywood)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sbw/2613809595.html">$1 $100 per night, 2 nights instead of hotel </a>
+    <font size="-1"> (Venice or Santa Monica)</font>
+    <small class="gc">
+     <a href="/sbw/">sublet/temp wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2613807000.html">$675  male 50's w/job Pro-Organizr/ Gardener/ Fixer type, Working</a>
+    <font size="-1"> (west san fernando valley)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/sha/2613797509.html">$350 / 1212ft&sup2; - RENT MY ROOM </a>
+    <font size="-1"> (QUARTS HILL)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2603427882.html">$650 Working attrv thin; 61-62couple; wts; own bath </a>
+    <font size="-1"> (west valley)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2613787190.html">$450 COOL roomies? </a>
+    <font size="-1"> (culver city/redondo beach)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/sha/2582306427.html">Room in-exchange for assistance</a>
+    <font size="-1"> (Pasadena/Los Angeles)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/sha/2613784590.html">$1000 I need me a place</a>
+    <font size="-1"> (SM, Venice, Marina... you get the idea!)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2613775386.html">* * * * Employed &amp; Positive - seeking Noho or Studio City * * * </a>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/sha/2608322978.html">$675 $675 Reliable, Young Professional with 2 Incomes</a>
+    <font size="-1"> (sherman oaks)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2613755950.html">$350 I need to move on 10/16</a>
+    <font size="-1"> (Los Angeles)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/sha/2604743867.html">Please help female needs a room</a>
+    <font size="-1"> (LA)</font>
+    <small class="gc">
+     <a href="/sha/">room/share wanted</a>
+    </small>
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/hsw/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+ </body>
+</html>
+

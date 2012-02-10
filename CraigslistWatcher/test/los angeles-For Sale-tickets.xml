@@ -1,0 +1,1122 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles tickets - all classifieds  - craigslist</title>
+  <meta name="description" content="los angeles tickets - all classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/tia/index.rss" title="RSS feed for craigslist | tickets - all  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/tia/">tickets - all</a>
+   <div id="satabs">
+    <a href="/tia/">all los angeles</a>
+    <a href="/wst/tia/">westside-southbay</a>
+    <a href="/sfv/tia/">SF valley</a>
+    <a href="/lac/tia/">central LA</a>
+    <a href="/sgv/tia/">san gabriel valley</a>
+    <a href="/lgb/tia/">long beach / 562</a>
+    <a href="/ant/tia/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/tia" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="tia" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">
+      <a href="javascript:flipCatAndSubmit('tix');">by-owner</a>
+      <a href="javascript:flipCatAndSubmit('tid');">by-dealer</a>
+      <b>both</b>
+     </legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia" selected="">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:36:26 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih" id="images:3nf3mc3lb5Z35T15U0b9f08d3c6e4db1a1bfb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2600928653.html">Lady Gaga Bono Usher Clinton Concert- Sold Out!!!!</a>
+    <font size="-1"> (Hollywood Bowl)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25W15U33ob3p53l5b9nae9002e4eec619b4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tix/2614537056.html">Dave Ramsey ticket Sept 24 Long Beach</a>
+    <font size="-1"> (Studio City)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z35T65U53k93p23l5b9n43d9f8f8b879125a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614536809.html">****** 2003 Chevrolet Silverado 1500 *******</a>
+    <font size="-1"> (los angeles)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614536752.html">Disney Mickey Mouse Halloween Party</a>
+    <font size="-1"> (Los Angeles (323))</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614536668.html">FUZE IT WORLDWIDE FASHION SHOW </a>
+    <font size="-1"> (Los Angeles)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2614536444.html">Monarchy at the echoplex</a>
+    <font size="-1"> (Hollywood)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614535555.html">Junior Boys ticket</a>
+    <font size="-1"> (Music Box, Hollywood)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614535565.html">USC Trojans Tix - Los Angeles Coliseum - Los Angeles</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3m53le5V65W45X3b9h756aa84ad630140c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2600306718.html">**** DO VEGAS RIGHT:  PLAN AHEAD ****</a>
+    <font size="-1"> (NOCTURNAL VEGAS VIP)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614535090.html">Tickets to Los Angeles Dodgers!!! WOW!</a>
+    <font size="-1"> (Thank You!!!!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614534729.html">Los Angeles Angels of Anaheim Tickets for Sale</a>
+    <font size="-1"> (Angel Stadium)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614534391.html">&#9658;&#9658;&#9658; FOO FIGHTERS LIVE- KILLER TIX!!!!</a>
+    <font size="-1"> (GREAT SEATS - GREAT PRICES!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2584027696.html">~~~UCLA BRUINS TICKETS!!~~~ALL HOME &amp; AWAY GAMES AVAILABLE~~~</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614533175.html">Tickets to Los Angeles Dodgers!!! WOW!</a>
+    <font size="-1"> (Great Seats @ Great Prices!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2583969862.html">---USC TROJANS vs. UCLA BRUINS!!---GREAT TICKETS!!---11/26</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2583908780.html">***GREAT TROJANS vs HUSKIES TICKETS!!*** Nov. 12th</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2602901052.html"> Tony Bennett discount tickets Sept. 24 </a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614532722.html">Selling Tics for  Furthur: Phil Lesh &amp; Bob Weir</a>
+    <font size="-1"> (Greek Theatre)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2614532156.html">Disneyland Parkhoppers with FastPass.</a>
+    <font size="-1"> (Got a business licesne to sell tickets in Anaheim.)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614531388.html">Discounted Tickets to LA ANGELS!!!</a>
+    <font size="-1"> (Discounted!!!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2578274922.html">Oct. 22nd - - - JUDAS PRIEST LIVE at San Manuel Amphitheater!!!</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614529170.html">Tickets to LA ANGELS!!! WOW!</a>
+    <font size="-1"> (Thank You!!!!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614528609.html">PRIMUS TICKETS !!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/tid/2614528184.html">Disneyland Park Hopper Tickets</a>
+    <font size="-1"> (Office Location Near the Park)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/tid/2614527515.html">Discounted Tickets to LA ANGELS!!!</a>
+    <font size="-1"> (Great Seats @ Great Prices!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tid/2614526920.html">Tickets for Chris Brown concert</a>
+    <font size="-1"> (Pacoima)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2614526242.html">L.A. KINGS - ALL SECTIONS - GREAT PRICES</a>
+    <font size="-1"> (SAVE ON ALL PRE-SEASON AND REG.SEASON GAMES)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2611021850.html">Marc Anthony 9/25 Mez 29 Row F</a>
+    <font size="-1"> (Gibson)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05Q65Z63m53pe3lab9n493afa31a5611833.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614525982.html">Many Seats in Los Angeles to All Concerts</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2607689550.html">Los Angeles Galaxy vs. Real Salt Lake</a>
+    <font size="-1"> ( Home Depot Center - Soccer Stadium)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614525768.html">Tickets to see Blink 182</a>
+    <font size="-1"> (Claremont)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25X45R53o33pd3ldb9n4050cecc5fde1214.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614525702.html">Los Angeles Dodgers Tickets SAVE 6% on EVERY GAME</a>
+    <font size="-1"> (DODGER STADIUM)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2607687301.html">Los Angeles Galaxy vs. Monarcas Morelia</a>
+    <font size="-1"> (Home Depot Center - Soccer Stadium)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2569405857.html">Hard Tickets 1 - 6 Tickets Low Level Center View // Amazing Seats</a>
+    <font size="-1"> (Discounted // Must Sell)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2607685157.html">Los Angeles Galaxy vs. Monarcas Morelia</a>
+    <font size="-1"> ( Home Depot Center - Soccer Stadium)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2579412713.html">1 - 6 Tickets Low Level Center View + Discounted + Amazing Seats</a>
+    <font size="-1"> (Hard Tickets or Instant Email)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2569606571.html">Amazing Seats 1 - 6 Tickets Low Level Center View // Discounted</a>
+    <font size="-1"> (Hard Tickets or Instant Email)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2579800992.html">1 - 8 Tickets Low Level Center View + Discounted + Amazing Seats</a>
+    <font size="-1"> (Hard Tickets or Instant Email)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q55Z25U13pb3o63l7b9n612879664d391679.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614524233.html">2 tix Tony Bennet Saturday Concert at Staples Center Premier level 9 </a>
+    <font size="-1"> (Maywood)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2614524203.html">Tickets to see Sting in concert</a>
+    <font size="-1"> (Palos Verdes Peninsula)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/tid/2614523408.html">Tickets for Jason Aldean concert</a>
+    <font size="-1"> (Glendora)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2614522610.html">2 Incubus Tickets- Hollywood Bowl</a>
+    <font size="-1"> (Section N1)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614522011.html">Arctic Monkeys/ TV on The Radio- Hollywood Bowl</a>
+    <font size="-1"> (SGV)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614521697.html">TICKETS Avail For UCLA Bruins sec 125 Row 25</a>
+    <font size="-1"> (Los Angeles, CA)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614521181.html">Here are Tickets for Chris Brown</a>
+    <font size="-1"> (Staples Center)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/tid/2614520972.html">Los Angeles Kings Tickets for Sale</a>
+    <font size="-1"> (Staples Center)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2614520305.html">United Systemwide Upgrades</a>
+    <font size="-1"> (Manhattan Beach)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55Z55S43nd3m03p8b9n34615b4827481a33.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614520161.html">Tickets 4 the 7th annual Johnny Ramone tribute</a>
+    <font size="-1"> (South Los Angeles )</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tix/2614519822.html">United Regional Upgrades</a>
+    <font size="-1"> (Manhattan Beach)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614519804.html">Discounted Tickets to KATY PERRY in Concert!!!</a>
+    <font size="-1"> (Safe, Secure, and Guaranteed Delivery!!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2614519548.html">Tickets for Sting concert</a>
+    <font size="-1"> (Hacienda Heights)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tid/2614518985.html">&#8470;&#10122; DISCOUNTED DISNEYLAND HOPPER TICKETS AVAILABLE EVERYDAY</a>
+    <font size="-1"> (OFFICE is only 1 BLOCK from Disney)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614518182.html">. Ticket for  USC Trojans</a>
+    <font size="-1"> (Los Angeles, CA)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Q25X13nd3k63pab9ne7c45cfcea49194f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614518088.html">Tix for Nurses - Sep 28 (Sec: Ga)</a>
+    <font size="-1"> (section GA, row GA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614517994.html">++ OAKLAND RAIDERS vs NEW ENGLAND PATRIOTS TICKETS == LOWER + BLACK </a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614517419.html">SANTANA / LOPEZ 1 PAIR HARD TIX 10/1/11</a>
+    <font size="-1"> (COVINA / SFS)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tix/2614517212.html">Sound of Music Sing A Long 9/24</a>
+    <font size="-1"> (Aisle Box Terrace Section)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45W15R63n23m43l3b9na2ff0607193013c0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614516615.html">2 DOLPHINES @ CHARGERS, row 1, 36" LEGROOM, ACTUAL PHOTOS FROM SEATS </a>
+    <font size="-1"> (in FRONT of LUXURY SUITES)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Z35T63p63o03lbb9ne28eb6bfd424149e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614514434.html">Never Shout Never tix</a>
+    <font size="-1"> (section GA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614514421.html">HAIRSPRAY TICKETS !!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614514365.html">Monster Massive Ticket</a>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614514049.html">Duran Duran Tickets TUE 27</a>
+    <font size="-1"> ( 6% OFF)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2614513562.html">Disneyland Park Hopper Tickets</a>
+    <font size="-1"> (Office Location Near the Park)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tix/2614513342.html">3 NOCTURNAL SATURDAY TIX</a>
+    <font size="-1"> (LA)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2614513326.html">Chris Brown tickets - Great Seats</a>
+    <font size="-1"> (Pearblossom)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614512120.html">FOO FIGHTERS TICKETS !!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614511929.html">INCUBUS @ VERIZON 1 PAIR HARD TIX</a>
+    <font size="-1"> (COVINA / SFS)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65W05S03m83o53p1b9n9a7ce562638d1756.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614511730.html">Los Angeles Dodgers Tickets SAVE 6% on EVERY GAME</a>
+    <font size="-1"> (DODGER STADIUM)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614511396.html">Nocturnal  wonderland two 2-day pass</a>
+    <font size="-1"> (Nos center will call)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614511154.html">Disneyland Park Hopper Tickets</a>
+    <font size="-1"> (Office Location Near the Park)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U05X25S23nf3p23ofb9n2017e87304fd13f6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614510819.html">Braids tickets - Thu 09/29</a>
+    <font size="-1"> (Echo)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614510551.html">2 Jimmy Eat World tickets @ Wiltern 9/29 selling at Face Value</a>
+    <font size="-1"> (Bell)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/tid/2614508430.html">Blink 182 and Chemical Romance tickets</a>
+    <font size="-1"> (Valyermo)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614507833.html">VICENTE FERNANDEZ TICKETS!!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614507841.html">marc anthony  orchestra center seats! for tomorrow!!  @ GIBSON</a>
+    <font size="-1"> (HOLLYWOOD)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Q55X03nd3o33l6b9n71dd3545993a16c3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614507095.html">Gillian Welch tix for sale (Thursday)</a>
+    <font size="-1"> (section FLOOR, row GA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614505475.html">~ Chris Brown Tix For Sale - Staples Center ~</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614505413.html">iHeart Radio Music Festival Tickets</a>
+    <font size="-1"> (Las Vegas, NV)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2610855146.html">South West Green Pass Round-Trip Voucher (Exp 12/2012)</a>
+    <font size="-1"> (Los Angeles)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/tid/2614504184.html">Tickets to see Blink 182</a>
+    <font size="-1"> (Stevenson Ranch)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614503972.html">Disneyland Park Hopper Tickets</a>
+    <font size="-1"> (Office Location Near the Park)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614503937.html">Specials on USC Trojans Tickets</a>
+    <font size="-1"> (Safe and Secure)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614502972.html">One (1) Jimmy Eat World Ticket Wiltern 9/29 50% OFF FACE!! SOLD OUT!!!</a>
+    <font size="-1"> (Wiltern)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tix/2614502811.html">INCUBUS 1 HARD TIX 10/7/11</a>
+    <font size="-1"> (COVINA / SFS)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2610738837.html">UCLA BRUINS Tickets @ the Rose Bowl!!</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2610740051.html">USC TROJANS Tickets @ Los Angeles Memorial Coliseum!!</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614502563.html">Bernard Hopkins vs Chad Dawson ------- Get your tix today</a>
+    <font size="-1"> (Tickets for all budgets)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614502421.html">Greek Theatre - Los Angeles CA </a>
+    <font size="-1"> (6% OFF YOUR TICKETS)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/tid/2614502375.html">***** 93.5 KDAY FRESH FEST TICKETS ******** THE GAME E 40 AND MORE</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T65Z25R63n83m93l9b9neb1ec70673f4139e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614501598.html">Taylor Swift Tickets For Sale</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614501505.html">One (1) OFWGKTA ticket for the 9/29 Palladium show!! CHEAP!!Odd Future</a>
+    <font size="-1"> (Bellow Face)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614500990.html">************** INCUBUS TICKETS ****************** FRONT ROW MUST LOOK</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45P15S03kb3o23pcb9n4d61e6f483ac1f44.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614500611.html">Tix for Justin Townes Earle (Wed Sep/28)</a>
+    <font size="-1"> (section FLOOR, row GA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/tid/2614499843.html">=&gt; MARC ANTHONY - Orchestra Seats for Sale!!</a>
+    <font size="-1"> (Gibson Amphitheatre)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tix/2614499715.html">3 Saturday Tickets Noturnal Wonderland</a>
+    <font size="-1"> (hollywood)</font>
+    <small class="gc">
+     <a href="/tix/">tickets - by owner</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/tid/2614499621.html">Watch The Throne Tour, Floor and lower level seats</a>
+    <font size="-1"> (Santa Fe Springs)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614499133.html">Tickets to Jason Aldean!!! WOW!</a>
+    <font size="-1"> (Thank You!!!!)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/tid/2614499016.html">Disneyland Park Hopper Tickets</a>
+    <font size="-1"> (Office Location Near the Park)</font>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/tid/2614498827.html">======== Los Angeles Concert, Theatre, Sports Tickets ========</a>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3pa3l95Y65U05P4b9jee23c5d742531511.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/tid/2607369252.html">AMAZING USC vs. ARIZONA TIX - GREAT PRICES!!</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/tid/">tickets - by dealer</a>
+    </small>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/tia/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

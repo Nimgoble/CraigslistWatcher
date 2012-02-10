@@ -1,0 +1,877 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles books &amp; magazines classifieds  - craigslist</title>
+  <meta name="description" content="los angeles books &amp; magazines classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/bks/index.rss" title="RSS feed for craigslist | books &amp; magazines  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/bks/">books & magazines</a>
+   <div id="satabs">
+    <a href="/bks/">all los angeles</a>
+    <a href="/wst/bks/">westside-southbay</a>
+    <a href="/sfv/bks/">SF valley</a>
+    <a href="/lac/bks/">central LA</a>
+    <a href="/sgv/bks/">san gabriel valley</a>
+    <a href="/lgb/bks/">long beach / 562</a>
+    <a href="/ant/bks/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/bks" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="bks" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">books</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks" selected="">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:29:43 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614528978.html">Professional Cooking 7th edition by Wayne Gisslen</a>
+    <font size="-1"> (Van Nuys)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3p33l35W25P05S1b9ddab62eb6ca4a1697.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2597157734.html">AUTO LOCKSMITH MANUAL</a>
+    <font size="-1"> (CANOGA PARK)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15O65X23k53o43lbb9n2a4ad3e378e112ba.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614527776.html">1999 Thomas Map Books</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614524305.html">Santa Monica College Books</a>
+    <font size="-1"> (Los Angeles/ Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m93p83l45Q05Z35P0b98f9c9ad07bb2c1b03.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2588947918.html">Tell It Slant by Brenda Miller, Suzanne Paola </a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m93p03l15V55U35S1b9811b398cd0c311d13.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2588946854.html">Ten Steps to Advancing College Reading Skills</a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kd3p73l25O55T45X3b9b4c8cdcf95aa21a4d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2593521714.html">Tell It Slant by Brenda Miller, Suzanne Paola </a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3m33o45V35P55S4b9bce5ed5f6cbdc11fd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2593520715.html">The True History of Chocolate </a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13o93ld5Q55R05S3b9ba7f4260f2f3f1b0a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2593519187.html">Recovering History, Constructing Race </a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3k63pd5O25T45X1b9kafafeda6ab141461.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2609342018.html">New Our Lady of Guadalupe by Jeanette Rodriguez </a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3ka3l85V65Z35S2b9g84ed0fe0811016de.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2601483206.html">An Introduction to Fiction by Dana Gioia, X. J. Kennedy</a>
+    <font size="-1"> (ELAC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614515135.html">college books and novels CSULA</a>
+    <font size="-1"> (usc/la coliseum/csula)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65O25P43n03m13l5b9nf32ba31bfc2e16f9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614513612.html">Carson H.S. Yearbook 1977</a>
+    <font size="-1"> (LBC)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5X45R65S33m43o33l2b9n60e403fc5f83196e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614505325.html">Datsun electrical service guide</a>
+    <font size="-1"> (La Crescenta)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W05U15S33m13p33l4b9ne0f1ce4e3bf71ed6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614494935.html">First steps in academic writing 2nd edition</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05T35X33n63k23p4b9n660789b260d41e45.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614494751.html">Moody Blues Music Book</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2604431439.html">CFA Level 1 Schweser and Stalla Study Guides, Practice Exams, etc</a>
+    <font size="-1"> (Pasadena)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614489222.html">Garage Sale  one day only Saturday  8-1pm</a>
+    <font size="-1"> (Torrance)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mc3pa3l75O05T55R5b9i278df401b58b1c19.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2605350397.html">Muscle Erotica Body Builder Book Magazines</a>
+    <font size="-1"> (Los Angeles Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45T15P63na3o73p2b9n577d710e05f01deb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614483985.html">Architectural Digests 4 boxes</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614482314.html">becker cap 2011 books</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45Q65W63n43kf3p7b9n29be8be4d68b134d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614474800.html">What Color is your Parachute 2011 edition</a>
+    <font size="-1"> (626)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43me3pd5T65W25S3b9l4b24a8eee2ea1a7d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2611084496.html">"Time Life" Lost Civilizations Collection</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33ma3p55Z35P45X4b9i60381e61943d1267.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2605868143.html">Collection of Jeffrey Archer Books</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35V55T53n63kf3o2b9nab91b1968c6916b4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614464700.html">Study Guides for Science Students</a>
+    <font size="-1"> (Long Beach CSULB)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5X25R55S13k53m23l6b9n9273103c3e761b93.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614462297.html">Used Precalculus book + CD-Rom </a>
+    <font size="-1"> (626)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m13p73l85Y05O35P2b9gaf490da659f616ab.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2602720021.html">Discovering Psychology 4th edition by Hockenbury and Hockenbury </a>
+    <font size="-1"> (Northridge)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m43p03l45Y55U05S3b9g0114575c84561d73.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2602720968.html">Film History: An Introduction [Paperback]</a>
+    <font size="-1"> (Northridge)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13oc3lc5Y45U05R3b9if12683177c361c9a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2605684969.html">Graphic Design Books</a>
+    <font size="-1"> (Monterey Park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35W35X33n83m93oab9n8daf094b0e69195e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614455081.html">Moisture of the Earth by Mary Robinson</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05U45R63n43mf3l0b9n84fd0cecd3451aee.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614447932.html">Sociology: Concepts and Applications in a Diverse World</a>
+    <font size="-1"> (626/213)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65U45P33n33o33l7b9n5f7cc9b37b2d1d96.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614446846.html">�como se dice...? spanish book</a>
+    <font size="-1"> (wilshire district)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Z35P03k63m33l5b9n7f2936054dbc16b9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614445785.html">Cookbooks</a>
+    <font size="-1"> (Culver City, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2605240565.html">College books </a>
+    <font size="-1"> (South Gate?ELAC)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3o03lb5Y55Z35X0b9i75ea7489001c1398.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2605712386.html">Complete set of McSweeney's Quarterly (Issues # 1 - 38)</a>
+    <font size="-1"> (San Pedro, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2602908444.html">Millikan H S Year Book</a>
+    <font size="-1"> (Long Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614425980.html">Jude Deveraux, Julie Garwood and Misc. </a>
+    <font size="-1"> (Torrance, Ca)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3mb3od5Y05V55S0b8s9241a23e4c5e1a64.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2570345661.html">Taber's Cyclopedic Medical Dictionary 21st edition</a>
+    <font size="-1"> (Gardena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03mf3p85Y55O65Z6b9d42ea3d863d591bfc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2597425530.html">Archaeology Book</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13o93pa5Y15W45P5b9955866cfec85b1c79.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2590221322.html">Social Problems Community, Policy, and Social Action 2nd</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614417753.html">College Books</a>
+    <font size="-1"> (Norwalk)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Z15U13nb3m73p2b9nbc0054552f14178b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614410495.html">With the light raising an autistic child by keiko tobe vol.1</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25P05S43o43p43l0b9n776879302d01133f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614409731.html">Princess Ai by Courtney Love DJ Milky Vol. 1-3</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65Z25X33n83p33l0b9nb6a49e3f6161132a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614409047.html">The Tarot cafe by Sang sun Park Vol. 1,2,3,4 </a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z15W65S03nc3m93p0b9n3c86d391eab61014.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614408302.html">The Wallflower by Tomoko Hayakawa Vol. 1-13</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q55S55R63nf3k83l6b9n29c31a8daf491d6b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614407714.html">Othello by Satomi ikezawa</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Q35U23n13m93l0b9n241a11260da41a07.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614406398.html">Beauty pop by Kiyoko Arai vol. 1-2</a>
+    <font size="-1"> (la)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05X25S03nf3ka3m3b9n5b1ff5faed6d1948.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614405121.html">Model by Lee so young 1-7 complete</a>
+    <font size="-1"> (LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614404801.html">Buy now this great diabetic cookbook that get off insuline eating grea</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W25P45R13o83pa3ldb9n8bb7b9fd99161eb8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614395872.html">health science books and rhit study book</a>
+    <font size="-1"> (rowland heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Y35W63n93k63mab9n60bbea6061e710f5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614389570.html">College Textbooks</a>
+    <font size="-1"> (Northridge)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614388479.html">Pierce college textbooks</a>
+    <font size="-1"> (Woodland Hills )</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15T25Z53m33pe3l0b9n43ee4c857b391bb5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614387652.html">Biology by Joseph S. Levine and Kenneth R. Miller (2001, Hardcover)</a>
+    <font size="-1"> (Granada Hills 91344)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2607665157.html">Women's books for sale</a>
+    <font size="-1"> (Bel Air)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T35P25X63n63p73lbb9ndd8aa0dd4ebc1559.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614363539.html">+++ALL KINDS OF BOOKS+++</a>
+    <font size="-1"> (ONLINE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mf3pd3od5Y35Z05S4b92c8234fad559a17aa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2579045517.html">Franz Kafka - THE TRIAL</a>
+    <font size="-1"> (Studio City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2583556350.html">MySpeechLab (Access Code)</a>
+    <font size="-1"> (Hollywood)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15T45X53nc3m03pbb9nd1f7361a0c2111e0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614340201.html">Women in Religion - Fisher - Like New!</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z15P25S13n23od3lbb9n1fcc488190fe1f19.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614339926.html">Nursing Textbooks</a>
+    <font size="-1"> (South Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614330442.html">Hundreds of Hot Rod/Chevy Magazines</a>
+    <font size="-1"> (Monrovia)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25P25R63k83oe3p4b9nb189d96af9b31c3c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614325570.html">HOW TO BOOKS, SELF IMPROVEMENT BOOKS AND HEALTH MAGAZINES</a>
+    <font size="-1"> (HAWTHORNE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15Y05P43nf3o93l1b9n88df2bb2f6461f2c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614325275.html">DimeBag Darrell Guitar World 30th Anniversary Commemorative Issue</a>
+    <font size="-1"> (USC area)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2587165574.html">Books and Magazines</a>
+    <font size="-1"> (Culver City)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93pa3le5T35W45S5b8tc8c0a41501c31721.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2571836444.html">Elementary Statistics and Solution manual</a>
+    <font size="-1"> (L. A.)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m83o03l55O05R25S1b8t281df0c33bcd12cf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2571828153.html">Principles of Human Physiology</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614316316.html">SET OF 21 TIME/LIFE BOOKS</a>
+    <font size="-1"> (LONG BEACH, CA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kd3oe3la5Q25Z45W1b9i1fba7691622011ff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2605831463.html">algebra for dummies</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93kb3o35V25U65X2b9icd683c23c1721415.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2605833332.html">The GED for dummies</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614310563.html">Textbooks for sale!</a>
+    <font size="-1"> (Torrance)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614308121.html">9 travel books: DK Eyewitness &amp; Frommer's</a>
+    <font size="-1"> (Fairfax/ La Brea)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bks/2614303301.html">books</a>
+    <font size="-1"> (chatsworth)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O25Q55T33k43p23lbb9n0d94f9d796be1339.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614301352.html">Seminars in Art MMA 24 vol.</a>
+    <font size="-1"> (Banning)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3o23p03le5W25X25S5b9ed9e789b5ce441de5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2599441910.html">College Physics (New)</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55W25S43n63mc3p1b9nb751c3aa4e1d1979.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614297557.html">A Prehistory of Ordinary People</a>
+    <font size="-1"> (Long Beach / CSULB)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55X15R33n73oe3l2b9nc92d4c983e331148.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614290443.html">ASE Cert study guides</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bks/2614285824.html">Insomnia by Stephen King on Cassettes!</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35Q45P23nb3pa3o0b9nfd14630d3add137a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2614284517.html">CAL TPA Candidate Handbook</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3p23oe5Y25Q45P3b924561bfd6aa231e34.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579387342.html">The Stranger by Albert Camus</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k83p33oc5T25X05R2b92637ad50ec0291fa6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579401900.html">Art and Lies by Jeanette Winterson</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93kd3pf5T35W45S0b923a84534fc5f01ccb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579397731.html">Written on the Body by Jeanette Winterson</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3o03pc3l75O05T65S3b916c0a22f91fdc1949.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577436100.html">Ulysses by James Joyce</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3m73od5O15T45S5b9199ad6c9bbe5e17e1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577389947.html">Finnegan's Wake by James Joyce</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53m53pa5V45Z45T2b9222bf72ff3a9b16f1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579393838.html">Idoru by William Gibson</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23o93pf5Z65P25S0b9195c5506e8fad17ac.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577792109.html">Choke by Chuck Palahniuk</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03ma3l75W55P45X6b928251fc7bd29d1046.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579390729.html">All Tomorrow's Parties by William Gibson</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3pd3la5Q05T35R1b91f1ee2dd883391c98.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577790018.html">Lullaby by Chuck Palahniuk</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k03me3l15O45T15P1b91ecdfbf412e9b1e21.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577433523.html">Infinite Jest by David Foster Wallace</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m63o63la5Z55W55R5b9135ec294e05641b93.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577784769.html">Fool by Christopher Moore</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23m83pf5V05Q35X3b910781a5cc7a8d13cf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577733975.html">Practical Demonkeeping by Christopher Moore</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3o53lc5V45O05R0b912859a2564d87146e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577383473.html">Skinny Bitch</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n83k93pd5V55Z65W6b919395be2b50651b75.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577754071.html">Push by Saphire</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23oa3la5O65T45R5b916938627240af1203.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577741284.html">Going Bovine by Libba Bray</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3md3l15O65W55X1b9250ee298452181708.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2579383346.html">The Adventures of Huckleberr Finn by Mark Twain </a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3m13l25P65X55R3b91a2baaf31c81c1edd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2578020100.html">The Harlot by the Side of the Road: Forbidden Tales of the Bible</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kb3ma3p75Z65T55R1b91c371b90ea9b71218.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577398524.html">Billy Budd and the Piazza Tales by Herman Melville</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3p33o25Z45X45R2b916d5f37d935ea1056.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577794097.html">Children of Men by P.D. James</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03m53pe5Z35W15R6b9fe85ad47c83611fcb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2599521854.html">SEVERAL Magikal/witchcraft books</a>
+    <font size="-1"> (90027)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bks/2614272313.html">HHS 101 thinking critically (CSULA)</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43mb3pe5P55X45R1b91e8e5c07890c11166.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bks/2577943594.html">The Handyman by Carolyn See</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bks/2614271636.html">college books(east LA college)ect.</a>
+    <font size="-1"> (Aradia)</font>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/bks/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

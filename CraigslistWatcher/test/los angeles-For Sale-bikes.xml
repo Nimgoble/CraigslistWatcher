@@ -1,0 +1,883 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles bicycles classifieds  - craigslist</title>
+  <meta name="description" content="los angeles bicycles classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/bik/index.rss" title="RSS feed for craigslist | bicycles  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/bik/">bicycles</a>
+   <div id="satabs">
+    <a href="/bik/">all los angeles</a>
+    <a href="/wst/bik/">westside-southbay</a>
+    <a href="/sfv/bik/">SF valley</a>
+    <a href="/lac/bik/">central LA</a>
+    <a href="/sgv/bik/">san gabriel valley</a>
+    <a href="/lgb/bik/">long beach / 562</a>
+    <a href="/ant/bik/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/bik" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="bik" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">bicycles</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik" selected="">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:30:17 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://la.streetsblog.org/">LA StreetsBlog</a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=95">bicycling forum</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614533356.html">trikke 3 cv 8</a>
+    <font size="-1"> (pico rivera)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3md3pf3of5T65U15P4b96647f8f70e1f615fe.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2585695648.html">VINTAGE MURRAY MONTEREY BEACH CRUISER BIKE BICYCLE DOUBLE BASKET BLUE</a>
+    <font size="-1"> (DOWNEY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05Y15P23k93m13l9b9n967e17803ccf1ed8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614532507.html"> * * * * "PEDEGO" - Electric Bike Sale!!!!!!!!!!!!!!!</a>
+    <font size="-1"> (Orange County)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614532014.html">universal  trunk 3-bike rack</a>
+    <font size="-1"> (pico rivera)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Q65R53md3ob3l3b9n10e973f3295616c2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614531960.html">track frame, sugino messenger crank...................................</a>
+    <font size="-1"> (hollywood)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05Y35Z13k53ob3p2b9n17df84b4de061fa2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614529898.html">Brand new primo hollowbite cranks</a>
+    <font size="-1"> (Echo park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23kb3l95O45W65R6b9i3235ca636d9c118e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2575303645.html">Skateboard Wheels,Schwinn Helmet, HotWheelsSkatebo,Shimano Binding Sys</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614528110.html">NEW SPECIALIZED BG COMP MOUNTAIN BIKE SHOES SIZE 11/11.5</a>
+    <font size="-1"> (BIXBY KNOLLS)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614527244.html">2 Micargi Mountain Bikes. Artesia </a>
+    <font size="-1"> (artesia/cerritos )</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3m93p25Y55T25S6b8t4e3bf47b97641153.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2572903595.html">Schwinn 16 in Pixie</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m43p53oa5V25Z55U4b99c72da45521081bd7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2591171228.html">Schwinn Straight Bar Tornado</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3k03p65T55W05S4b9950cda48ead2a1152.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2591197611.html">Boys 20in Beach Cruiser Brand New</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W35P65X33k43m13p7b9n4221f5449e5217e4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614524264.html">2010 Cannondale CAAD8</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45O05S43nf3k53mbb9n5d125a78160d13bb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614523138.html">Vintage Raleigh record</a>
+    <font size="-1"> (Echo park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614522358.html">GT COMPE REALLY GOOD CONDITION</a>
+    <font size="-1"> (West Los Angeles / South Central)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33mc3oc5O25U25R0b9g6be2e9a6dd6e159b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2602860672.html">bmx bike for sale dk and huffey converted</a>
+    <font size="-1"> (west los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614520734.html">Heavy Duty Hitch bike rack</a>
+    <font size="-1"> (pico rivera)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W15S05R13n43k03m5b9nfadaaa085a3b1b8d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614519289.html">track bike messenger crank, velocity wheels...........................</a>
+    <font size="-1"> (santamonica\vermont)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614518831.html">Do you have the CLEANEST FIXIE on the block??? Check out these Fixies!</a>
+    <font size="-1"> (ORANGE)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25T05X33nf3k83o0b9nb8e926773e381aa5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614518517.html">New Road bike</a>
+    <font size="-1"> (Lvt)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55O05R13n63o23l8b9n6edce5aa9bb51732.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614517796.html">Paul Frank Nirve Scholastic Crusier</a>
+    <font size="-1"> (lakewood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z35U45X33m23o93l7b9n38cbd6363c911acf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614517143.html">New , Messenger Bag s</a>
+    <font size="-1"> (Lvt)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3o03la5Y45O45P3b9l58a42caa4db61b4d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2610179078.html">fixie frameset sugino set up 180 obo</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614514956.html">Fixiee!!!</a>
+    <font size="-1"> (south central)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U55P65S63n53o53lbb9n5802b9168f9e1296.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614514844.html">Haro BMX bike</a>
+    <font size="-1"> (Bellflower,CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q55Z05P03n63k43oab9n2ca8d5b09aad1c16.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614513778.html">Bicycle Tune ups se habla espanol</a>
+    <font size="-1"> (Lvt)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614511617.html">Kreiter Trainer</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45Q55U23nc3p33l9b9n11e1c3edab191f32.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614511082.html">SUV 3-BIKE RACK</a>
+    <font size="-1"> (PICO RIVERA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05P05R53mb3o03l1b9n73ea3115362015c8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614510911.html">Good bikes</a>
+    <font size="-1"> (Los Angeles )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35P35X43k53m53o0b9nf6b3784e73d21f2a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614510581.html">2005 Specialized Roubaix Comp 56</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614510426.html">Fuji track pro</a>
+    <font size="-1"> (Montebello)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05U35S63m13o53pcb9ncc2dd435396f1b29.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614509337.html">velocity rimset flippy floppy</a>
+    <font size="-1"> (azusa)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35T35X43m23o93l8b9ncdec3561d169166a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614504674.html">2011 Felt RACE BIKE Q series, Lightweight,100mm Fork w/lockout!..OBO</a>
+    <font size="-1"> (Diamond Bar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614504444.html">Brand New Fixie/Road Tires For Sale</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3k23lf5O65Z15Q4b9l75b82292dbad183e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2611121941.html">Green Fixie </a>
+    <font size="-1"> (Van Nuys )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3o93pb3l05Z05Q65U1b9812df2b8068cd12d7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2589164559.html">Several Bike&#39;s Sale!</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Z25U33k63oe3l7b9n53321ccdc0b418bd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614502257.html">Road Bike-Scott Speedster s40-</a>
+    <font size="-1"> (91789)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614500713.html">Blue Beach Cruiser with Basket</a>
+    <font size="-1"> (Manhattan Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614499721.html">track road misc</a>
+    <font size="-1"> (los angeles usc the village area)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582246396.html">21 SPD. "PACIFIC" MOUNTAIN BIKE</a>
+    <font size="-1"> (SANTA MONICA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65Q65X33nf3k63o9b9n6f84ea6b3f501943.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614499258.html">2010 Bontrager Race Lite Aero Front Wheel</a>
+    <font size="-1"> (BALDWIN PARK, COVINA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3p33l05O55U65S1b9j962c3b2a34751f47.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2599195642.html">FIXIE /ROAD BIKE PARTS</a>
+    <font size="-1"> (L.A)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ka3ma3lf5O05Z65W0b9l6bf6a7c534c31602.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2610802195.html">BMX BIKE PARTS: STREET BMX TIRES AND DIRT BMX TIRES</a>
+    <font size="-1"> (L.A)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582244045.html">18 SPD. HUFFY MOUNTAIN BIKE</a>
+    <font size="-1"> (Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582248972.html"> LADIES 21 spd.SCHWINN MOUNTAIN BIKE</a>
+    <font size="-1"> (SANTA MONICA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582251857.html">FUJI 21SPD HY-BRID L700#</a>
+    <font size="-1"> (Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582253741.html"> 10 SPEED/LADIES FREE SPIRIT</a>
+    <font size="-1"> (SANTA MONICA)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2582255897.html">LADIES MOTIV 21 SPD,SUSPENTION BIKE</a>
+    <font size="-1"> (Santa Monica)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53k33l65U65P25R5b9kc14ba5a64e351ea6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2609418590.html">GT ZONE</a>
+    <font size="-1"> (Irwindale , CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65Z25P63mc3o53pcb9n9baf1d430bd31e13.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614494034.html">7-SPEED LIMITED BEACH CRUISER</a>
+    <font size="-1"> (Glendale/Pasadena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O05Y05Q23k13m63o0b9ncfe6029ce006106f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614493296.html">Convert your bike into a legal motorbike! Get 30+mph and 100MPG!</a>
+    <font size="-1"> (((((((((((((LOS ANGELES))))))))))))))</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25O45R53k23mb3ofb9m4783e3f73e321394.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614490949.html">MONGOOSE PAVER ALUMINUM 7 SPEED BIKE</a>
+    <font size="-1"> (SAN FERNANDO VALLEY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mb3p53o15V05X65S5b9k40125b7e618310f6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2609276021.html">Shimano SPD pedals</a>
+    <font size="-1"> (w. LA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3m63l95V35Y35S0b9fa22f4e601df31e72.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2601169231.html">Kids Tricycle blue steele frame solid</a>
+    <font size="-1"> (los angeles DWNTWN)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2588993580.html">Trek 460 Frame &amp; Fork  Perfect for Fixxxie Project</a>
+    <font size="-1"> (Van Nuys   818-392-9724)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03m93lf5Y45U05R1b9b8db56e106e201f5f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2594104152.html">Old School  COOK BROS RACING BMX BIKES</a>
+    <font size="-1"> (Van Nuys  818-392-9724)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2603547559.html">Old School Robinson and Powerlite BMX Bikes</a>
+    <font size="-1"> (Van Nuys   818-392-9724)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614487515.html">LAST CHANCE TO SAVE BIG ON F&#0032;XIES, FIXIE, FIXED GEAR BIKES</a>
+    <font size="-1"> (gg/ westminster)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m23p03o25Y45W05S0b98f32564ecf27a1f1c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2588965671.html">BMX Bikes  And  More</a>
+    <font size="-1"> (Van Nuys  818-392-9724)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2603613863.html">Motorcycle Police bicycle tricycle</a>
+    <font size="-1"> (W. Covina (or best offer))</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610617043.html">Old School SE  PK Ripper Frame &amp; Fork  Also Other Old School BMX Bikes</a>
+    <font size="-1"> (San Fernando Valley  818-392-9724)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610743764.html">Aluminum Diamond Back Response Mountain Bike</a>
+    <font size="-1"> (Van Nuys   818-392-9724)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614485249.html">Tunturi Laddies Road Bike 19" Frame late 80's 12 speed</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k03md3la5O65X15S6b9l670de3acf27c1ed4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610623221.html">Boys BMX Bike &amp; Girls BMX Bikes</a>
+    <font size="-1"> (San Fernando Valley  818-392-9724)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614485079.html">---------- RD818 ALUMINUM SINGLE SPEED FIXIES ----------</a>
+    <font size="-1"> (LA.USC.HP)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610800953.html">SPECIALIZED GROUND CONTROL FULL SUSPENSION MOUNTAIN BIKE</a>
+    <font size="-1"> (VAN NUYS  818-392-9724)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614484843.html">Roadmaster Bike Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m03o63l55V15Q65S3b9h0c967d8aea88102f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2604208200.html">fixibike</a>
+    <font size="-1"> ( n  long beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25X05R63mf3o03l4b9n11ee5fdc03631922.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614483936.html">Girls/Womens Schwinn Custom Cruiser</a>
+    <font size="-1"> (Long-Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03mf3ld5Z55P55X6b93c1350ee9b200180d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2580706097.html">Bike Schwinn vintage for restoration</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m33p33l95Y35U05X1b93f048d1968f3c127c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2580707488.html">Free Agent Bike Air Strike - Good Condition</a>
+    <font size="-1"> (San Gabriel)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T15W25U33n83o83l6b9na5209151f8d81913.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614483561.html">Sears X-cargo Sport 20 box, made by Thule</a>
+    <font size="-1"> (Playa Del Rey)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3me3o65Z15P65S2b93f83a5c03ccb81b26.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2580709193.html">Stealth +3 Bumper Mount - Three Bike Carrier - Brand New </a>
+    <font size="-1"> (San Gabriel )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z15P45S63n83m03p5b9n0263b9a648bf134e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614481571.html">fixie</a>
+    <font size="-1"> (koreatown)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43p63la5O25Q35Z0b93d0d60cec293e1299.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2580277495.html">Kona Dawg Mountain Bike</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q45T65P23n83pc3lcb9n512a6e27a4f01a12.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614480037.html">Downhill bike</a>
+    <font size="-1"> (Porterville)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3mf3of5Y05Q05S1b9h180ade08e5ad182b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2603096229.html">Road bike / fixie</a>
+    <font size="-1"> (Usc/la coliseum/lax)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614478447.html">Nishiki Ladies 80's Mixte 19" Frame In Great Shape</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614478121.html">(NEW) 50MM SUPER DEEP V'S  (flat bladed spokes)</a>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2607709776.html">road bike </a>
+    <font size="-1"> (usc/la coliseum)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15Z35P63nf3mb3l3b9n0634fe8486951389.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2614476472.html">Fixie Retrospec OBO fixie</a>
+    <font size="-1"> (Inglewood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U15X45S63k03p33l2b9n62471036a6a21012.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614476325.html">43mm Super Deep V wheelset.</a>
+    <font size="-1"> (Alhambra)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k03o43l65Q65Z05U6b9db5262a0602351389.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2597241595.html">ELECTRA "SWING" CRUISER 3 SPEED</a>
+    <font size="-1"> (SOUTH GATE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53m43pd5Y05U15P5b9l3b3d2b534fca175b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610659054.html">Diamondback Recumbent Bike </a>
+    <font size="-1"> (valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614470132.html">NEW RD269 FIXIES !!!!!!!</a>
+    <font size="-1"> (LA/USC)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kd3o93l35O05W15S4b8r8e83739df38b19e0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2569182835.html"> NEW CONDITION CANNONDALE F500</a>
+    <font size="-1"> ( los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3p53lb5Q15W25R5b9l4ccf30e4a5b2191e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2610311104.html">BONTRAGER WHEELSET with tires</a>
+    <font size="-1"> (los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mf3p43l35O55Z65P0b9l2cf6dbbf37201fe0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2610315270.html">**** Crank Brothers eggbeater pedals ****</a>
+    <font size="-1"> (Westwood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m73p73o95T05Q15S5b9lb9ba21e60ccc1222.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2610138153.html">Pair of "eZip Trailz" Mountain Bikes</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/bik/2614466776.html">Diamond Back Ladies 21 Speed All Terrain MountainBike </a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3pc3oc3l05O65T65R0b9k016a8d027a8415da.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2608679854.html">TRIFECTA Folding Bicycle</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05P55S23mf3pe3l9b9n58d9f306a9531da4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614464646.html">Diamond Back mountain bike</a>
+    <font size="-1"> (Bellflower)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614463923.html">fixie</a>
+    <font size="-1"> (lb)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55Q25U13n13k93m0b9n351e15be06271782.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614463932.html">DYNO GT BIKE 4 SALE</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55X45R33k23o03lcb9n56de1bb5aa691bcc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614462696.html">1979 5 speed drum schwinn spitfire</a>
+    <font size="-1"> (la/323)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U35X25R43k23me3oab9n40ec35c0c326184b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/bik/2614461303.html">Cruiser For Sale</a>
+    <font size="-1"> (SFV)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33p43l65O05T25X5b972e4594c280bd1de1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/bik/2587209539.html">FOX 32 FLOAT FRONT SHOCK</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U45S55R33n83m23l4b9n77e97b6151481c01.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614456573.html">Missoni Women's COPPER / MULTICOLORED Bike - Brand new, In-hand</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Z35W23k43mb3lfb9n584171dd4aef16fb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/bik/2614456475.html">Fixed Gear Fixie </a>
+    <font size="-1"> (Whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T25U55P23nf3kd3m7b9n0e6c99df334718f2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/bik/2614456287.html">1960 24 inch Murray</a>
+    <font size="-1"> (la/323)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/bik/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

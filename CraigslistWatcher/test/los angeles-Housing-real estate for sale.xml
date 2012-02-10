@@ -1,0 +1,959 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles real estate - all classifieds  - craigslist</title>
+  <meta name="description" content="los angeles real estate - all classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/rea/index.rss" title="RSS feed for craigslist | real estate - all  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/H?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/rea/">real estate - all</a>
+   <div id="satabs">
+    <a href="/rea/">all los angeles</a>
+    <a href="/wst/rea/">westside-southbay</a>
+    <a href="/sfv/rea/">SF valley</a>
+    <a href="/lac/rea/">central LA</a>
+    <a href="/sgv/rea/">san gabriel valley</a>
+    <a href="/lgb/rea/">long beach / 562</a>
+    <a href="/ant/rea/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/rea" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="rea" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">
+      <a href="javascript:flipCatAndSubmit('reo');">by-owner</a>
+      <a href="javascript:flipCatAndSubmit('reb');">by-broker</a>
+      <b>both</b>
+     </legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option value="ggg">
+         <option value="hhh">
+         <option disabled="" value="">
+         <option value="aap">
+         <option value="nfa">
+         <option value="hou">
+         <option value="apa">
+         <option value="swp">
+         <option value="hsw">
+         <option value="off">
+         <option value="prk">
+         <option value="reb">
+         <option value="reo">
+         <option value="rea" selected="">
+         <option value="rew">
+         <option value="roo">
+         <option value="sha">
+         <option value="sbw">
+         <option value="sub">
+         <option value="vac">
+         <option disabled="" value="">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+        <select name="bedrooms">
+         <option value="">
+         <option value="1">
+         <option value="2">
+         <option value="3">
+         <option value="4">
+         <option value="5">
+         <option value="6">
+         <option value="7">
+         <option value="8">
+        </select>
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:31:45 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.bbbsouthland.org/">L.A. Better Business Bureau</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.bbb.org/alerts/article.asp?ID=593">
+        <b>"foreclosure rescue" fraud alert</b>
+       </a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=6">housing forum</a>
+      </span>
+      <span class="hl">
+       <a href="/about/FHA">stating a discriminatory preference in a housing post is illegal</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607325952.html">$420000 / 2br - 1454ft&sup2; - ==========&gt;Hurry and Check Out this Burbank Deal!&lt;==========</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2596709920.html">Buy Under Market 4bed Home &amp; Get Cash for Buying it From Us</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2592224878.html">Free list of Multifamily Properties in Burbank-Buy &amp; SAVE MONEY</a>
+    <font size="-1"> (Burbank)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610807879.html">$659000 / 5br - 1985ft&sup2; - ==========&gt;Fabulous Corner Lot Home&lt;==========</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2607675676.html">$824900 / 4br - 3231ft&sup2; - Remodeled 4 brm, Granite, Views</a>
+    <font size="-1"> (Signal Hill)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614533464.html">$170000 / 4br - 2523ft&sup2; - Hud W. Lancaster(Good Area)</a>
+    <font size="-1"> (West Lancaster,CA)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reo/2614533232.html">MULTIPLE PROPERTIES FOR SALE</a>
+    <font size="-1"> (SoCal)</font>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610805381.html">$659000 / 5br - 1985ft&sup2; - (==========Fabulous Corner Lot in Burbank's Best Location==========)</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610790808.html">$335000 / 6420ft&sup2; - Buildable Lot in Burbank Hills</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614532459.html">$300000 / 186872ft&sup2; - 42.9Acres farm Land 165th E</a>
+    <font size="-1"> (Llano,CA 93544)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reo/2614532206.html">$575000 / 1br - 500ft&sup2; - For Sale by Owner</a>
+    <font size="-1"> (Culver City)</font>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reo/2614531999.html">$400000 / 5000ft&sup2; - 73 acres commerical land/restaurant</a>
+    <font size="-1"> (Fearther river canon drive)</font>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610781028.html">$225000 / 3br - 1405ft&sup2; - Pre-Foreclosure Sun Valley Townhouse Unit</a>
+    <font size="-1"> (Sun Valley)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/reo/2614531629.html">3br - is it really possible 2 go and find owner financed houses today</a>
+    <font size="-1"> (Central LA/213/LA County)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610775499.html">$306000 / 2br - 1346ft&sup2; - Great Value for Montrose Unit</a>
+    <font size="-1"> (Montrose)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610766899.html">$539000 / 3br - 1635ft&sup2; - Pre-foreclosure Burbank Horse Property</a>
+    <font size="-1"> (Burbank West)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2610760139.html">$340000 / 4br - 2321ft&sup2; - 2 story home with remodeled kitchen, MUST SELL!</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/reo/2614530401.html">50/50 Splits With Wholesale Coach.</a>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2614529741.html">Search Properties for Free! Get Instant Access to this New Search Tool</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592364417.html">Palos Verdes Estates Real Estate in MonteMalaga</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592358281.html">$1239000 / 5br - 2660ft&sup2; - Ocean View Homes in Rancho Palos Verdes near Vista Grande School</a>
+    <font size="-1"> (Los Verdes)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592355819.html">$1295000 / 2900ft&sup2; - Portuguese Bend Homes with Huge Back Yards</a>
+    <font size="-1"> (Rancho Palos Verdes)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592353478.html">39000ft&sup2; - Portuguese Bend Ocean View Land with Approved Plans</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607322478.html">$420000 / 2br - 1454ft&sup2; - ==========&gt;Amazing Burbank Home with Sparkling Pool&lt;==========</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2597382444.html">$420000 / 2br - 1454ft&sup2; - (==========Charming Pool Home==========)</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607162659.html">$659000 / 5br - 1985ft&sup2; - **********Huge Price Reduction on 5BR Burbank Home**********</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reo/2609399779.html">$580000 / 2br - 1100ft&sup2; - lakewood village</a>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607160902.html">$659000 / 5br - 1985ft&sup2; - ==========&gt;Fabulous Corner Lot Home&lt;==========</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reo/2614526547.html">2br - is it really possible to get seller financed homes today?</a>
+    <font size="-1"> (Sf Valley/LA County)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607158002.html">$659000 / 5br - 1985ft&sup2; - (==============Burbank Corner Lot Home==============)</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614525951.html">$144000 / 4br - 1916ft&sup2; - HUD Home in West Side Palmdale(Reduced)</a>
+    <font size="-1"> (1360 Cheetah Way)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607154955.html">$335000 / 6420ft&sup2; - Build Your Dream House!</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2590419045.html">NICE remodeled affordable VICTORIAN classic home with new addition!!!</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607140868.html">$225000 / 3br - 1405ft&sup2; - Sun Valley Townhouse - Upgraded and Remodeled</a>
+    <font size="-1"> (Sun Valley)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2602529063.html">Fannie Mae Homepath property. Very clean 4 bedroom 2 bath!!!</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607139704.html">$306000 / 2br - 1346ft&sup2; - Fabulous Townhouse in Prime Montrose Location</a>
+    <font size="-1"> (Montrose)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607137139.html">$539000 / 3br - 1635ft&sup2; - Stunning Home with Best Burbank Horse Facility</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2607134516.html">$340000 / 4br - 2321ft&sup2; - Van Nuys home, PRE-FORECLOSURE, MUST SELL!</a>
+    <font size="-1"> (Van Nuys)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2570794758.html">Attractive &amp; spacious SPANISH STYLE single family home in WRIGLEY!!! </a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2605702373.html">Fully Remodeled Townhouse in highly desirable BIXBY KNOLLS!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614524770.html">$225500 / 5br - 2988ft&sup2; -  Palmdale Home </a>
+    <font size="-1"> (6134 Whitney Way Palmdale,CA 93552)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2602336111.html">Wonderful home sits on the very top of Signal Hill!</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2605352619.html">Great South of Conant home! It will be a RACE for this STANDARD sale!!</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2610683492.html">Impressive Wrigley Home!!! TRULY A MUST SEE!</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614524025.html">$100000 Investment Properties</a>
+    <font size="-1"> (Visalia, CA)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614523495.html">$175000 / 5br - 3293ft&sup2; - Large Home low Price</a>
+    <font size="-1"> (East Lancaster,CA)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592351145.html">Portuguese Bend Ocean View Real Estate</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614521804.html">$129000 vac/vic lot 82nd St. W and Ave. F</a>
+    <font size="-1"> (Lancaster,CA)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592346095.html">$1789000 / 3432ft&sup2; - Palos Verdes Estates Ocean View Pool Home</a>
+    <font size="-1"> (Lunada Bay)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2592343366.html">$2195000 Ocean view real estate in Rancho Palos Verdes</a>
+    <font size="-1"> (Terranea nearby)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614520858.html">$120000 / 4br - 1118ft&sup2; - Redevelopment House</a>
+    <font size="-1"> (Lancaster,Ca)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614518403.html">----OPEN TOMORROW----2-5PM----MOVE IN READY REMODEL---</a>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/reb/2607480528.html">$795000 / 3br - Nice 3 Bed, 2 Bath Home! Best Priced 3 Bed</a>
+    <font size="-1"> (Beverly Hills - 90210)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2607465145.html">$629000 / 3br - Beach Bungalow! 3 Bed, House</a>
+    <font size="-1"> (Venice)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/reb/2607487185.html">$750000 / 2br - 9 Homes Currently Available! See Them ALL</a>
+    <font size="-1"> (Bel Air )</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/reb/2607472087.html">$389000 / 5br - 5 Bed, 2 Bath House for Less than $400K</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614516089.html">$100500 / 4br - 1485ft&sup2; - Quiet Corner Lot</a>
+    <font size="-1"> (Antelope Valley(Lancaster, Palmdale))</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/reb/2614515262.html">MakeMeBuy.com</a>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614512897.html">$499000 / 4br - 2000ft&sup2; - Great Single Story Home built in 2000!</a>
+    <font size="-1"> (Thousand Oaks)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2611060888.html">Agoura Hills New Homes Reduced</a>
+    <font size="-1"> (Agoura Hills)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2611065942.html">Thousand Oaks New Homes Reduced</a>
+    <font size="-1"> (Thousands Oaks)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2611067159.html">Simi Valley New Homes Reduced</a>
+    <font size="-1"> (Simi Valley)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2611085274.html">Simi Valley area REO/Bank Owned Properties reduced</a>
+    <font size="-1"> (Simi Valley)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2611093095.html">West Lake Village area REO/Bank Owned Properties reduced</a>
+    <font size="-1"> (West Lake Village)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614511544.html">$130000 / 3br - Upgrade Neighborhood</a>
+    <font size="-1"> (45409 3rd St. E. Lancaster)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614509910.html">$89900 Terriffic House</a>
+    <font size="-1"> (Antelope Valley(Lancaster,Palmdale))</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/reo/2614508771.html">1br - senior mobil home/626-552-1976</a>
+    <font size="-1"> (Rosemead,CA,91770)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614508052.html">$1349000 / 3br - 2530ft&sup2; - OPEN SUNDAY, Sept/25 12-4pm!! Stunning Views in Peaceful Monte Nido!</a>
+    <font size="-1"> (Calabasas)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614506902.html">3br -  BEST  VALUES IN WOODLAND HILLS</a>
+    <font size="-1"> (WOODLAND HILLS)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614500987.html">$112000 / 4br - 1536ft&sup2; - Mid Price HUD Home</a>
+    <font size="-1"> (3048 Christina St Lancaster,CA 93535)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614499804.html">$1590000 / 3br - 3415ft&sup2; - JUST REDUCED!!! Looking for a 6-Car Garage with an Amazing Home?</a>
+    <font size="-1"> (Burbank/Toluca Lake)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2597109367.html">$277900 / 3br - Valencia Foreclosure Newer Home Tree Lined Street</a>
+    <font size="-1"> (Valencia)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2597110670.html">$95000 / 1br - Valencia Short Sale 1 Bedroom</a>
+    <font size="-1"> (Valencia)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614499097.html">$555000 5 units</a>
+    <font size="-1"> (Van Nuys)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614498948.html">$90000 / 217800ft&sup2; - Vacant Land Vic. F-6 and 60th W.</a>
+    <font size="-1"> (Antelope Acres,Ca 93536)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594086062.html">$399000 / 1br - 100 South Doheny --- 1, 2 &amp; 3 Bedroom Full Service Luxury Condos</a>
+    <font size="-1"> (Beverly Hills Adjacent)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594081205.html">$450000 / 2br - 1000 Westgate --- 1, 2 &amp; 3 Bedroom Courtyard Condominiums</a>
+    <font size="-1"> (Brentwood)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594075840.html">$399000 / 1br - 1100 Wishire --- Studio, 1 &amp; 2 Bedroom 5 Star Luxury Condominiums</a>
+    <font size="-1"> (Downtown L.A.)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594072135.html">$2150000 / 2br - 1212 Abbot Kinney --- Stunning Live Work Lofts By James Gelfat</a>
+    <font size="-1"> (Venice)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594070546.html">$1700000 / 2br - 101 Ocean --- The Most Prestigious High Rise On The Beach!</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594069346.html">$1299000 / 3br - 132 South Maple Dr. --- One Of The Best Buildings in Beverly Hills!</a>
+    <font size="-1"> (Beverly Hills)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614497647.html">$555000 5 Units 4 non rent control</a>
+    <font size="-1"> (Van Nuys)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614497510.html">$150000 / 4br - 2561ft&sup2; - Large HUD in E.Lancaster,CA</a>
+    <font size="-1"> (Lancaster,CA 93535)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/reb/2614495788.html">$164900 / 1860ft&sup2; - IDX Home search Palmdale,CA</a>
+    <font size="-1"> (Lancaster&amp;Palmdale,CA)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reo/2614495772.html">$235000 / 2br - House for Sale - Open House</a>
+    <font size="-1"> (West Van Nuys)</font>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614495230.html">$$$$$$ OPEN SAT 2-5 PM $$$$$  PRICE TO SELL NOW $$$ MOVE IN READY $$$$</a>
+    <font size="-1"> (VAN NUYS)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614494546.html">$900000 / 5br - 3500ft&sup2; - 4ba***CUSTOM BUILT HOUSE IN 2002 GATED MEDITERRANEAN LRG LOT***</a>
+    <font size="-1"> (In The $900's �������� SHERMAN OAKS ����)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594067533.html">$899000 / 2br - 211 Spalding --- 2 &amp; 3 Bedroom Full Service Luxury Residences</a>
+    <font size="-1"> (Beverly Hills)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/reb/2594050877.html">$335000 / 1br - 655 Hope --- 1 &amp; 2 Bedroom Elegant Loft Environments</a>
+    <font size="-1"> (Downtown L.A.)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614493776.html">$555000 5 units</a>
+    <font size="-1"> (Van Nuys)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594046664.html">$840000 / 2br - 850 North Croft --- Newer Estate Quality 2 Bedroom Condominiums</a>
+    <font size="-1"> (West Hollywood)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2594042814.html">$540000 / 2br - 8839 Cynthia --- 2 Bedroom Modern Town Homes Central To Everything</a>
+    <font size="-1"> (West Hollywood)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2567176579.html">Sherman Oaks Foreclosures</a>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614491941.html">$359000 / 3br - 1371ft&sup2; - RUNNNNNNNNNN TO THIS ONE- OPEN TOMORROW 2-5 PM- REMODEL- MOVE IN NOW!</a>
+    <font size="-1"> (VAN NUYS)</font>
+    <span class="p"> img</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2595193336.html">$575000 5 units</a>
+    <font size="-1"> (Van Nuys)</font>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2583981734.html">Want to see what sold in your area?</a>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reb/2614491040.html">$2100 / 4br - 4 bedroom 2 full bath Pool &amp; Fireplace</a>
+    <font size="-1"> (Lasaine Ave Northridge, Ca.)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2602151622.html">MEDITERRANEAN VILLAS</a>
+    <font size="-1"> (BEACH CITIES)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/reb/2569724355.html">LUXURY BEACH HOMES</a>
+    <font size="-1"> (MANHATTAN BEACH)</font>
+    <span class="p"> pic</span>
+    <small class="gc">
+     <a href="/reb/">broker</a>
+    </small>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/reo/2614488559.html">$295000 / 3br - House for Sale - Open House</a>
+    <font size="-1"> (Reseda)</font>
+    <small class="gc">
+     <a href="/reo/">owner</a>
+    </small>
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/rea/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+ </body>
+</html>
+

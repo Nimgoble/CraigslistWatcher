@@ -1,0 +1,682 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles vacation rentals classifieds  - craigslist</title>
+  <meta name="description" content="los angeles vacation rentals classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/vac/index.rss" title="RSS feed for craigslist | vacation rentals  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/H?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/hhh/">housing</a>
+   <a href="/vac/">vacation rentals</a>
+   <div id="satabs">
+    <a href="/vac/">all los angeles</a>
+    <a href="/wst/vac/">westside-southbay</a>
+    <a href="/sfv/vac/">SF valley</a>
+    <a href="/lac/vac/">central LA</a>
+    <a href="/sgv/vac/">san gabriel valley</a>
+    <a href="/lgb/vac/">long beach / 562</a>
+    <a href="/ant/vac/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/vac" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="vac" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">vacation rentals</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option value="ggg">
+         <option value="hhh">
+         <option disabled="" value="">
+         <option value="aap">
+         <option value="nfa">
+         <option value="hou">
+         <option value="apa">
+         <option value="swp">
+         <option value="hsw">
+         <option value="off">
+         <option value="prk">
+         <option value="reb">
+         <option value="reo">
+         <option value="rea">
+         <option value="rew">
+         <option value="roo">
+         <option value="sha">
+         <option value="sbw">
+         <option value="sub">
+         <option value="vac" selected="">
+         <option disabled="" value="">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">rent:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+        <select name="bedrooms">
+         <option value="">
+         <option value="1">
+         <option value="2">
+         <option value="3">
+         <option value="4">
+         <option value="5">
+         <option value="6">
+         <option value="7">
+         <option value="8">
+        </select>
+        <label>
+         <input type="checkbox" name="addTwo" value="purrr">
+        </label>
+        <label>
+         <input type="checkbox" name="addThree" value="wooof">
+        </label>
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:28:36 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.bbbsouthland.org/">L.A. Better Business Bureau</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.bbb.org/alerts/article.asp?ID=593">
+        <b>"foreclosure rescue" fraud alert</b>
+       </a>
+      </span>
+      <span class="hl">
+       <a href="/forums/?forumID=6">housing forum</a>
+      </span>
+      <span class="hl">
+       <a href="/about/FHA">stating a discriminatory preference in a housing post is illegal</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2611094422.html">$399 / 6br - 4300ft&sup2; - 6+Br/6Ba Sleep 35 after MICROSOFT etc, POOL,HOT TUB near SUNCADIA GOLF</a>
+    <font size="-1"> (Cle Elum Roslyn Ridge Near SEATTLE)</font>
+    <span class="p"> pic&nbsp;img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614523091.html">$150 / 1br - Gorgeous Beach Bungalow - Live like the Natives!</a>
+    <font size="-1"> (Marina Del Rey/Venice/Santa Monica)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2599477755.html">$100 / 2br - 1200ft&sup2; - MTN BIKE IN-OUT - WALK TO SNOW SUMMIT</a>
+    <font size="-1"> (BIG BEAR LAKE)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614517258.html">$95 / 2br - 1200ft&sup2; - Stay at 'Amazing apartment park front' by the night</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614511623.html">$225 / 3br - Incredible retreat incredible location a hop &amp; skip from abbot kinney</a>
+    <font size="-1"> (venice/abbot kinney)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614509843.html">Palm Springs</a>
+    <font size="-1"> (Palm Springs)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614508081.html">$175 / 3br - 6th Ave Venice Zen stay 2 days,2 weeks, 2 months</a>
+    <font size="-1"> (VENICE/SANTA MONICA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2614505453.html">$190 / 3br - 1300ft&sup2; - 3BR/2BA Luxury Log Cabin-Vacation Rental</a>
+    <font size="-1"> (Big Bear Mountain)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/vac/2603416152.html">$120 / 1br - Heidelberg Inn - June Lake/Mammoth  - 3 Nights- Nov 8-9-10</a>
+    <font size="-1"> (June Lake/Mammoth)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/vac/2614475520.html">$150 / 2br - 2 Story Private Vacation Home FOR RENT CHEAP!!!!!!</a>
+    <font size="-1"> (Big Bear Lake)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/vac/2614472541.html">$59 / 1br - Oktoberfest is here</a>
+    <font size="-1"> (Big Bear Lake)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2606162840.html">$65 / 3br - 1550ft&sup2; - VACATION SPECIAL</a>
+    <font size="-1"> (TJ BEACH)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614467510.html">$139 / 1br - Spotlight Suite Apartment I. in Los Angeles</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614465522.html">2000ft&sup2; - FIESTAS INFANTILES</a>
+    <font size="-1"> (LOS ANGELES)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614464744.html">$119 / 1br - Pacific Suite Apartment I. in Los Angeles</a>
+    <font size="-1"> (Miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/vac/2614459479.html">$150 / 2br - 2 Story Private Vacation Home FOR RENT CHEAP!!!!!!</a>
+    <font size="-1"> (Big Bear Lake)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614458619.html">$59 Furnished, Sunny Room in Center of Hollywood by the night or week</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2606752791.html">$110 / 3br - 4350ft&sup2; - Special from now till Oct 1st</a>
+    <font size="-1"> (big Island, Kapoho tidepools)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2577107843.html">$159 / 2br - Chateau Delux Apartment II. in Los Angeles</a>
+    <font size="-1"> (miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2604094636.html">$159 / 2br - Chateau DeLux Apartment III. in Los Angeles</a>
+    <font size="-1"> (Miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2604238674.html">$159 / 2br - Hollywood Delux Apartment IV in Los Angeles</a>
+    <font size="-1"> (miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2604229303.html">$159 / 2br - Hollywood DeLux Apartment III. in Los Angeles</a>
+    <font size="-1"> (miracle mile)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2579504530.html">$139 / 2br - Beverly Hills Penthouse I. in Los Angeles</a>
+    <font size="-1"> (Miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2579299968.html">$139 / 2br -  Hollywood DeLux Apartment II. in Los Angeles</a>
+    <font size="-1"> (Miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2580582930.html">$119 / 1br - Spotlight Suite Apartment II. in Los Angeles</a>
+    <font size="-1"> (Miracle mile)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2581171154.html">$139 / 2br - Beverly Hills Penthouse I. in Los Angeles</a>
+    <font size="-1"> (MIRACLE MILE)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2614401585.html">WORLDMARK TIMESHARES</a>
+    <font size="-1"> (DIFFERENT LOCATIONS)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614397728.html">$90 Stay at "Beautiful one bed by west hollywood" by the night</a>
+    <font size="-1"> (Mid-Wilshire)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2614387173.html">$395 ROMANTIC VACATION PARADISE</a>
+    <font size="-1"> (VALLEY VILLAGE/STUDIO CITY)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614380382.html">$680 / 3br - 3000ft&sup2; - ::: Stunning Pacific Palisades  Available 12/16-1/2! 5 min from beach!</a>
+    <font size="-1"> (Pacific Palisades)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2614376181.html">$50 / 1br - 2501 Pico Blvd Santa Monica, CA 90405 </a>
+    <font size="-1"> (Santa Monica, CA 90405 )</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2603272809.html">$1550 BEACH LOCATION -- BRIGHT, FURNISHED 2 BR 2 BA APARTMENT TO SHARE!</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614355742.html">$200 / 2br - Mexico Vacation</a>
+    <font size="-1"> (Riviera Maya / Cancun)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2604632638.html">$150 / 1br - 750ft&sup2; - CREATIVE INDOOR/OUTDOOR LIVING</a>
+    <font size="-1"> (Venice )</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2577119216.html">$245 / 1br - Stay in a Modern Hollywood Hills Garden Estate Guest House - by the night</a>
+    <font size="-1"> (Hollywood Hills, Los Angeles)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2576164911.html">$135 / 1br - 750ft&sup2; - CREATIVE INDOOR/OUTDOOR LIVING - Available 9/26</a>
+    <font size="-1"> (Venice )</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2603957586.html">$125 / 1br - BEACH RENTALS IN VENICE  </a>
+    <font size="-1"> (Venice / Santa Monica)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2606651773.html">$145 / 1br - Venice Beach Hide-Away</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2567956096.html">$155 / 2br - Stay in a Spacious Home w/ Mid-Century Flair -- by the night</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614340908.html">$280 / 2br - 1200ft&sup2; - Stay at 'Ocean Front Malibu Beach House' by the night/week</a>
+    <font size="-1"> (Eastern Malibu)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614332451.html">&#9650;&#9650;&#9650;&#9650;&#9650;VACATION NEAR GRIFFITH PARK&#9650;&#9650;&amp;#96</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2605003805.html">$250 / 2br - Palm Springs FALL BREAK vacation 10/03-10/07</a>
+    <font size="-1"> (Palm Springs-The Oasis Vacation Internat)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2614316934.html">$10000 / 5br - 5000ft&sup2; - MOTION PICTURE PARTNERS WELCOME</a>
+    <font size="-1"> (Sherman Oaks)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614313478.html">$250 Stay at 'Cool 2 level loft with rooftop' by the night</a>
+    <font size="-1"> (West Los Angeles)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614307400.html">1br - SO MANY EVENTS, SUCH A GREAT DEAL!</a>
+    <font size="-1"> (Big Bear Lake, CA)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2590692264.html">$89 ***HAWAII VACATION HOMES**HOUSE &amp; CONDOS FOR RENT**GREAT RATES***</a>
+    <font size="-1"> (Hawaii)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614303100.html">&#9899;&#9899;&#9899;&#9899;&#9899;BEVERLY HILLS VACATION APTS&#9899;&#9899;&amp;#98</a>
+    <font size="-1"> (Beverly Hills/West Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614296730.html">$400 / 2br - Carver Aft Cabin Boat</a>
+    <font size="-1"> (Marina del Rey, CA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614284096.html">$150 / 1br - 900ft&sup2; - &#9650;&#9650;&#9650;&#9650;&#9650;VACATION IN LUXURY 1BR W/VIEWS&#9650;&#9650;&amp;</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/vac/2614272192.html">$49 Stay at "Studio Cottage" by the night</a>
+    <font size="-1"> (Carson)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614269196.html">$125 Stay at 'Ocean Living! Close to everything' by the night</a>
+    <font size="-1"> (Ocean Park)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614265901.html">$300 Stay at 'Architectural Home w/View' </a>
+    <font size="-1"> (Hollywood Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614255713.html">$4100 / 1br - 1000ft&sup2; - ARCHITECTURAL HOME IN THE HOLLYWOOD HILLS W CITY TO OCEAN VIEWS</a>
+    <font size="-1"> (HOLLYWOOD HILLS)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614250730.html">$400 adorable cabin in redwoods</a>
+    <font size="-1"> (Marin County)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614250521.html">$295 / 4br - 1500ft&sup2; - &#9733;&#9733;&#9733;&#9733;&#9733;VACATION 4BR RENTAL IN GORGEOUS LOS FELIZ&amp;#97</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614249343.html">$180 / 3br - 1850ft&sup2; - Mountain house, by skiing, great hiking trails, w/ pool tbl, WiFi, etc</a>
+    <font size="-1"> (Big Bear- upper Moonridge)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614248652.html">5br - 5500ft&sup2; - WEST HOLLYWOOD HILLS MODERN HOME RENTALS, LIMOS, CARS, YACHTS</a>
+    <font size="-1"> (LOS ANGELES AREAS)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614246292.html">$1050 Weekly Stay, for a Week vacation, Suitable for the whole Family!</a>
+    <font size="-1"> (Beverly Hills)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2585912785.html">$300 / 4br - &#9658;&#9788;&#9658;Amazing House Very Close to the Ocean</a>
+    <font size="-1"> (Mission Beach, San Diego)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614239414.html">&#9608;&#9608;&#9608; &#9608;&#9608;&#9608;LOS FELIZ VACATION RENTAL 1,2,3,4BDRM</a>
+    <font size="-1"> (Los Feliz/West Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614217076.html">$295 / 3br - 1500ft&sup2; - &#9608;&#9608;&#9608; &#9608;&#9608;&#9608;VACATION IN PENTHOUSE 3BR&#9608;&amp;#960</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614213165.html">$690 / 2br - 900ft&sup2; - $690/week beautiful Santa Monica beach apt</a>
+    <font size="-1"> (Pier Ave)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2610089922.html">$7000 / 4br -  Walk to Beach, Perfect Corporate Rental, Beach Chic~~</a>
+    <font size="-1"> (Hermosa Beach)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2610092587.html">$1200 / 2br - 1200ft&sup2; - weekly,Short term Fully furnished Historic Home</a>
+    <font size="-1"> (Echo Park silverlake)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/vac/2614206843.html">$850 / 1br - 2050ft&sup2; - OCEAN and BAY view!</a>
+    <font size="-1"> (belmont shores-peninsula)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614206736.html">$175 / 2br - 900ft&sup2; - &#9670;&#9670;&#9670;&#9670;&#9670;VACATION NEAR PARKS &amp; ATTRACTIONS&#9670;&amp;</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614204096.html">$1150 / 1br - Beach Apartment steps to beach</a>
+    <font size="-1"> (Venice/Santa Monica)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614196211.html">$1250 / 1br - Guest House Cottage, walk to beach.</a>
+    <font size="-1"> (Venice)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2593895910.html">$50 Stay at "guest cottage" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2590829731.html">$75 Stay at "Loft guest hse" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2587167548.html">$50 *CHOOSE CALABASAS~ HOME OF THE KARDASHIANS*</a>
+    <font size="-1"> (Calabasas)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2587163054.html">$50 *BRITNEY SPEARS lives here and you can too!*</a>
+    <font size="-1"> (Calabasas)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2587158580.html">$50 *HAWAIIAN HUT*</a>
+    <font size="-1"> (SAN FERNANDO VALLEY)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2566037276.html">$75 Stay at "Loft guest hse" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2569514934.html">$75 Stay at "Loft guest hse" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2580610152.html">$75 Stay at "Loft guest hse" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2598906580.html">$50 / 1br - *WOODS HIDEAWAY RESORT* save this ad!</a>
+    <font size="-1"> (Los Angeles)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2605127085.html">$50 Stay at "guest cottage" by the night</a>
+    <font size="-1"> (Woodland Hills)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614176142.html">$850 Great Studio Beach Apartment, walk to beach..</a>
+    <font size="-1"> (Venice/Marina Del Rey)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2614173116.html">$175 / 1br - 900ft&sup2; - &#9650;&#9650;&#9650;&#9650;&#9650;VACATION IN STYLISH 1BR W/DEN&#9650;&#9650;&amp;#</a>
+    <font size="-1"> (Los Feliz/Hollywood)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/ant/vac/2606500657.html">$935 / 2br - 850ft&sup2; - Nice House for rent</a>
+    <font size="-1"> (Palmdale East)</font>
+    <span class="p"> pic&nbsp;img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614170999.html">$145 / 2br - 1200ft&sup2; - $145/nt   Sept. 28-Oct. 6  sleeps 6</a>
+    <font size="-1"> (Venice Beach)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2608555989.html">$135 / 1br - ***Oct. 5-12 One week at Big Bear***</a>
+    <font size="-1"> (Big Bear, CA)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2584535602.html">4br - 5500ft&sup2; - &#9658;&#9788;&#9658;Spectacular Views Hollywood Hills </a>
+    <font size="-1"> (Hollywood Hills, Los Angeles )</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614153536.html">$2450 / 3br - 1000ft&sup2; - Venice Beach Cottage, steps to beach.</a>
+    <font size="-1"> (Venice)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583773994.html">$900 / 5br - 5159ft&sup2; - &#9658;&#9788;&#9658;Luxury Furnished Corporate Housing</a>
+    <font size="-1"> (Bel Air, Beverly Hills, Los Angeles)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583674566.html">$325 / 3br - &#9658;&#9788;&#9658;Lovely Spanish Style Hollywood Hills Home </a>
+    <font size="-1"> (Hollywood Hills, Los Angeles, California)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583748559.html">$350 &#9658;&#9788;&#9658;Jim Morrison Love Street House!!</a>
+    <font size="-1"> (Laurel Canyon, West Hollywood Hills LA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583684945.html">$4500 / 8br - &#9658;&#9788;&#9658;Magnificent Beverly Hills Mansion</a>
+    <font size="-1"> (Beverly Hills; LA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583669068.html">$500 / 3br - 3500ft&sup2; - &#9658;&#9788;&#9658;Spectacular Skyline City View Getaway</a>
+    <font size="-1"> (Mulholland; Hollywood hills; LA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614151390.html">$850 Studio Beach Apartment steps to beach</a>
+    <font size="-1"> (Venice)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2565578326.html">$550 / 3br - 3500ft&sup2; - Luxury Mulholland Retreat, Huge House</a>
+    <font size="-1"> (Mulholland Dr., Scenic Los Angeles View)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lac/vac/2572990809.html">$325 / 3br - 1800ft&sup2; - Roomy Romantic Spanish Beauty in The Hollywood Hills </a>
+    <font size="-1"> (Hollywood Hills, Los Angeles, LA)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2583655604.html">$114 / 1br - &#9658;&#9788;&#9658;Adorable West Hollywood Hills Bungalow</a>
+    <font size="-1"> (West Hollywood Hills; Los Angeles; )</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2568843693.html">$1600 / 1br - per week - Palms Place - zero carbon living - from Oct 11</a>
+    <font size="-1"> (Venice Beach)</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sgv/vac/2614127738.html">$995 / 700ft&sup2; - New Years Week in Las Vegas!</a>
+    <font size="-1"> (Las Vegas, Nevada)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/vac/2614118516.html">$500 Cabo San Lucas</a>
+    <font size="-1"> (Villa Del Arco)</font>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/lgb/vac/2614106465.html">Mclean Company Rentals- Family Fun </a>
+    <font size="-1"> (Palm Springs, Ca. )</font>
+    <span class="p"> img</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/wst/vac/2614095512.html">$99 Vacation Rental Near Montana Ave</a>
+    <font size="-1"> (Santa Monica)</font>
+    <span class="p"> pic</span>
+   </p>
+   <p>
+    <a href="http://losangeles.craigslist.org/sfv/vac/2605623000.html">$3200 / 2br - Beautifully Styled Garden House w/ Every Quality Convenience</a>
+    <font size="-1"> (Burbank, Sherman Oaks adj. )</font>
+    <span class="p"> pic&nbsp;img</span>
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/vac/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+ </body>
+</html>
+

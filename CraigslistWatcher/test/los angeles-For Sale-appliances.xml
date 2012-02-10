@@ -1,0 +1,892 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles appliances classifieds  - craigslist</title>
+  <meta name="description" content="los angeles appliances classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/app/index.rss" title="RSS feed for craigslist | appliances  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/app/">appliances</a>
+   <div id="satabs">
+    <a href="/app/">all los angeles</a>
+    <a href="/wst/app/">westside-southbay</a>
+    <a href="/sfv/app/">SF valley</a>
+    <a href="/lac/app/">central LA</a>
+    <a href="/sgv/app/">san gabriel valley</a>
+    <a href="/lgb/app/">long beach / 562</a>
+    <a href="/ant/app/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/app" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="app" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">appliances</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app" selected="">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:26:12 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih" id="images:5V35T45R13k93ma3o5b9nc00d1c4d660910fb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614526456.html">SUNBEAM IRON</a>
+    <font size="-1"> (GLENDALE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15T15U43nf3kf3o9b9n893fabfb4a9d15de.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614526164.html">Water Filtration System</a>
+    <font size="-1"> (Rowland Hts)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614525467.html">I have a Dish net reciever </a>
+    <font size="-1"> (west covina )</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93o43p45T55X55R2b9g97596cac64d61400.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2602020097.html">Electric knife - vintage</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/app/2614522862.html">whasher&amp;Dryer 1refrigirater 1freezer</a>
+    <font size="-1"> (lancaster)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45O05Y03n23k23lab9n9ad4c4c0f9d21262.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614521330.html">Old School TV</a>
+    <font size="-1"> (Rowland Hts)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q55W55S53k83ob3p6b9n77b202addbd014a6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614519658.html">CHEFMATE MINI COOLER</a>
+    <font size="-1"> (Compton)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/app/2614519382.html">stove</a>
+    <font size="-1"> (palmdale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614517247.html">stainless steel refrigerator.1 yr old. like new!!</a>
+    <font size="-1"> (tarzana)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Y15P13n13me3pdb9na9c13d0ed1821bda.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614517057.html">Mini Refrigerator</a>
+    <font size="-1"> (Rowland Hts)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614516284.html">Maytag Dishwasher - Guaranteed to work</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n73m53p05Y05Q15U4b97cd88977c23c811f1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2586743080.html">Working DRYER!!!!</a>
+    <font size="-1"> (Cerritos, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n83me3o35O25V65S0b9lf844bfca651519ea.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2610922555.html">Coffee Maker / Machine -Mr. Coffee - stainless</a>
+    <font size="-1"> (Glendale, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k13o23l45V35Q05W3b99220bf64b8aec1b93.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2589954877.html">Viking Gas Range Spider Grates and Burner Caps-6</a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n93m13lb5T05W25S0b9l7b1ba1fc45601aa7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2610604619.html">GE 29 cu in Artica Refridgerator</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35Z55W63n43kc3l0b9n71cda80b82881f02.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614514487.html">Kenmore Dryer and Whirlpool washing machine</a>
+    <font size="-1"> (Chino Hills, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65U45S13n63oa3lab9ne54fa8ade8bf14ff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614513199.html">ALARM CLOCK AND RADIO</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2588634782.html">ALTAIR Lighting Bathroom 4-Light AL-2019 New in Box</a>
+    <font size="-1"> (covina)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23mc3le5Q45Z45X5b9fe2b0607bca221e4b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2601072357.html">New Frigidaire  Refrigerator </a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3kc3le5T45P15R3b9kfb322791c6c71cbd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2608932854.html">****LIKE NEW White G.E. 1.4 cu. ft. Microwave. Used only 2 Weeks***</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15Z65S43mb3pe3o6b9n2edd55076cb2116b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614507396.html">droid A855</a>
+    <font size="-1"> (lynwood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U65P65R23kb3pc3o1b9nb5efff2e1bb31a44.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614506021.html">book/video shelf</a>
+    <font size="-1"> (carson)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/app/2614505953.html">Gas Dryer </a>
+    <font size="-1"> (lancaster)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55T15W63n63k83l9b9n6bd43801d9c210a0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614504390.html">washer/dryer</a>
+    <font size="-1"> (whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55X45S43k33oc3p3b9n028a3e95e431122b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614503883.html">Ac and heater portable unit</a>
+    <font size="-1"> (Los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2580367396.html">White stackable Kenmore washer/dryer</a>
+    <font size="-1"> (Los Angeles)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35Z65S13m43p43l7b9nf99f81de70c512fa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614501969.html">Hobart meat slicer</a>
+    <font size="-1"> (Los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35P15S53m53o43l1b9n6e45daf0a82f132d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614501587.html">BOX FLOOR FAN.  LOTS OF POWER!!!</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55Q05X23nd3k83o8b9n5daa83f42b8c1d08.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614501463.html">Soda vending machine</a>
+    <font size="-1"> (North Hollywood )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Z55S23n03kc3o2b9n14cb7c3c6111117c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614500715.html">Cuisinart 7 cup Food Processor </a>
+    <font size="-1"> (Monterey Park )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z25W55S43oa3pe3l4b9n73d18bdb97d41cec.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614500623.html">Big Soda vending machine good condition</a>
+    <font size="-1"> (North Hollywood )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y55Q55Z03n33k13m5b9ne0bd1f93e0fb10bf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614500017.html">Fiorenzato Grinder + Gaggia Espresso W/ Naked Portafilter For Sale</a>
+    <font size="-1"> (West Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05U35P13k53p63o4b9n234c5dd7bfdc1cb7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614499222.html">Made To Order Bottomless Portafilter For Your Espresso Machine</a>
+    <font size="-1"> (West Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n13k33l15V45W55P3b9l7cb4b5fdc24318ff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2609957525.html">Large Whirlpool Refrigerator</a>
+    <font size="-1"> (West Hills)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k53mb3o05O45X15S5b916e5fd3c9632f165a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2577559042.html">Brand New JEN-AIR CONVECTIONAL OVEN</a>
+    <font size="-1"> (Rowland Heights)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kd3m73o25V05T65R5b9ida4900d4e6771295.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2605584054.html">sharper image electric tea maker</a>
+    <font size="-1"> (alhambra)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45U15R23kc3m23o2b9nd84c21547a91174d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614495563.html">Whirlpool Refrigerator</a>
+    <font size="-1"> (Chatsworth)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35W15R23n93kd3o5b9n4c7078e9be3a1cd7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614495119.html">GE Side-By-Side Refrigerator w/Water &amp; Ice - As New</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05S65R53n43ob3lab9ne44478d2f3d21d65.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614494615.html">New Articulating TV Wall Mounting Kit 14" 19" 29" 37</a>
+    <font size="-1"> (North Hollywood)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45O25P13n73kb3o0b9n3683da8c27921c48.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614494163.html">Mini refrigerator, fridge, freezer, EXCELLENT condition! $40 OBO</a>
+    <font size="-1"> (Pasadena)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25V05X43n63ob3lab9nd167093091861a67.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614493421.html">HI CAPACITY ELECTRIC DRYER BY WHIRLPOOL ROPER</a>
+    <font size="-1"> (ROWLAND HEIGHTS)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2595186404.html">Refrigirator/frizzer/icemaker</a>
+    <font size="-1"> (reseda)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15Q05U03k53me3lab9n63e7181fcded11d2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614490575.html">Classic Stove </a>
+    <font size="-1"> (Huntington Park)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45T25P03n63of3pcb9n3633364339ff1baa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614490225.html">1991 DODGE RAM CHARGER SS</a>
+    <font size="-1"> (LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33pe3l55Y05U15P2b99c13f0d06a53a1b5d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2590770523.html">&#8578;&#8578; SUPER CLEAN 25 CUBIC FOOT JENN AIR WHITE REFRIGERATOR &#8578;U</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n63oe3l15Y15T55Q3b9e1cd9bf6029d11795.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2598328983.html">&#8578;&#8578; SUPER CLEAN AMANA BOTTOM FREEZER REFRIGERATOR &#8578;&#8578;</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2589178554.html">Refrigirator/frizzer/icemaker</a>
+    <font size="-1"> (reseda)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65U15R03n43p43l4b9n1ef5f08cf5db1523.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614489740.html">&gt;&gt;&gt;&gt;fridge delivery service, washer,dryer</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65U15S33n63k43m3b9n876176e1c33b159b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614489486.html">Vending Machine!</a>
+    <font size="-1"> (Irwindale CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614488304.html">3 counter top pizza ovens 20 qt dough mixer </a>
+    <font size="-1"> (encino)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614487011.html">TASSIMO</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65Q35S23nc3kd3p2b9n188d8dc763121b8b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614486946.html">Remodeling sale VIKING etc..</a>
+    <font size="-1"> (Marina del rey)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nc3mf3p65Q25W25U0b9d8740faeca5291add.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2596843430.html">Ned moving help call os</a>
+    <font size="-1"> (sfv)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W05U45S23m73oc3l0b9nd6c483ab4b93176c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/app/2614483640.html">stacked washer/dryer combo</a>
+    <font size="-1"> (palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45Q15T63nb3m03p0b9na655283da7c21691.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614482974.html">Viking 48" 6 burner RANGE</a>
+    <font size="-1"> (marina del rey)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V05T05X03k53o63l3b9nc1cff79a928c1490.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614481591.html">BROAN UNDER CABINET RANGE HOOD</a>
+    <font size="-1"> (TORRANCE)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3m43l35Y65W05P1b9e9ce2e98ee2f8196b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2598863382.html">La Pavoni PC-16 Professional Espresso Machine Chrome</a>
+    <font size="-1"> (Sylmar, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T45Z65U33ne3k33p7b9n2b2861ed10fd1e05.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614478076.html">MAGIC CHEF RANGE</a>
+    <font size="-1"> (*****SUN VALLEY*****)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U45P65X13n43ob3p2b9n1c9422ee31d718f8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614477854.html">&#9658; We Help You Move_......_Movers</a>
+    <font size="-1"> (sfv )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Q35Z23nc3k93o1b9n2cdcf3bfbcca1822.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614477654.html">Nutone range hood</a>
+    <font size="-1"> (hawthorne)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55Z45X13k43m23lab9nfd9172c67df11a4d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614477518.html">&#9658;Movers with Truck, Low Rates, last min - OK </a>
+    <font size="-1"> (long beach )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35W55U53kf3ma3ldb9ncaa221866fd119e8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614475922.html">30 Galon water heater</a>
+    <font size="-1"> (N. Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T05P15S53n43p83ldb9n6a6eb0ff5f6e1423.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614474621.html">Kenmore 18.2 cu. ft. Top Freezer Refrigerator</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mc3oa3le5Z15W25X1b9i7551c09714791f6e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2603366437.html">New portable ac unit 10,000 btu </a>
+    <font size="-1"> (Industry )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3oc3p63l25Y25T25P5b9k913e36f3620e13aa.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2609392410.html">Small refridgerator freezer fridge</a>
+    <font size="-1"> (Cerritos, ca)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m93o43l45V35W15U1b92ebf7b0dc5e11189a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2579106247.html">APPLIANCE REPAIR****FOR LEES **</a>
+    <font size="-1"> (SOUTHBAY&gt;INGLEWOOD.HAWTHORNE .GARDENA )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33ka3p85Z65T65U3b9350f727cc44351f55.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/app/2580695871.html">Freezer $150 obo</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3o73lb5W35X05R3b932d2f8388d5f61176.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2580693662.html">Master Bilt Freezer $150 obo</a>
+    <font size="-1"> (Santa Clarita)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15O05Z33k83o33l2b9n0c722459dc9c1ea9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614461655.html">Belleco JT-2 208/240V Conveyor Toaster </a>
+    <font size="-1"> (mar vista)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3m83p25U05R05S5b9k65b9084c685018e6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2609272168.html">Krups FME2 12 cup coffee maker  color white</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mf3pc3o55Y65Q55R1b9k0c23d08c2eb616fe.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2609275241.html">Panasonic dual casset Ghetto blaster RX-CT830</a>
+    <font size="-1"> (LONG BEACH)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15T35W53n53k23o5b9n5de506d7fb521526.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614458164.html">FRIGIDAIRE REFRIGERATOR</a>
+    <font size="-1"> (*****SUN VALLEY****)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2609961270.html">Small refrigerator </a>
+    <font size="-1"> (Wilmington 310)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3m83oa5T35P05R6b97b478c3f7dc841c80.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2587705999.html">Frigidaire Front Load Washer *and* Dryer</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y05U05P03n73ma3odb9n94d84f1fec011ba0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614454721.html">Newco Coffee Maker</a>
+    <font size="-1"> (North Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3mc3p83l45Z15S05R0b9e7260ef8084881761.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2598733648.html">Magic chef Refrigerator </a>
+    <font size="-1"> (Wilmington (310))</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35W45X53k33me3l7b9n8dfc3772b84d1df8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2614453625.html"> Vinotemp Wine Cabinet for long term storage</a>
+    <font size="-1"> (mar vista)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55P35S63o73p03leb9n7705ad993760125b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2610871571.html">Stainless Steel Kitchen Aid Refrigerator</a>
+    <font size="-1"> (Calabasas)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45X65R33m83p53oeb9n242da8e62111128c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614449658.html">Sylvania Electric Stove Heater</a>
+    <font size="-1"> (Temple City )</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W15X15S43ne3p73o5b9n31bdf4070f671a09.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614446082.html">Medicine Cabinet (Gabinete de 3 puertas y video camara antigua)</a>
+    <font size="-1"> (Baldwin Park ca)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m73pc3oe5O15Y45P1b9hdc2b9be195731012.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2604218605.html">Ultimate II PUR filter cartridge</a>
+    <font size="-1"> (Lakewood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ma3o83p45Z45X35S5b9l5d63646a1259179f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2610310224.html">Kenmore microwave</a>
+    <font size="-1"> (Hacienda Heights,Ca91745)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k03m83o15U45P55S2b95e0c3c90498181fa7.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2583733241.html">Kegerator</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q15W65S23ka3p43ofb9n5593f3126b1112f9.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614442721.html">GE Garbage compactor </a>
+    <font size="-1"> (porter ranch)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25U55R53kb3mf3pbb9n6e6103f76efb1dd5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614440822.html">Chefmate Compact Refrigerator</a>
+    <font size="-1"> (91775)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q15U55X53n63pf3o2b9n53daa20fd3491feb.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614439965.html">LED TV Mount 36'' ... 60  /W Tilt</a>
+    <font size="-1"> (North hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/app/2610149848.html">Washer N Dryer Repair&#9829;**************************</a>
+    <font size="-1"> (all southbay area)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2610127890.html">&#9600;&#9604;&#9600;Washer n dryer Service n Repair&#9829;*********************</a>
+    <font size="-1"> (all southbay area)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z25W45X33n53o73lfb9nb5b8687e27d51969.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614438789.html">Empire wall heater 35000 btu</a>
+    <font size="-1"> (paramount)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5U25R45S13k13p43l4b9n22add104035e1173.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614437823.html"> Microwave (Magic Chef)</a>
+    <font size="-1"> (porter ranch)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35T05Z13m23p63o0b9nb9126c8946f6179e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614431597.html">I am selling toilet kothler</a>
+    <font size="-1"> (BALDWIN PARK CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T45U55R13k33m13o8b9nf7e1b5d8cec91e7e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2614431196.html">Full motion type Flat Panel Mount 14'' ~ 35</a>
+    <font size="-1"> (North Hollywood)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z25P15X23kb3pb3l5b9n20bed40b23421e6b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614430801.html">URINAL</a>
+    <font size="-1"> (BALDWIN PARK CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T55X05S43n13kc3pbb9n9917d76e70001710.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614430774.html">COUNTER DEPTH STAINLESS STEEL REFRIGERATOR GE ARTICA </a>
+    <font size="-1"> (STDIO CITY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25W05X43p43o53l9b9nd0531d8beb2d191f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614430471.html">Amana Side by Side White Refrigerator</a>
+    <font size="-1"> (La Verne)</font>
+    <span class="p"> pic&nbsp;img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Q35P13n33k23l1b9nfe7d0ddd21ac1d56.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/app/2614429854.html">ESTUFA COLOR BLANCO</a>
+    <font size="-1"> (BALDWIN PARK CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z35X45S53nd3mc3p4b9nc853e7d549ed1e75.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/app/2614429029.html">Williams 35btu wall heater</a>
+    <font size="-1"> (paramount)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m03p83o55O35V15R6b91a6099a8131c51955.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/app/2577138954.html">ELECTRIC OIL-FILLED RADIATOR HEATER </a>
+    <font size="-1"> (WEST HOLLYWOOD)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k23m53lf5Y65W15P3b9j77e2973bf4b71157.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2606610882.html">condenser unit LIKE NEW!</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55Q25X03ka3m83peb9n405d620e67b31846.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/app/2614427315.html">MAYTAG FRENCH DOOR STAINLESS ENERGY STAR WATER AND ICE </a>
+    <font size="-1"> (STUDIO CITY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/app/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

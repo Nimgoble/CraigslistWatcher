@@ -1,0 +1,7 @@
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.csproj.GenerateResource.Cache

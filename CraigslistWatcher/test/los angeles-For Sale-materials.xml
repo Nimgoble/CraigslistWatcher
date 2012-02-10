@@ -1,0 +1,882 @@
+<!DOCTYPE ="" html="" PUBLIC="" "-//W3C//DTD="" HTML="" 4.01="" Transitional//EN"="">
+<html>
+ <head>
+  <title>los angeles materials classifieds  - craigslist</title>
+  <meta name="description" content="los angeles materials classifieds  - craigslist">
+  <link rel="alternate" type="application/rss+xml" href="/mat/index.rss" title="RSS feed for craigslist | materials  in los angeles ">
+  <link type="text/css" rel="stylesheet" media="all" href="http://www.craigslist.org/styles/craigslist.css?v=9">
+ </head>
+ <body class="toc">
+  <a name="top"></a>
+  <div class="bchead">
+   <span id="ef">
+    <span id="hideImgs">
+     <a href="#" onclick="hideImgs();return false;">hide images</a>
+    </span>
+    <span id="showImgs">
+     <a href="#" onclick="showImgs();return false;">show images</a>
+    </span>
+    <a href="http://www.craigslist.org/about/help/">help</a>
+    <a href="https://post.craigslist.org/c/lax/S?lang=en">post</a>
+   </span>
+   <a href="/">los angeles craigslist</a>
+   <a href="/sss/">for sale / wanted</a>
+   <a href="/mat/">materials</a>
+   <div id="satabs">
+    <a href="/mat/">all los angeles</a>
+    <a href="/wst/mat/">westside-southbay</a>
+    <a href="/sfv/mat/">SF valley</a>
+    <a href="/lac/mat/">central LA</a>
+    <a href="/sgv/mat/">san gabriel valley</a>
+    <a href="/lgb/mat/">long beach / 562</a>
+    <a href="/ant/mat/">antelope valley</a>
+   </div>
+  </div>
+  <blockquote>
+   <form action="/search/mat" id="searchform" method="get">
+    <script type="text/javascript">
+     <!-- var="" catAbb="mat" ;="" function="" flipCatAndSubmit(cat)="" {="" sf="document.getElementById('searchform');" cs="document.getElementById('catAbb');" for(var="" i="" <="" cs.length;="" i++)="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+     < cs.length;="" i++)="" {="" if(cs[i].value="=" cat)="" cs[i].selected="true;" }="" sf.submit();="" --=""/>
+    </script>
+    <fieldset id="searchfieldset">
+     <legend id="searchlegend">materials</legend>
+     <table id="searchtable" width="100%" cellpadding="2" summary="">
+      <tr>
+       <td align="right" width="1">search for:</td>
+       <td colspan="2" width="30%">
+        <input id="query" name="query" size="30" value="">
+        <select id="catAbb" name="catAbb">
+         <option value="ccc">
+         <option value="eee">
+         <option value="sss">
+         <option disabled="" value="">
+         <option value="atq">
+         <option value="app">
+         <option value="art">
+         <option value="pts">
+         <option value="bab">
+         <option value="bar">
+         <option value="bik">
+         <option value="boa">
+         <option value="bks">
+         <option value="bfs">
+         <option value="ctd">
+         <option value="cto">
+         <option value="cta">
+         <option value="emd">
+         <option value="mob">
+         <option value="clo">
+         <option value="clt">
+         <option value="sys">
+         <option value="ele">
+         <option value="grd">
+         <option value="zip">
+         <option value="fua">
+         <option value="fud">
+         <option value="fuo">
+         <option value="gms">
+         <option value="for">
+         <option value="hab">
+         <option value="hsh">
+         <option value="wan">
+         <option value="jwl">
+         <option value="mat" selected="">
+         <option value="mca">
+         <option value="mcd">
+         <option value="mcy">
+         <option value="msg">
+         <option value="pho">
+         <option value="rvs">
+         <option value="spo">
+         <option value="tia">
+         <option value="tid">
+         <option value="tix">
+         <option value="tls">
+         <option value="tag">
+         <option value="vgm">
+         <option disabled="" value="">
+         <option value="ggg">
+         <option value="hhh">
+         <option value="jjj">
+         <option value="ppp">
+         <option value="res">
+         <option value="bbb">
+        </select>
+       </td>
+       <td>
+        <label>
+         <input type="radio" name="srchType" value="T" title="search only posting titles">
+        </label>
+        <label>
+         <input type="radio" name="srchType" value="A" checked="checked" title="search the entire posting">
+        </label>
+        <input type="submit" value="Search">
+       </td>
+      </tr>
+      <tr>
+       <td align="right" width="1">price:</td>
+       <td>
+        <input name="minAsk" class="min" size="6" value="">
+        <input name="maxAsk" class="max" size="6" value="">
+       </td>
+       <td id="hoodpicker"></td>
+       <td align="left">
+        <label>
+         <input type="checkbox" name="hasPic" value="1">
+        </label>
+       </td>
+      </tr>
+     </table>
+    </fieldset>
+   </form>
+  </blockquote>
+  <span id="showPics"></span>
+  <span id="hidePics"></span>
+  <blockquote>
+   <table width="100%" summary="">
+    <tr>
+     <td valign="top">[ Fri, 23 Sep 21:36:22 ]</td>
+     <td valign="top" id="messages">
+      <span class="hl">
+       <a href="http://www.craigslist.org/about/recalled_items">avoid recalled items</a>
+      </span>
+      <span class="hl">
+       <a href="/about/prohibited.items">partial list of prohibited items</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.211.org/">dial 2-1-1 for social services</a>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/scams">AVOIDING SCAMS &amp; FRAUD</a>
+       </b>
+      </span>
+      <span class="hl">
+       <b>
+        <a href="/about/safety">PERSONAL SAFETY TIPS</a>
+       </b>
+      </span>
+      <span class="hl">
+       <a href="http://youtube.com/craigslist">craigslist {tv}</a>
+      </span>
+      <span class="hl">
+       <a href="http://www.eskimo.com/~newowl/Flagged_FAQ.htm">unofficial flagging faq</a>
+      </span>
+      <span class="hl">
+       <a href="http://blog.craigslist.org/">craigslist blog</a>
+      </span>
+      <span class="hl">
+       <a href="/cgi-bin/success.stories.cgi">success story?</a>
+      </span>
+     </td>
+    </tr>
+   </table>
+   <h4 class="ban">Fri Sep 23</h4>
+   <p class="row">
+    <span class="ih" id="images:3mf3pf3lc5Z35P05R6b9fa13055c23dfb183e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2601155737.html">STEEL THREAD WIRE 1/2 INCH DIAMETER  W/ HOLD DOWNS &amp; TIES 220 FEET</a>
+    <font size="-1"> (SUN VALLEY, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3m93l65T45Q05U0b996289af4d829c108a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2591154370.html">INTERIOR DOOR - 30" x 6'8" - NEW/UNUSED</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k63m93oe5Q25U35X6b9h1b19c84f151e16bc.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2603306936.html">RECLAIMED/DIMENSIONAL LUMBER</a>
+    <font size="-1"> (SHERMAN OAKS)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m63o33p85Q65T55U2b9h40fdaf8cee431013.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2603304133.html">Marvin Wood French Doors-Dual Glazed-NEW</a>
+    <font size="-1"> (Sherman Oaks)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93p83o45Y15O55P3b9faa2589af7ef21c22.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2601166043.html">3M  CLEAR TAPE 3/4 INCH   W/  3 INCH CORE</a>
+    <font size="-1"> (SUN VALLEY, CA)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z15T25S53oa3p03lab9n072e172d2adf13b8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614530262.html">Shower</a>
+    <font size="-1"> (inglewood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65T65X03nd3p53l3b9nd01d1ee4f3d816bf.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/mat/2614527783.html">Firewood for sale</a>
+    <font size="-1"> (Palmdale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3o43l15W15X25S2b9799f36469be381c90.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2586129474.html">Light Ceiling 5 Globe ,Custom Krackle Finish</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k33p63l45O55V65U0b9844b0a755374f11b6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2589304179.html">Window White Vinyl w/Grid 4x6</a>
+    <font size="-1"> (Torrance)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614525319.html">MASTER BATH SPA TUB</a>
+    <font size="-1"> (SIMI VALLEY)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45P25S53k33m33l5b9n3953b8a640c3147f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614520485.html">raw redwood burl huge 56x39x3</a>
+    <font size="-1"> (626-286-3663)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53oa3p65O55T35U2b9f09eeb87804e81790.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2601187639.html">Copper Bath Sink -Hand Made </a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nb3m83l95Y05T35P0b9982723a0f8d111077.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2590182525.html">Kohler Deck Mount Faucet- New</a>
+    <font size="-1"> (Palos Verdes)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/mat/2614507412.html">$10 truck load Dry Pine Logs Firewood</a>
+    <font size="-1"> (Littlerock)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n63k33l55Y45Z65R1b9j4277093348501f71.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2606221244.html">ceramic terra cotta tile   50cents</a>
+    <font size="-1"> (whittier)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45U05X33n53k83m3b9n59e4dcae17ff19e2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2603404059.html">Baldwin Polished Brass Hinges- New</a>
+    <font size="-1"> (Long Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/ant/mat/2614499731.html">Drain Pipes Lot Underground Polystyrene White Pipes (13)</a>
+    <font size="-1"> (Littlerock)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35Z35U33nf3m73pfb9nfe73ad1af7e91e7e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614493762.html">BRAND NEW Windows, Vinyl &amp; Marble Tile</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65Z45X03nc3kd3lab9nd217da515b2a1734.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614479066.html">Table Glass smoke  </a>
+    <font size="-1"> (La Verne)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5P15S55R43m73o73l9b9nb2ec4d104f0e1d7e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614478072.html">Metal-Clad Cable 12-3</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T45P45R43me3o03lbb9n47f628dec43c1d67.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614475712.html">Metal-Clad Cable 12-2</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V55X15R53m93od3pcb9n0ef75ce9ed571ee1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614474838.html">vinyl tarps</a>
+    <font size="-1"> (covina)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2565984504.html">dissection kit</a>
+    <font size="-1"> (northridge ca)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z05U35R13kf3m53pdb9n948a6f8eb3c91f7e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614450072.html">12" cuts of 3"x3/4" solid Brazilian Walnut</a>
+    <font size="-1"> (Los Feliz)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O45Z65W03m93p23o3b9n8602dfa2a0361aae.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614449160.html">Marble Slabs</a>
+    <font size="-1"> ( Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T25Q65W03m43pc3o7b9na2789157a0f11c7a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614445691.html">Kohler undermount sink</a>
+    <font size="-1"> (Hacienda Heights,Ca91745)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2605737700.html">Hardwood flooring (floating) 2.94 sqft. MUST SEE</a>
+    <font size="-1"> (909-851-5089)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35T55X53m33oa3peb9n3d6d34f34143149f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614442522.html">(OBO) wood paneling, 2x4's and plywood</a>
+    <font size="-1"> (pico rivera)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3md3le5T65Q35U4b9b13f19259639b11db.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2594107206.html">KOHLER Clearflo Adjustable Pop-up Drain 7169-AF-CP</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3m93o55T05P55S2b9bc293a07c7be31b4d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2594108086.html">*NEW in box* Ashland Hardware Systems Sliding Door Non-Keyed Trim Set</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n53m23o55V45X55R1b9baa109cf8a67719a3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2594108393.html">*NEW* Poplar Wood Balusters</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3mf3od5U65P65X4b9b8addffef3b4c172e.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2594129985.html">*NEW* Mountain Plumbing Products-Decorative Brushed Nickel Bottle Trap</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3kf3pe5Y25Q25W5b9ca165eacf760d1be1.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2594624570.html">*NEW* Rubinet Faucet Co. - Oil Rub Bronze Bottle P-Trap</a>
+    <font size="-1"> (Sylmar)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O55W45U43n23m43l0b9nae08acaae74f1f2c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614440884.html">Marble Slabs For Sale $150 for all 3</a>
+    <font size="-1"> (East los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q35P55X63nd3of3l7b9n073df8578b221db5.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614404125.html">************************WHITE DOOR 3' X 78" 40.00 obo*****************</a>
+    <font size="-1"> (WEST LOS ANGELES)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15T45U13n13mb3l1b9na79004d0844e154c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614398500.html">DO YOU NEED  HARDWOOD FLOOR INSTALLER ???????????????????????????????</a>
+    <font size="-1"> (ALL)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W25P15R33ka3o13p0b9n3e1039556b1316ed.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614394325.html">lead</a>
+    <font size="-1"> (southbay)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33o23p15O65Z55W4b9k5704aa65063f17b8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2609396841.html">**70% OFF Interior Paint- FREE Delivery**</a>
+    <font size="-1"> (L.A)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3na3m73p85Q65T05U4b9g7fa35f0f5f7d16f8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2602790573.html">~~INTERIOR PAINT- SWISS COFFEE for LESS! ~~</a>
+    <font size="-1"> (L.A)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k43ob3p55T55Z35R4b9ge890d93a1fe91ab8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2602801987.html">~~INTERIOR PAINT- SWISS COFFEE for LESS! ~~</a>
+    <font size="-1"> (L.)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y25Z65P43n33k33ocb9n2ba846bd4d401b79.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614370021.html">Rope accent tile strips</a>
+    <font size="-1"> (Santa Clarita / Saugus / Valencia)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W05P05R03na3k63o6b9ne6538d0077811767.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614369356.html">Lighting(High End) - Overpurchase on remodel job</a>
+    <font size="-1"> (Simi Valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m93o53p45V05P45X1b8v3b010cd78a1b192b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2576200765.html">Granite Tile Flooring</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614365773.html">Kitchen Cabinets &amp; Appliances</a>
+    <font size="-1"> (LAGUNA BEACH)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35P45R53p13o83lbb9n76d68e26a7f316c3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614363622.html">XX LARGE DOG DOOR</a>
+    <font size="-1"> (Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Z05P03nd3pf3o1b9nf9a061ec36011110.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614360126.html">wood windows</a>
+    <font size="-1"> (los angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n63ka3m45Q35Z15W4b9936f4696c6e0e1cb2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2590256676.html">Vinyl window</a>
+    <font size="-1"> (Covina ca)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35S35R53n23pb3l2b9na4c3e51cc6751413.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614350122.html">antique windows</a>
+    <font size="-1"> (hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m13o23p45Z35Q45R1b9i09092edce7491999.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2605396561.html">Tub</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587213241.html">Paint and Stains</a>
+    <font size="-1"> (Culver City)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587212016.html">Electrical Supplies</a>
+    <font size="-1"> (Culver City)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587210787.html">Wheels</a>
+    <font size="-1"> (Culver City)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43oa3lc5Y35Z45Q0b97687fc6980d2c1f6c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587141644.html">Heavy Duty Casters</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n23k03p05O35Z25R1b97f4aa58567e881a63.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587082520.html">Windows</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T15U05R63n93m63l1b9neab1856bc1fe12f2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2614311922.html">MOISTURE BARRIER FOR FLOORING </a>
+    <font size="-1"> (FT VALLEY)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3k93m63p45V25W25P0b97046261ecd8a6141d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2587045858.html">New Mail Slot</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V25Z05X43m13p33l7b9n182a880fb57f1a04.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614305697.html">LARGE new double pane window with climate control; glass blocks</a>
+    <font size="-1"> (San Pedro)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V35Z35X53n63p63l5b9n6f30adfc882f147c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614300059.html">Sliding Patio Door Aluminum Frame Single Pane 20' length 10' opening </a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5T15P55X23n53kd3pab9n4b31d18e809e1d7b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2614292329.html">awnings</a>
+    <font size="-1"> (Blue Awnings)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15X15R23k93ma3o1b9n78e0e35e06971a26.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2614290785.html">Window security bars</a>
+    <font size="-1"> (Bell Gardens)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15O55X13n43k83p3b9n5b7ab9bfb6ec1f33.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614288248.html">Aluminum Awning Vintage</a>
+    <font size="-1"> (Burbank)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614284872.html">Large Sliding Patio Aluminum Window XOX Aluminum 93 3/4 X 39</a>
+    <font size="-1"> (Glendale)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n43m33ld5Q35P45R2b99c27a5eb6feba1b9b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2590790749.html"> doors for sale</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nd3pc3o35Q35X05S6b99bbfc4a7cbaa81009.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2590780242.html">Old Spanish roof tiles</a>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2602542960.html">5 gallon Behr Premium Plus Satin Enamel latex</a>
+    <font size="-1"> (605 fwy and 10 fwy)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3nf3p63l55W05X45S0b9l124cf54df4d516be.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2609541638.html">Ferrari Cabinet Hinge</a>
+    <font size="-1"> (San Pedro)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kf3p33o95Y25Q35Z2b9l8f5ded9d49a814ab.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2609541792.html">LARGE new double pane window with climate control; glass blocks</a>
+    <font size="-1"> (San Pedro)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n33k53pb5V35Y05T4b9f7c8ac93435ed12f2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2599560070.html">pegs, marble countertop, glass, double pane windows with climate cntrl</a>
+    <font size="-1"> (San Pedro)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y65X45R23n33pd3o4b9n0d94bf15cb4c1b9b.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614274951.html">Vintage Vanity Lights Mirrored 70's retro style look 6 socket 36" </a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n83pd3l65V05P65X0b9je0c6e465704216c3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2607303890.html">Decomposed Granite Gravel and Box of Rocks for lanscaping and design</a>
+    <font size="-1"> (Glendale)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2609542704.html">Stainless Steel 20 Gauge - 10x4 sheets</a>
+    <font size="-1"> (San Pedro)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2565819877.html">oak entry door/side lites</a>
+    <font size="-1"> (wilmington)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35T15Q53n83kb3p7b9n9d60fdd51c6a13d8.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614252596.html">!LOOK! Aluminum French Window (Used) In Good Condition</a>
+    <font size="-1"> (Torrance / Southbay)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O35Z15W13n83k93l8b9nbac9344d47211905.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614252589.html">Solid Oak doors</a>
+    <font size="-1"> (Temple City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15S65R53ka3m73o0b9n0441b3daec8e1c98.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614251090.html">!LOOK! Kohler Blue Toilet and a Matching Pedestal Sink with Faucet</a>
+    <font size="-1"> (Torrance, 90502)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15U45R33n43mf3lbb9nb0967e88e3f313c4.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614248842.html">!LOOK! Kohler Triple Basin Kitchen Sink. Trieste Almond. Moen Faucet</a>
+    <font size="-1"> (Torrance, 90502)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z55Q15P13ka3md3o0b9n8b03cee3ee7513a0.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614240630.html">BRICK VENEER 800+ PIECES</a>
+    <font size="-1"> (San Dimas, Ca.)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V45T65X23n63kf3p2b9n7fd3bdfb51d51731.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lgb/mat/2614238381.html">integrity glass window</a>
+    <font size="-1"> (compton)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ob3pb3l35Y55P05R6b9je8b525044e8215b2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2596765002.html">red bricks over 150</a>
+    <font size="-1"> (pomona)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O65T25P33nc3k33meb9ne961ab7743821c70.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614234225.html">Japanese Ofuro Style Soaking Tub</a>
+    <font size="-1"> (Las Vegas Nevada)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614210926.html">Delta Stainless 1-Handle Shower Faucet with Single-Function Showerhead</a>
+    <font size="-1"> (west covina)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q45P15X53kd3mc3p7b9n5aa0b69ddc851c63.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614209000.html">Huge Window 10ftx4ft Dual pane 1/4in E-glass in Frame-Brand New</a>
+    <font size="-1"> (burbank / sun valley)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W35X35S03kb3o63p0b9n0f7ac782dc741955.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614208828.html">Attn: Cabinet Makers &amp; Carpenters: 6 foot long belt sander</a>
+    <font size="-1"> (Studio City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2584229661.html">STORAGE LOS ANGELES'S LOWEST RATES BEST SERVICE SINCE 1985</a>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Q25Z55U33m73p83l0b9n63d9ff49517b1086.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614193357.html">MONSTER S14-4R CL (IN WALL) CUSTOM INSTALLATION SPEAKER CABLE</a>
+    <font size="-1"> (CANOGA PARK)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5O15Z25X63ne3k43mbb9n1b41345d3eed191f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614171923.html">Turn your pickup into a dump truck!!</a>
+    <font size="-1"> (Gardena)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5W15X35S53n53k13o7b9n168b969f7b02181c.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614168799.html">GUTTERS**SEAMLESS**</a>
+    <font size="-1"> (TORRANCE/SAN PEDRO)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2602632355.html">Got Tyvek? Can you spare some?</a>
+    <font size="-1"> (LA/SFV/SGV)</font>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V15Q15R53m73pa3l4b9nf6c2b8f416b7125d.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614157248.html">Brass wall sconce ( 2 sconce )</a>
+    <font size="-1"> (North Hollywood)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y35U45X13n03p73l6b9nb68055b6fad5134a.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614141350.html">Insulation 6 rolls 24" X 100 ft </a>
+    <font size="-1"> (Glendora)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2608593250.html">Exercise Equipment Powertec Fitness in Good Conditions</a>
+    <font size="-1"> (rosemead)</font>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3kc3m83pa5V35O15X2b9ffde749b1ea8c11e3.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2600727329.html">Brand new Maple Wood Floors 2 1/2 Boxes</a>
+    <font size="-1"> (Culver City)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3n03m13p15Y05P45R3b9ed919e76872ec1f40.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2598748347.html">Fluorescent light fixture (wood)</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3ne3m63o25O25X65R2b9l9aab945a7db914b6.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2610207867.html">Modern towel rack, soap holder, toothbrush holder, and mirror combo</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y45X35S33na3me3l9b9n3de8c5e336821df2.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sfv/mat/2614124770.html">Accent tile strips / 3 Designs</a>
+    <font size="-1"> (Santa Clarita / Saugus / Valencia)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Z65X65S33k53o43l4b9n2d418d9319d811ff.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2610173307.html">Brick Skins</a>
+    <font size="-1"> (Los Angeles)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/lac/mat/2614121820.html">Engineered Hardwood Flooring Sale - Floor Zone - All LA/OC $2.49/sf</a>
+    <span class="p"> img</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5Y15Q65T53k83p23o2b9ne0562b490c2414bd.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/wst/mat/2614118946.html">Modern faucets (pair)</a>
+    <font size="-1"> (Redondo Beach)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:5V65Q45X13n53o33p6b9n7ffe060fcccd1b6f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2614118918.html">Chainlink fence 175' X 10'</a>
+    <font size="-1"> (Glendora)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p class="row">
+    <span class="ih" id="images:3m83ob3la5O65W25R3b9l80814564b96d141f.jpg">&nbsp;</span>
+    <a href="http://losangeles.craigslist.org/sgv/mat/2610379376.html">R22 Refrigerant New 30 lbs. tanks</a>
+    <font size="-1"> (Downey)</font>
+    <span class="p"> pic</span>
+    <br class="c">
+   </p>
+   <p align="center">
+   <font size="4">
+    <a href="index100.html">next 100 postings</a>
+   </font>
+   <div id="footer">
+    <hr>
+    <span id="copy">
+     <br>
+    </span>
+    <span class="rss">
+     <a class="l" href="/mat/index.rss">RSS</a>
+     <a href="http://www.craigslist.org/about/rss">(?)</a>
+     <br>
+    </span>
+   </div>
+   <br>
+   <br>
+   <div id="floater">&nbsp;</div>
+  </blockquote>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery-1.4.2.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/toChecklist.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/jquery.form-defaults.js"></script>
+  <script type="text/javascript" src="http://www.craigslist.org/js/tocs.js?v=3"></script>
+  <script type="text/javascript">
+   <!-- window.tocpix="1" --="">
+  </script>
+ </body>
+</html>
+

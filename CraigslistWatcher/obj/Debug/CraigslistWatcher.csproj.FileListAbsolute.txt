@@ -1,0 +1,89 @@
+C:\Misc Projects\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\bin\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Misc Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Misc Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Misc Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Misc Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\bin\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\16092011\bin\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\16092011\bin\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\ResolveAssemblyReference.cache
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Misc Projects\CraigslistWatcher\16092011\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\bin\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\bin\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\18092011\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\21092011\bin\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\21092011\bin\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\ResolveAssemblyReference.cache
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Misc Projects\CraigslistWatcher\21092011\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\bin\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\21092011_2\bin\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\23092011\bin\Debug\CraigslistWatcher.exe
+C:\Misc Projects\CraigslistWatcher\23092011\bin\Debug\CraigslistWatcher.pdb
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\ResolveAssemblyReference.cache
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Misc Projects\CraigslistWatcher\23092011\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.CLWTabPage.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.TabStripTest.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\bin\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\bin\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\obj\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\25092011\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\14012012\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.CLWTabPage.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.TabStripTest.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb

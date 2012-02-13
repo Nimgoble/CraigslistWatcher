@@ -8,3 +8,13 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.csproj.GenerateResource.Cache
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.exe
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.Form1.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.Properties.Resources.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\HtmlViewer.csproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\bin\Debug\HtmlViewer.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\bin\Debug\HtmlViewer.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\bin\Debug\HtmlParser.dll
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\bin\Debug\HtmlParser.pdb

@@ -87,3 +87,16 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.dll
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.pdb
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.dll
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\HtmlParser.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.CLWTabPage.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.TabStripTest.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb

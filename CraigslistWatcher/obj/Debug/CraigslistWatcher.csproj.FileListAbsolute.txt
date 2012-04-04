@@ -97,6 +97,7 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.TabStripTest.resources
-C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.exe
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\CraigslistWatcher.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResGen.read.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResGen.write.1.tlog

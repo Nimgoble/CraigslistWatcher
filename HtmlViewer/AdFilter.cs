@@ -11,7 +11,7 @@ public class AdFilter : PreciseParseFilter
 	public void Populate(string url) 
 	{
 		Init(url);
-		Title = (FilterBySequence(new int[] {1,0,0}));
-		Body = (FilterBySequence(new int[] {1,1,8}));
+		Title = (FilterBySequence(new int[] {1,0,0}).Value);
+		Body = (FilterBySequence(new int[] {1,1,8}).Value);
 	}
 };

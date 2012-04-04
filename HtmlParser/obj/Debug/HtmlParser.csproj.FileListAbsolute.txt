@@ -9,6 +9,7 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\bin\Debug\HtmlParser.pdb
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.Properties.Resources.resources
-C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.csproj.GenerateResource.Cache
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.dll
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\ResGen.read.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\ResGen.write.1.tlog

@@ -18,7 +18,7 @@ namespace HtmlParser
             return parser.ParseURL(url, true, new string[] { "<br>", "<br >", "<br />", "<br/>" });
         }
 
-        protected string FilterBySequence(int[] sequence)
+        protected HtmlTag FilterBySequence(int[] sequence)
         {
             try
             {
@@ -26,11 +26,11 @@ namespace HtmlParser
                 for (int index = 1; index < sequence.Count(); index++)
                     cur_tag = cur_tag.Children[sequence[index]];
 
-                return cur_tag.Value;
+                return cur_tag;
             }
             catch (System.Exception ex)
             {
-                return ex.ToString();
+                return null;
             }
         }
     };

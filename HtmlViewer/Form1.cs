@@ -17,21 +17,27 @@ namespace HtmlViewer
             lstvwClassMembers.Columns.Add("Member Name", -2, HorizontalAlignment.Center);
             lstvwClassMembers.Columns.Add("Nodes", -2, HorizontalAlignment.Left);
 
-            //AdFilter filter = new AdFilter();
-            //filter.Populate("http://chicago.craigslist.org/chc/msg/2847309928.html");
-            //EntryTest filter = new EntryTest();
-            //filter.Populate("http://chicago.craigslist.org/msg");
+            AdFilter adfilter = new AdFilter();
+            adfilter.Populate("http://chicago.craigslist.org/sox/msg/2939038242.html");
+            EntryFilter filter = new EntryFilter();
+            filter.Populate("http://chicago.craigslist.org/msg");
         }
 
         private void btnQuery_Click(object sender, EventArgs e)
         {
+            /*string file_name = "C:\\Users\\Pat\\Documents\\Programming\\Projects\\CraigslistWatcher\\CraigslistWatcher\\CraigslistWatcher\\test\\chicago-For Sale-music instr.xml";
+            System.IO.StreamReader test_file = new System.IO.StreamReader(file_name, true);
+            string test_data = test_file.ReadToEnd();*/
             trParsedURL.Nodes.Clear();
             if (txtURL.Text == String.Empty)
                 return;
 
             HtmlParser.HtmlParser parser = new HtmlParser.HtmlParser();
+            //if(!parser.ParseRawHTML(test_data, true, new string[] {"<br>"}))
+                //return;
             if (!parser.ParseURL(txtURL.Text, true, new string[] {"<br>"}))
                 return;
+
 
             parser.PopulateTreeView(ref this.trParsedURL);
             trParsedURL.ExpandAll();

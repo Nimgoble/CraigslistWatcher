@@ -134,6 +134,33 @@ namespace HtmlParser
                 Children[i].FilterForChildrenByNameAndAttribute(tag_list, ref parent);
             }
         }
+        public void FilterForChildrenByNameAndAttribute(Dictionary<string, KeyValuePair<string, string>> tag_list, out List<HtmlTag> values)
+        {
+            values = null;
+            if (Children.Count == 0)
+                return;
+
+            values = new List<HtmlTag>();
+            foreach(HtmlTag child in Children)
+            {
+                KeyValuePair<string, string> valid_attribute = new KeyValuePair<string, string>();
+                if (tag_list.TryGetValue(child.Name, out valid_attribute))
+                {
+                    if (valid_attribute.Key == "*")
+                    {
+                        if (child.Attributes.ContainsValue(valid_attribute.Value))
+                            values.Add(child);
+                    }
+                    else if (valid_attribute.Value == "*")
+                    {
+                        if (child.Attributes.ContainsKey(valid_attribute.Key))
+                            values.Add(child);
+                    }
+                    else if (child.Attributes.Contains(valid_attribute))
+                        values.Add(child);
+                }
+            }
+        }
         public void FilterOutChildrenByAttribute(Dictionary<string, List<string>> valid_attributes)
         {
             List<HtmlTag> new_children = new List<HtmlTag>();

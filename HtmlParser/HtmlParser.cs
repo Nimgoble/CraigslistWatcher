@@ -24,6 +24,11 @@ namespace HtmlParser
             Reset();          
         }
 
+        public bool ParseRawHTML(string html, bool remove_comments, string[] remove_tags)
+        {
+            Reset(html, remove_comments, remove_tags);
+            return ParseHTML();
+        }
         public bool ParseURL(string URL, bool remove_comments, string[] remove_tags)
         {
             try

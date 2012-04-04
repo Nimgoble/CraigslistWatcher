@@ -1,0 +1,27 @@
+﻿
+        
+        
+        
+        
+        /// <summary>
+        /// JH: 
+        /// </summary>
+        public bool IsValidNextTag(int place)
+        {
+
+            if( _html[place + 1] == '/')
+                place += 2;
+
+            string name = ParseTagName(place);
+
+            return Filter.AcceptableChildren.ContainsKey(name);
+        }
+
+        public bool IsValidNextTag(string name, out ParseFilter child)
+        {
+            child = null;
+            if (Filter == null)
+                return true;
+
+            return Filter.AcceptableChildren.TryGetValue(name, out child);
+        }

@@ -17,10 +17,10 @@ namespace HtmlViewer
             lstvwClassMembers.Columns.Add("Member Name", -2, HorizontalAlignment.Center);
             lstvwClassMembers.Columns.Add("Nodes", -2, HorizontalAlignment.Left);
 
-            AdFilter adfilter = new AdFilter();
+            /*AdFilter adfilter = new AdFilter();
             adfilter.Populate("http://chicago.craigslist.org/sox/msg/2939038242.html");
             EntryFilter filter = new EntryFilter();
-            filter.Populate("http://chicago.craigslist.org/msg");
+            filter.Populate("http://chicago.craigslist.org/msg");*/
         }
 
         private void btnQuery_Click(object sender, EventArgs e)

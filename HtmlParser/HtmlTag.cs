@@ -72,66 +72,30 @@ namespace HtmlParser
 
             return copy;
         }
-
-        public void FilterForChildrenByName(string name, out HtmlTag parent)
+        public void FilterForChildrenByName(string name, out List<HtmlTag> validChildren)
         {
-            parent = this.VanillaCopy(null);
-            this._FilterForChildrenByName(name, ref parent);
-        }
-
-        private void _FilterForChildrenByName(string name, ref HtmlTag parent)
-        {
-            if (parent == null)
-                parent = this.VanillaCopy(null);
-
+            validChildren = null;
             if (this.Children.Count == 0)
                 return;
 
-            for (int i = 0; i < this.Children.Count; i++)
+            validChildren = new List<HtmlTag>();
+            foreach (HtmlTag child in Children)
             {
-                if (this.Children[i].Name == name)
-                    parent.Children.Add(this.Children[i]);
-                this.Children[i]._FilterForChildrenByName(name, ref parent);
+                if (child.Name == name)
+                    validChildren.Add(child);
             }
         }
-        public void FilterForChildrenByName(List<string> names, ref HtmlTag parent)
+        public void FilterForChildrenByName(List<string> names, out List<HtmlTag> validChildren)
         {
-            if (Children.Count == 0 || parent == null)
+            validChildren = null;
+            if (Children.Count == 0)
                 return;
 
-            for (int i = 0; i < Children.Count; i++)
+            validChildren = new List<HtmlTag>();
+            foreach (HtmlTag child in Children)
             {
-                if (names.Contains(Children[i].Name))
-                    parent.Children.Add(Children[i]);
-
-                Children[i].FilterForChildrenByName(names, ref parent);
-            }
-        }
-        public void FilterForChildrenByNameAndAttribute(Dictionary<string, KeyValuePair<string, string>> tag_list, ref HtmlTag parent)
-        {
-            if (Children.Count == 0 || parent == null)
-                return;
-
-            for (int i = 0; i < Children.Count; i++)
-            {
-                KeyValuePair<string, string> valid_attribute = new KeyValuePair<string, string>();
-                if (tag_list.TryGetValue(Children[i].Name, out valid_attribute))
-                {
-                    if (valid_attribute.Key == "*")
-                    {
-                        if (Children[i].Attributes.ContainsValue(valid_attribute.Value))
-                            parent.Children.Add(Children[i]);
-                    }
-                    else if (valid_attribute.Value == "*")
-                    {
-                        if (Children[i].Attributes.ContainsKey(valid_attribute.Key))
-                            parent.Children.Add(Children[i]);
-                    }
-                    else if (Children[i].Attributes.Contains(valid_attribute))
-                        parent.Children.Add(Children[i]);
-                }
-
-                Children[i].FilterForChildrenByNameAndAttribute(tag_list, ref parent);
+                if (names.Contains(child.Name))
+                    validChildren.Add(child);
             }
         }
         public void FilterForChildrenByNameAndAttribute(Dictionary<string, KeyValuePair<string, string>> tag_list, out List<HtmlTag> values)
@@ -211,13 +175,8 @@ namespace HtmlParser
 
             for (int i = 0; i < Children.Count; i++)
             {
-                /*for (int z = 0; z < Children[i].Attributes.Count; z++)
-                {
-                    if (Children[i].Attributes.ElementAt(z).Key == attribute &&
-                        Children[i].Attributes.ElementAt(z).Value == value)*/
                 if (Children[i].Attributes.Contains(key_value))
                     new_children.Add(Children[i]);
-                //}
             }
             Children = new_children;
             return;

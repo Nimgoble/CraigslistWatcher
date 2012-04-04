@@ -1,0 +1,7 @@
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.CLWTabPage.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.EntryForm.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.CraigslistWatcher.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.Properties.Resources.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.TabStripTest.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\CraigslistWatcher\obj\Debug\CraigslistWatcher.csproj.GenerateResource.Cache

@@ -1,0 +1,7 @@
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\bin\Debug\HtmlParser.dll
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\bin\Debug\HtmlParser.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\obj\Debug\HtmlParser.Properties.Resources.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\obj\Debug\HtmlParser.csproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\obj\Debug\HtmlParser.dll
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlParser\obj\Debug\HtmlParser.pdb

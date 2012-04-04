@@ -1,0 +1,10 @@
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\bin\Debug\HtmlViewer.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\bin\Debug\HtmlViewer.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\bin\Debug\HtmlParser.dll
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\bin\Debug\HtmlParser.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.Form1.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.Properties.Resources.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.csproj.GenerateResource.Cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.pdb

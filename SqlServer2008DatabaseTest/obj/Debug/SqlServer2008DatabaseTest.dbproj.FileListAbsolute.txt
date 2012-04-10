@@ -6,3 +6,11 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest.deploymanifest
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest.dbschema
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\SqlServer2008DatabaseTest\obj\Debug\SqlServer2008DatabaseTest.dbschema
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest_Script.PreDeployment.sql
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest_Script.PostDeployment.sql
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest_Database.sqlsettings
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest_Database.sqldeployment
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest_Database.sqlcmdvars
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest.deploymanifest
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\sql\debug\SqlServer2008DatabaseTest.dbschema
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\SqlServer2008DatabaseTest\obj\Debug\SqlServer2008DatabaseTest.dbschema

@@ -75,7 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLWTabPage.cs">
-      <SubType>Component</SubType>
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="CLWTabPage.Designer.cs">
       <DependentUpon>CLWTabPage.cs</DependentUpon>

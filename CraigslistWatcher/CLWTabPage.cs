@@ -13,8 +13,8 @@ using HtmlParser;
 
 namespace CraigslistWatcher
 {
-    public partial class CLWTabPage : System.Windows.Forms.TabPage
-        /*UserControl*/
+    //public partial class CLWTabPage : System.Windows.Forms.TabPage
+    public partial class CLWTabPage : System.Windows.Forms.UserControl, System.Windows.Forms.TabPage
     {
         private List<string> Keywords_ {get;set;}
         private TimeSpan tickInterval;

@@ -11,16 +11,21 @@ namespace HtmlViewer
 {
     public partial class Form1 : Form
     {
+        private List<string> filteredTags;
+        private string currentURL;
         public Form1()
         {
             InitializeComponent();
-            lstvwClassMembers.Columns.Add("Member Name", -2, HorizontalAlignment.Center);
-            lstvwClassMembers.Columns.Add("Nodes", -2, HorizontalAlignment.Left);
+            filteredTags = new List<string>();
+            currentURL = "";
 
             /*AdFilter adfilter = new AdFilter();
             adfilter.Populate("http://chicago.craigslist.org/sox/msg/2939038242.html");
             EntryFilter filter = new EntryFilter();
-            filter.Populate("http://chicago.craigslist.org/msg");*/
+            string url = "http://chicago.craigslist.org/msg/";
+            filter.Populate(url);
+            while (filter.NextHundred != null)
+                filter.Populate(url + filter.NextHundred);*/
         }
 
         private void btnQuery_Click(object sender, EventArgs e)
@@ -28,37 +33,16 @@ namespace HtmlViewer
             /*string file_name = "C:\\Users\\Pat\\Documents\\Programming\\Projects\\CraigslistWatcher\\CraigslistWatcher\\CraigslistWatcher\\test\\chicago-For Sale-music instr.xml";
             System.IO.StreamReader test_file = new System.IO.StreamReader(file_name, true);
             string test_data = test_file.ReadToEnd();*/
-            trParsedURL.Nodes.Clear();
+            filteredTags.Clear();
             if (txtURL.Text == String.Empty)
                 return;
 
-            HtmlParser.HtmlParser parser = new HtmlParser.HtmlParser();
-            //if(!parser.ParseRawHTML(test_data, true, new string[] {"<br>"}))
-                //return;
-            if (!parser.ParseURL(txtURL.Text, true, new string[] {"<br>"}))
-                return;
-
-
-            parser.PopulateTreeView(ref this.trParsedURL);
-            trParsedURL.ExpandAll();
+            currentURL = txtURL.Text;
+            filteredTags.Add("<br>");
+            filteredTags.Add("</br>");
+            ParseCurrentURL(filteredTags.ToArray());
         }
-        //Add custom draw to list view to draw all subitems in a single column.
-        private void btnAddMember_Click(object sender, EventArgs e)
-        {
-            if (txtMemberName.Text != String.Empty &&
-                !lstvwClassMembers.Items.ContainsKey(txtMemberName.Text))
-            {
-                MemberInfo info = new MemberInfo();
-                info.Text = info.Name = txtMemberName.Text;
-                foreach (TreeNode node in trParsedURL.Nodes)
-                    GetCheckedNodes(ref info.Nodes, node);
-                info.UpdateSubInfo();
-                lstvwClassMembers.Items.Add(info);
-                txtMemberName.Text = "";
-                foreach (TreeNode node in info.Nodes)
-                    node.Checked = false;
-            }
-        }
+        
         private void GetCheckedNodes(ref List<TreeNode> checkedList, TreeNode parent)
         {
             if (parent.Checked)
@@ -71,74 +55,54 @@ namespace HtmlViewer
             }
         }
 
-        private void btnDeleteMember_Click(object sender, EventArgs e)
+        
+
+        private void btnFilterOutTag_Click(object sender, EventArgs e)
         {
-            ListView.SelectedIndexCollection indices = lstvwClassMembers.SelectedIndices;
-            if (indices.Count > 0)
+            List<TreeNode> checkedList = new List<TreeNode>();
+            foreach (TreeNode node in trParsedURL.Nodes)
+                GetCheckedNodes(ref checkedList, node);
+
+            if (checkedList.Count <= 0)
+                return;
+
+            foreach (TreeNode node in checkedList)
             {
-                foreach (int index in indices)
-                    lstvwClassMembers.Items.RemoveAt(index);
+                int tagOpen = node.Text.IndexOf('<') + 1;
+                int tagClose = node.Text.IndexOf('>') + 1;
+                string tag = node.Text.Substring(tagOpen, (tagClose - tagOpen));
+                string openTag = "<" + tag, closeTag = "</" + tag;
+                if (filteredTags.Contains(openTag) || filteredTags.Contains(closeTag))
+                    continue;
+
+                filteredTags.Add(openTag);
+                filteredTags.Add(closeTag);
             }
+
+            ParseCurrentURL(filteredTags.ToArray());
         }
 
-        private void btnGenerateClass_Click(object sender, EventArgs e)
+        private void ParseCurrentURL(string [] omits)
         {
-            if (txtClassName.Text != String.Empty)
-            {
-                string file_name = txtClassName.Text + ".cs";
-                System.IO.StreamWriter class_file = new System.IO.StreamWriter(file_name, false);
-                string populate = "\tpublic void Populate(string url) \n\t{\n\t\tInit(url);\n";
-                string members = "";
-                string constructor = "\tpublic " + txtClassName.Text + "()\n\t{\n";
-                foreach (MemberInfo member in lstvwClassMembers.Items)
-                {
-                    members += "\tpublic ";
-                    string format = "(FilterBySequence(new int[] {";
-                    string format_tail = "}));\n";
-                    if (member.Nodes.Count > 1)
-                    {
-                        foreach(TreeNode node in member.Nodes)
-                        {
-                            List<int> list_sequence = new List<int>();
-                            TreeNode temp = node;
-                            list_sequence.Insert(0, temp.Index);
-                            while (temp.Parent != null)
-                            {
-                                temp = temp.Parent;
-                                list_sequence.Insert(0, temp.Index);
-                            }
-                            int[] sequence = list_sequence.ToArray();
-                            populate += "\t\t" + member.Name + ".Add" + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail; 
-                        }
-                        members += "List<string> ";
-                        constructor += string.Format("\t\t{0} = new List<string>();\n", member.Name);
-                    }
-                    else 
-                    {
-                        members += "string ";
-                        if(member.Nodes.Count == 1)
-                        {
-                            TreeNode node = member.Nodes[0];
-                            List<int> list_sequence = new List<int>();
-                            list_sequence.Insert(0, node.Index);
-                            while(node.Parent != null)
-                            {
-                                node = node.Parent;
-                                list_sequence.Insert(0, node.Index);
-                            }
-                            int[] sequence = list_sequence.ToArray();
-                            populate += "\t\t" + member.Name + " = " + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail; 
-                        }
-                        constructor += string.Format("\t\t{0} = \"\";\n", member.Name);
-                    }
-                    members += member.Name + ";\n";
-                }
-                constructor += "\t}\n";
-                populate += "\t}\n";
-                string class_string = "using System;\nusing System.Collections.Generic;\nusing HtmlParser;\npublic class " + txtClassName.Text + " : PreciseParseFilter\n{\n" + members + constructor + populate + "};\n";
-                class_file.Write(class_string);
-                class_file.Close();
-            }
+            trParsedURL.Nodes.Clear();
+            HtmlParser.HtmlParser parser = new HtmlParser.HtmlParser();
+            parser.AddOmitTags(filteredTags);
+            if (!parser.ParseURL(currentURL, true))
+                return;
+
+            parser.PopulateTreeView(ref this.trParsedURL);
+            trParsedURL.ExpandAll();
+        }
+
+        private void btnAddClass_Click(object sender, EventArgs e)
+        {
+            this.tbTabs.Controls.Add(new FilterPage(ref filteredTags));
+        }
+
+        private void btnRemoveClass_Click(object sender, EventArgs e)
+        {
+            if(tbTabs.SelectedIndex != -1 && tbTabs.SelectedIndex != 0)
+                this.tbTabs.Controls.RemoveAt(tbTabs.SelectedIndex);
         }
     }
 }

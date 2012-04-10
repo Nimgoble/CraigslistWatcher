@@ -8,3 +8,5 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.csproj.GenerateResource.Cache
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.exe
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\Backup\HtmlViewer\obj\Debug\HtmlViewer.pdb

@@ -12,13 +12,16 @@ namespace HtmlParser
         {
             Attributes = new Dictionary<string, string>();
             Children = new List<HtmlTag>();
+            MiscellaneousItems = new List<string>();
             TrailingSlash = false;
             Value = null;
             Name = null;
             Parent = null;
+            Level = -1;
             OpenTag_Start = -1;
             OpenTag_Close = -1;
             CloseTag_Start = -1;
+            CloseTag_Close = -1;
             HadChildren = false;
         }
         /// <summary>
@@ -46,16 +49,19 @@ namespace HtmlParser
         /// </summary>
         public List<HtmlTag> Children { get; set; }
 
+        public List<string> MiscellaneousItems { get; set; }
+
         /// <summary>
         /// JH: Used for tracking parent tags
         /// </summary>
-        public int TagNumber { get; set; }
+        public int Level { get; set; }
 
         public HtmlTag Parent { get; set; }
 
         public int OpenTag_Start { get; set; }
         public int OpenTag_Close { get; set; }
         public int CloseTag_Start { get; set; }
+        public int CloseTag_Close { get; set; }
         public bool HadChildren { get; set; }
 
         public HtmlTag VanillaCopy(HtmlTag NewParent)
@@ -185,12 +191,8 @@ namespace HtmlParser
         public override string ToString()
         {
             string padding = String.Empty;
-            HtmlTag _parent = this.Parent;
-            while (_parent != null)
-            {
+            for (int i = 0; i < Level; i++)
                 padding += " ";
-                _parent = _parent.Parent;
-            }
 
             string rtn = padding + "<";
             rtn += this.Name;

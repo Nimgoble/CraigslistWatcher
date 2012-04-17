@@ -5,18 +5,22 @@ using System.Text;
 
 namespace HtmlParser
 {
-    public class PreciseParseFilter : HtmlParser
+    public class PreciseParseFilter
     {
+        protected HtmlParser htmlParser;
+        public PreciseParseFilter()
+        {
+            htmlParser = new HtmlParser();
+        }
         protected bool Init(string url)
         {
-            return ParseURL(url, true);
+            return htmlParser.ParseURL(url, true);
         }
-
         protected HtmlTag FilterBySequence(int[] sequence)
         {
             try
             {
-                HtmlTag cur_tag = _nodes[sequence[0]];
+                HtmlTag cur_tag = htmlParser._nodes[sequence[0]];
                 for (int index = 1; index < sequence.Count(); index++)
                     cur_tag = cur_tag.Children[sequence[index]];
 

@@ -74,10 +74,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdFilter.cs" />
-    <Compile Include="EntryFilter.cs" />
     <Compile Include="FilterPage.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="FilterPage.Designer.cs">
       <DependentUpon>FilterPage.cs</DependentUpon>

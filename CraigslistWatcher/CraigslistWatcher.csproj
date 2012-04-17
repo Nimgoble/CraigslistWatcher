@@ -74,8 +74,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundPoller.cs" />
     <Compile Include="CLWTabPage.cs">
-      <SubType>UserControl</SubType>
+      <SubType>Component</SubType>
     </Compile>
     <Compile Include="CLWTabPage.Designer.cs">
       <DependentUpon>CLWTabPage.cs</DependentUpon>

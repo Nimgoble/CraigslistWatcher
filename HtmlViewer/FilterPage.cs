@@ -9,12 +9,14 @@ using System.Windows.Forms;
 
 namespace HtmlViewer
 {
-    public partial class FilterPage : UserControl, System.Windows.Forms.TabPage
+    public partial class FilterPage : /*UserControl,*/ System.Windows.Forms.TabPage
     {
         private List<string> filteredTags;
-        public FilterPage(ref List<string> _filteredTags)
+        private Form1 parent;
+        public FilterPage(ref List<string> _filteredTags, Form1 _parent)
         {
             filteredTags = _filteredTags;
+            parent = _parent;
             InitializeComponent();
             lstvwClassMembers.Columns.Add("Member Name", -2, HorizontalAlignment.Center);
             lstvwClassMembers.Columns.Add("Nodes", -2, HorizontalAlignment.Left);
@@ -23,13 +25,25 @@ namespace HtmlViewer
         //Add custom draw to list view to draw all subitems in a single column.
         private void btnAddMember_Click(object sender, EventArgs e)
         {
+            List<TreeNode> nodeList = new List<TreeNode>();
+            parent.GetCheckedNodes(ref nodeList);
+            if (nodeList.Count == 0)
+            {
+                MessageBox.Show("Please select a node from the Parsed URL tree");
+                return;
+            }
             MemberInfo info = new MemberInfo();
-            MemberForm memberForm = new MemberForm(ref info);
+            MemberForm memberForm = new MemberForm(ref info, nodeList);
 
-            if(memberForm.ShowDialog() == DialogResult.OK)
+            if (memberForm.ShowDialog() == DialogResult.OK)
+            {
                 lstvwClassMembers.Items.Add(info);
+                foreach (TreeNode node in nodeList)
+                    info.Nodes.Add(node);
+                info.UpdateSubInfo();
+            }
 
-            
+            parent.UncheckAll();
         }
 
         private void btnDeleteMember_Click(object sender, EventArgs e)
@@ -74,12 +88,12 @@ namespace HtmlViewer
                             int[] sequence = list_sequence.ToArray();
                             populate += "\t\t" + member.Name + ".Add" + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail;
                         }
-                        members += "List<HtmlTag> ";
-                        constructor += string.Format("\t\t{0} = new List<HtmlTag>();\n", member.Name);
+                        members += (member.Type + " ");
+                        constructor += string.Format("\t\t{0} = new {1}();\n", member.Name, member.Type);
                     }
                     else
                     {
-                        members += "HtmlTag ";
+                        members += (member.Type + " ");
                         if (member.Nodes.Count == 1)
                         {
                             TreeNode node = member.Nodes[0];
@@ -93,7 +107,7 @@ namespace HtmlViewer
                             int[] sequence = list_sequence.ToArray();
                             populate += "\t\t" + member.Name + " = " + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail;
                         }
-                        constructor += string.Format("\t\t{0} = new HtmlTag();\n", member.Name);
+                        constructor += string.Format("\t\t{0} = new {1}();\n", member.Name, member.Type);
                     }
                     members += member.Name + ";\n";
                 }
@@ -103,6 +117,11 @@ namespace HtmlViewer
                 class_file.Write(class_string);
                 class_file.Close();
             }
+        }
+
+        private void txtClassName_TextChanged(object sender, EventArgs e)
+        {
+            this.Text = txtClassName.Text;
         }
     }
 }

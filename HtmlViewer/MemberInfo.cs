@@ -7,12 +7,14 @@ using System.Windows.Forms;
 
 namespace HtmlViewer
 {
-    class MemberInfo : ListViewItem
+    public class MemberInfo : ListViewItem
     {
         public List<TreeNode> Nodes;
+        public string Type;
         public MemberInfo()
         {
             Nodes = new List<TreeNode>();
+            Type = "";
         }
         public void UpdateSubInfo()
         {

@@ -17,3 +17,4 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\GenerateResource-ResGen.write.1.tlog
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\ResGen.write.1.tlog
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.HtmlTree.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.HtmlTree.resources

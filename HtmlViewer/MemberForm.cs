@@ -12,29 +12,47 @@ namespace HtmlViewer
     public partial class MemberForm : Form
     {
         private MemberInfo memberInfo;
-        public MemberForm(ref MemberInfo info)
+        public MemberForm(ref MemberInfo info, List<TreeNode> nodes)
         {
             memberInfo = info;
             InitializeComponent();
+            foreach(TreeNode node in nodes)
+                this.trParentFamily.Nodes.Add((TreeNode)node.Clone());
+            this.cmbType.Items.AddRange(new object[] { "Int16",
+                                                       "Int32",
+                                                       "Int64",
+                                                       "UInt16",
+                                                       "UInt32",
+                                                       "UInt64",
+                                                       "Double",
+                                                       "String",
+                                                       "List<T>",
+                                                       "Dictionary<K, T>",
+                                                       "HtmlTag"});
+
+            this.cmbSource.Items.Add("Dummy Source");
+                
         }
 
         private void btnAccept_Click(object sender, EventArgs e)
         {
-            if (txtMemberName.Text != String.Empty)
+            string error = "";
+            if (txtMemberName.Text == String.Empty)
+                error = "Please enter a valid member name.";
+            else if (this.cmbType.SelectedIndex == -1)
+                error = "Please select a type.";
+            else if (this.cmbSource.SelectedIndex == -1)
+                error = "Please select a source.";
+
+            if(error != String.Empty)
             {
-
-                memberInfo.Text = memberInfo.Name = txtMemberName.Text;
-                /*foreach (TreeNode node in trParsedURL.Nodes)
-                    GetCheckedNodes(ref memberInfo.Nodes, node);*/
-                memberInfo.UpdateSubInfo();
-
-                txtMemberName.Text = "";
-                foreach (TreeNode node in memberInfo.Nodes)
-                    node.Checked = false;
-                this.DialogResult = DialogResult.OK;
+                MessageBox.Show(error, "Error");
+                return;
             }
-            else
-                MessageBox.Show("Please enter a valid member name.", "Error");
+
+            memberInfo.Text = memberInfo.Name = txtMemberName.Text;
+            memberInfo.Type = this.cmbType.SelectedItem.ToString();
+            this.DialogResult = DialogResult.OK;
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

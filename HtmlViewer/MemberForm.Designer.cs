@@ -34,9 +34,10 @@
             this.btnAccept = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cmbType = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbSource = new System.Windows.Forms.ComboBox();
+            this.chkArray = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // trParentFamily
@@ -91,39 +92,50 @@
             this.label1.TabIndex = 14;
             this.label1.Text = "Type";
             // 
-            // comboBox1
+            // cmbType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(276, 71);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(156, 21);
-            this.comboBox1.TabIndex = 15;
+            this.cmbType.FormattingEnabled = true;
+            this.cmbType.Location = new System.Drawing.Point(276, 71);
+            this.cmbType.Name = "cmbType";
+            this.cmbType.Size = new System.Drawing.Size(156, 21);
+            this.cmbType.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(273, 100);
+            this.label2.Location = new System.Drawing.Point(273, 113);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(41, 13);
             this.label2.TabIndex = 16;
             this.label2.Text = "Source";
             // 
-            // comboBox2
+            // cmbSource
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(276, 116);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(156, 21);
-            this.comboBox2.TabIndex = 17;
+            this.cmbSource.FormattingEnabled = true;
+            this.cmbSource.Location = new System.Drawing.Point(276, 129);
+            this.cmbSource.Name = "cmbSource";
+            this.cmbSource.Size = new System.Drawing.Size(156, 21);
+            this.cmbSource.TabIndex = 17;
+            // 
+            // chkArray
+            // 
+            this.chkArray.AutoSize = true;
+            this.chkArray.Location = new System.Drawing.Point(277, 93);
+            this.chkArray.Name = "chkArray";
+            this.chkArray.Size = new System.Drawing.Size(50, 17);
+            this.chkArray.TabIndex = 18;
+            this.chkArray.Text = "Array";
+            this.chkArray.UseVisualStyleBackColor = true;
             // 
             // MemberForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(440, 367);
-            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.chkArray);
+            this.Controls.Add(this.cmbSource);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cmbType);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnAccept);
@@ -146,8 +158,9 @@
         private System.Windows.Forms.Button btnAccept;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbSource;
+        private System.Windows.Forms.ComboBox cmbType;
+        private System.Windows.Forms.CheckBox chkArray;
     }
 }

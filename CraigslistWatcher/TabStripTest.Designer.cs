@@ -36,7 +36,7 @@
             // 
             // tbQueries
             // 
-            this.tbQueries.Location = new System.Drawing.Point(12, 196);
+            this.tbQueries.Location = new System.Drawing.Point(12, 113);
             this.tbQueries.Name = "tbQueries";
             this.tbQueries.SelectedIndex = 0;
             this.tbQueries.Size = new System.Drawing.Size(849, 461);
@@ -77,7 +77,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(873, 669);
+            this.ClientSize = new System.Drawing.Size(873, 585);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.wbLog);
             this.Controls.Add(this.tbQueries);
@@ -85,7 +85,6 @@
             this.Name = "TabStripTest";
             this.Text = "TabStripTest";
             this.Load += new System.EventHandler(this.TabStripTest_Load);
-            this.tbQueries.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 

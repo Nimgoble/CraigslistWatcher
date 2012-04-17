@@ -78,6 +78,11 @@ namespace HtmlParser
 
             return copy;
         }
+        /// <summary>
+        /// Get all children with a specified name
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="validChildren"></param>
         public void FilterForChildrenByName(string name, out List<HtmlTag> validChildren)
         {
             validChildren = null;
@@ -91,6 +96,11 @@ namespace HtmlParser
                     validChildren.Add(child);
             }
         }
+        /// <summary>
+        /// Get all children of the specified names
+        /// </summary>
+        /// <param name="names"></param>
+        /// <param name="validChildren"></param>
         public void FilterForChildrenByName(List<string> names, out List<HtmlTag> validChildren)
         {
             validChildren = null;
@@ -104,7 +114,46 @@ namespace HtmlParser
                     validChildren.Add(child);
             }
         }
-        public void FilterForChildrenByNameAndAttribute(Dictionary<string, KeyValuePair<string, string>> tag_list, out List<HtmlTag> values)
+        /// <summary>
+        /// Returns all of the children with a specified class name and attribute set.
+        /// i.e. <div class="lolololol"></div>
+        /// </summary>
+        /// <param name="tagName">div</param>
+        /// <param name="validAtrributeAndValue">("class","lolololol")</param>
+        /// <param name="validChildren">list of children matching</param>
+        public void FilterForChildrenByNameAndAttribute(string tagName, KeyValuePair<String, String> validAtrributeAndValue, out List<HtmlTag> validChildren)
+        {
+            validChildren = null;
+            if (Children.Count == 0)
+                return;
+
+            validChildren = new List<HtmlTag>();
+            foreach(HtmlTag child in Children)
+            {
+                if (tagName == child.Name)
+                {
+                    if (validAtrributeAndValue.Key == "*")
+                    {
+                        if (child.Attributes.ContainsValue(validAtrributeAndValue.Value))
+                            validChildren.Add(child);
+                    }
+                    else if (validAtrributeAndValue.Value == "*")
+                    {
+                        if (child.Attributes.ContainsKey(validAtrributeAndValue.Key))
+                            validChildren.Add(child);
+                    }
+                    else if (child.Attributes.Contains(validAtrributeAndValue))
+                        validChildren.Add(child);
+                }
+            }
+        }
+        /// <summary>
+        /// Returns all of the children with a relevant to each entry in the dictionary of specified class name and attribute sets.
+        /// i.e. <a href="Hmmmmmm">,<div class="lolololol">, <h1 class="Damn">
+        /// </summary>
+        /// <param name="tagList">Dictionary of tag names and their relevant pairs</param>
+        /// <param name="values">return values</param>
+        public void FilterForChildrenByNameAndAttribute(Dictionary<string, KeyValuePair<string, string>> tagList, out List<HtmlTag> values)
         {
             values = null;
             if (Children.Count == 0)
@@ -114,7 +163,7 @@ namespace HtmlParser
             foreach(HtmlTag child in Children)
             {
                 KeyValuePair<string, string> valid_attribute = new KeyValuePair<string, string>();
-                if (tag_list.TryGetValue(child.Name, out valid_attribute))
+                if (tagList.TryGetValue(child.Name, out valid_attribute))
                 {
                     if (valid_attribute.Key == "*")
                     {
@@ -131,15 +180,88 @@ namespace HtmlParser
                 }
             }
         }
-        public void FilterOutChildrenByAttribute(Dictionary<string, List<string>> valid_attributes)
+        /// <summary>
+        /// Just like the above, except now you can have more than one valid attribute for a class.
+        /// </summary>
+        /// <param name="tagList"></param>
+        /// <param name="values"></param>
+        public void FilterForChildrenByNameAndAttribute(Dictionary<string, List<KeyValuePair<string, string>>> tagList, out List<HtmlTag> values)
         {
-            List<HtmlTag> new_children = new List<HtmlTag>();
+            values = null;
+            if (Children.Count == 0)
+                return;
+            values = new List<HtmlTag>();
+            foreach (HtmlTag child in Children)
+            {
+                List<KeyValuePair<string, string>> validAttributes = new List<KeyValuePair<string, string>>();
+                if (tagList.TryGetValue(child.Name, out validAttributes))
+                {
+                    foreach (KeyValuePair<string, string> validAttribute in validAttributes)
+                    {
+                        if (validAttribute.Key == "*")
+                        {
+                            if (child.Attributes.ContainsValue(validAttribute.Value))
+                                values.Add(child);
+                        }
+                        else if (validAttribute.Value == "*")
+                        {
+                            if (child.Attributes.ContainsKey(validAttribute.Key))
+                                values.Add(child);
+                        }
+                        else if (child.Attributes.Contains(validAttribute))
+                            values.Add(child);
+                    }
+                }
+                if (child.Children.Count != 0)
+                    child._RFilterForChildrenByNameAndAttribute(tagList, ref values);
+            }
+        }
+        private void _RFilterForChildrenByNameAndAttribute(Dictionary<string, List<KeyValuePair<string, string>>> tagList, ref List<HtmlTag> values)
+        {
+            if (Children.Count == 0)
+                return;
+            foreach (HtmlTag child in Children)
+            {
+                List<KeyValuePair<string, string>> validAttributes = new List<KeyValuePair<string, string>>();
+                if (tagList.TryGetValue(child.Name, out validAttributes))
+                {
+                    foreach (KeyValuePair<string, string> validAttribute in validAttributes)
+                    {
+                        if (validAttribute.Key == "*")
+                        {
+                            if (child.Attributes.ContainsValue(validAttribute.Value))
+                                values.Add(child);
+                        }
+                        else if (validAttribute.Value == "*")
+                        {
+                            if (child.Attributes.ContainsKey(validAttribute.Key))
+                                values.Add(child);
+                        }
+                        else if (child.Attributes.Contains(validAttribute))
+                            values.Add(child);
+                    }
+                }
+                if (child.Children.Count != 0)
+                    child._RFilterForChildrenByNameAndAttribute(tagList, ref values);
+            }
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="validAttributesAndValues">Dictionary of<Attribute Name, ListOf<Attribute Values>></param>
+        /// <param name="validChildren">return list</param>
+        public void FilterForChildrenByAttribute(Dictionary<string, List<string>> validAttributesAndValues, out List<HtmlTag> validChildren)
+        {
+            validChildren = null;
+            if (Children.Count == 0)
+                return;
+            validChildren = new List<HtmlTag>();
 
             for (int i = 0; i < Children.Count; i++)
             {
-                for (int a = 0; a < valid_attributes.Count; a++)
+                for (int a = 0; a < validAttributesAndValues.Count; a++)
                 {
-                    KeyValuePair<string, List<string>> valid_attribute_values = valid_attributes.ElementAt(a);
+                    KeyValuePair<string, List<string>> valid_attribute_values = validAttributesAndValues.ElementAt(a);
                     for (int b = 0; b < valid_attribute_values.Value.Count; b++)
                     {
                         KeyValuePair<string, string> valid_attribute = new KeyValuePair<string, string>(valid_attribute_values.Key, valid_attribute_values.Value[b]);
@@ -147,45 +269,38 @@ namespace HtmlParser
                         for (int z = 0; z < Children[i].Attributes.Count; z++)
                         {
                             if (Children[i].Attributes.Contains(valid_attribute))
-                                new_children.Add(Children[i]);
+                                validChildren.Add(Children[i]);
                         }
                     }
                 }
             }
-            Children = new_children;
-            return;
         }
-        public void FilterOutChildrenByAttribute(Dictionary<string, string> valid_attributes)
+        /// <summary>
+        /// Just searching for one attribute and its value.  Tag name doesn't matter
+        /// </summary>
+        /// <param name="attribute"></param>
+        /// <param name="value"></param>
+        /// <param name="validChildren"></param>
+        public void FilterForChildrenByAttribute(string attribute, string value, out List<HtmlTag> validChildren)
         {
-            List<HtmlTag> new_children = new List<HtmlTag>();
+            validChildren = new List<HtmlTag>();
+            KeyValuePair<string, string> validAttribute = new KeyValuePair<string, string>(attribute, value);
 
-            for (int i = 0; i < Children.Count; i++)
+            foreach (HtmlTag child in Children)
             {
-                for (int a = 0; a < valid_attributes.Count; a++)
+                if (validAttribute.Key == "*")
                 {
-                    KeyValuePair<string, string> valid_attribute = valid_attributes.ElementAt(a);
-                    for (int z = 0; z < Children[i].Attributes.Count; z++)
-                    {
-                        if (Children[i].Attributes.Contains(valid_attribute))
-                            new_children.Add(Children[i]);
-                    }
+                    if (child.Attributes.ContainsValue(validAttribute.Value))
+                        validChildren.Add(child);
                 }
+                else if (validAttribute.Value == "*")
+                {
+                    if (child.Attributes.ContainsKey(validAttribute.Key))
+                        validChildren.Add(child);
+                }
+                else if (child.Attributes.Contains(validAttribute))
+                    validChildren.Add(child);
             }
-            Children = new_children;
-            return;
-        }
-        public void FilterOutChildrenByAttribute(string attribute, string value)
-        {
-            List<HtmlTag> new_children = new List<HtmlTag>();
-            KeyValuePair<string, string> key_value = new KeyValuePair<string, string>(attribute, value);
-
-            for (int i = 0; i < Children.Count; i++)
-            {
-                if (Children[i].Attributes.Contains(key_value))
-                    new_children.Add(Children[i]);
-            }
-            Children = new_children;
-            return;
         }
 
         public override string ToString()

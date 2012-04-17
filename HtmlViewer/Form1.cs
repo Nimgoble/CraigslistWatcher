@@ -26,6 +26,9 @@ namespace HtmlViewer
             filter.Populate(url);
             while (filter.NextHundred != null)
                 filter.Populate(url + filter.NextHundred);*/
+
+            /*LocationsFilter locFilter = new LocationsFilter();
+            locFilter.Populate("http://www.craigslist.org/about/sites");*/
         }
 
         private void btnQuery_Click(object sender, EventArgs e)
@@ -42,8 +45,55 @@ namespace HtmlViewer
             filteredTags.Add("</br>");
             ParseCurrentURL(filteredTags.ToArray());
         }
+
+        public void UncheckAll()
+        {
+            if (this.trParsedURL.InvokeRequired)
+                this.trParsedURL.Invoke(new MethodInvoker(delegate() { this.UncheckAll(); }));
+            else
+            {
+                foreach (TreeNode node in this.trParsedURL.Nodes)
+                {
+                    if (node.Checked)
+                        node.Checked = false;
+
+                    if (node.Nodes.Count > 0)
+                    {
+                        foreach (TreeNode child in node.Nodes)
+                            _UncheckAll(child);
+                    }
+                }
+            }
+        }
+
+        private void _UncheckAll(TreeNode parent)
+        {
+            if (parent.Checked)
+                parent.Checked = false;
+
+            if (parent.Nodes.Count > 0)
+            {
+                foreach (TreeNode child in parent.Nodes)
+                    _UncheckAll(child);
+            }
+        }
         
-        private void GetCheckedNodes(ref List<TreeNode> checkedList, TreeNode parent)
+        public void GetCheckedNodes(ref List<TreeNode> checkedList)
+        {
+            foreach (TreeNode node in trParsedURL.Nodes)
+            {
+                if (node.Checked)
+                    checkedList.Add(node);
+
+                if (node.Nodes.Count > 0)
+                {
+                    foreach (TreeNode child in node.Nodes)
+                        _GetCheckedNodes(ref checkedList, child);
+                }
+            }
+        }
+
+        private void _GetCheckedNodes(ref List<TreeNode> checkedList, TreeNode parent)
         {
             if (parent.Checked)
                 checkedList.Add(parent);
@@ -51,17 +101,14 @@ namespace HtmlViewer
             if (parent.Nodes.Count > 0)
             {
                 foreach (TreeNode child in parent.Nodes)
-                    GetCheckedNodes(ref checkedList, child);
+                    _GetCheckedNodes(ref checkedList, child);
             }
         }
-
-        
 
         private void btnFilterOutTag_Click(object sender, EventArgs e)
         {
             List<TreeNode> checkedList = new List<TreeNode>();
-            foreach (TreeNode node in trParsedURL.Nodes)
-                GetCheckedNodes(ref checkedList, node);
+            GetCheckedNodes(ref checkedList);
 
             if (checkedList.Count <= 0)
                 return;
@@ -96,7 +143,9 @@ namespace HtmlViewer
 
         private void btnAddClass_Click(object sender, EventArgs e)
         {
-            this.tbTabs.Controls.Add(new FilterPage(ref filteredTags));
+            FilterPage page = new FilterPage(ref filteredTags, this);
+            this.tbTabs.Controls.Add(page);
+            this.tbTabs.SelectedTab = page;
         }
 
         private void btnRemoveClass_Click(object sender, EventArgs e)

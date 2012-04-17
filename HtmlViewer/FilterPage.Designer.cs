@@ -32,10 +32,10 @@
             this.txtClassName = new System.Windows.Forms.TextBox();
             this.lstvwClassMembers = new System.Windows.Forms.ListView();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnDeleteMember = new System.Windows.Forms.Button();
-            this.btnAddMember = new System.Windows.Forms.Button();
-            this.btnEditMember = new System.Windows.Forms.Button();
             this.btnGenerateClass = new System.Windows.Forms.Button();
+            this.btnEditMember = new System.Windows.Forms.Button();
+            this.btnAddMember = new System.Windows.Forms.Button();
+            this.btnDeleteMember = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,9 +51,11 @@
             // txtClassName
             // 
             this.txtClassName.Location = new System.Drawing.Point(143, 22);
+            this.txtClassName.MaxLength = 30;
             this.txtClassName.Name = "txtClassName";
             this.txtClassName.Size = new System.Drawing.Size(335, 20);
             this.txtClassName.TabIndex = 7;
+            this.txtClassName.TextChanged += new System.EventHandler(this.txtClassName_TextChanged);
             // 
             // lstvwClassMembers
             // 
@@ -77,15 +79,24 @@
             this.panel1.Size = new System.Drawing.Size(133, 339);
             this.panel1.TabIndex = 12;
             // 
-            // btnDeleteMember
+            // btnGenerateClass
             // 
-            this.btnDeleteMember.Location = new System.Drawing.Point(3, 61);
-            this.btnDeleteMember.Name = "btnDeleteMember";
-            this.btnDeleteMember.Size = new System.Drawing.Size(125, 23);
-            this.btnDeleteMember.TabIndex = 14;
-            this.btnDeleteMember.Text = "Delete Member";
-            this.btnDeleteMember.UseVisualStyleBackColor = true;
-            this.btnDeleteMember.Click += new System.EventHandler(this.btnDeleteMember_Click);
+            this.btnGenerateClass.Location = new System.Drawing.Point(3, 90);
+            this.btnGenerateClass.Name = "btnGenerateClass";
+            this.btnGenerateClass.Size = new System.Drawing.Size(125, 23);
+            this.btnGenerateClass.TabIndex = 17;
+            this.btnGenerateClass.Text = "Generate Class";
+            this.btnGenerateClass.UseVisualStyleBackColor = true;
+            this.btnGenerateClass.Click += new System.EventHandler(this.btnGenerateClass_Click);
+            // 
+            // btnEditMember
+            // 
+            this.btnEditMember.Location = new System.Drawing.Point(3, 32);
+            this.btnEditMember.Name = "btnEditMember";
+            this.btnEditMember.Size = new System.Drawing.Size(125, 23);
+            this.btnEditMember.TabIndex = 15;
+            this.btnEditMember.Text = "Edit Member";
+            this.btnEditMember.UseVisualStyleBackColor = true;
             // 
             // btnAddMember
             // 
@@ -97,29 +108,18 @@
             this.btnAddMember.UseVisualStyleBackColor = true;
             this.btnAddMember.Click += new System.EventHandler(this.btnAddMember_Click);
             // 
-            // btnEditMember
+            // btnDeleteMember
             // 
-            this.btnEditMember.Location = new System.Drawing.Point(3, 32);
-            this.btnEditMember.Name = "btnEditMember";
-            this.btnEditMember.Size = new System.Drawing.Size(125, 23);
-            this.btnEditMember.TabIndex = 15;
-            this.btnEditMember.Text = "Edit Member";
-            this.btnEditMember.UseVisualStyleBackColor = true;
-            // 
-            // btnGenerateClass
-            // 
-            this.btnGenerateClass.Location = new System.Drawing.Point(3, 90);
-            this.btnGenerateClass.Name = "btnGenerateClass";
-            this.btnGenerateClass.Size = new System.Drawing.Size(125, 23);
-            this.btnGenerateClass.TabIndex = 17;
-            this.btnGenerateClass.Text = "Generate Class";
-            this.btnGenerateClass.UseVisualStyleBackColor = true;
-            this.btnGenerateClass.Click += new System.EventHandler(this.btnGenerateClass_Click);
+            this.btnDeleteMember.Location = new System.Drawing.Point(3, 61);
+            this.btnDeleteMember.Name = "btnDeleteMember";
+            this.btnDeleteMember.Size = new System.Drawing.Size(125, 23);
+            this.btnDeleteMember.TabIndex = 14;
+            this.btnDeleteMember.Text = "Delete Member";
+            this.btnDeleteMember.UseVisualStyleBackColor = true;
+            this.btnDeleteMember.Click += new System.EventHandler(this.btnDeleteMember_Click);
             // 
             // FilterPage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lstvwClassMembers);
             this.Controls.Add(this.lblClassName);

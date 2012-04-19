@@ -52,7 +52,22 @@ namespace HtmlViewer
 
             memberInfo.Text = memberInfo.Name = txtMemberName.Text;
             memberInfo.Type = this.cmbType.SelectedItem.ToString();
+            memberInfo.HTML += ("\t#region " + memberInfo.Name + " HTML\n\t/*\n");
+            foreach (TreeNode node in trParentFamily.Nodes)
+                FillMemberHTML(node, 0);
+            memberInfo.HTML += "\t*/\n\t#endregion\n";
             this.DialogResult = DialogResult.OK;
+        }
+
+        private void FillMemberHTML(TreeNode parent, int padding)
+        {
+            string modText = parent.Text;
+            modText = modText.Replace('\n', (char)1);
+            modText = modText.Replace('\t', (char)1);
+            modText = modText.PadLeft(4 + padding + modText.Length, ' ');
+            memberInfo.HTML += (modText + "\n");
+            foreach (TreeNode node in parent.Nodes)
+                FillMemberHTML(node, padding + 1);
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

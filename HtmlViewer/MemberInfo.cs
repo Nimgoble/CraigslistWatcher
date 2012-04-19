@@ -11,10 +11,12 @@ namespace HtmlViewer
     {
         public List<TreeNode> Nodes;
         public string Type;
+        public string HTML;
         public MemberInfo()
         {
             Nodes = new List<TreeNode>();
             Type = "";
+            HTML = "";
         }
         public void UpdateSubInfo()
         {

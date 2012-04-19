@@ -64,12 +64,13 @@ namespace HtmlViewer
                 System.IO.StreamWriter class_file = new System.IO.StreamWriter(file_name, false);
                 string populate = "\tpublic void Populate(string url) \n\t{";
                 if (filteredTags.Count > 0)
-                    populate += "\n\t\tAddOmitTags(new List<string>() {" + string.Join(",", filteredTags.Select(x => "\"" + x.ToString() + "\"").ToArray()) + "});\n";
+                    populate += "\n\t\thtmlParser.AddOmitTags(new List<string>() {" + string.Join(",", filteredTags.Select(x => "\"" + x.ToString() + "\"").ToArray()) + "});\n";
                 populate += "\t\tInit(url);\n";
                 string members = "";
                 string constructor = "\tpublic " + txtClassName.Text + "()\n\t{\n";
                 foreach (MemberInfo member in lstvwClassMembers.Items)
                 {
+                    members += member.HTML;
                     members += "\tpublic ";
                     string format = "(FilterBySequence(new int[] {";
                     string format_tail = "}));\n";

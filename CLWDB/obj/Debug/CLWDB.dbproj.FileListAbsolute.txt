@@ -1,0 +1,8 @@
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Script.PreDeployment.sql
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Script.PostDeployment.sql
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqlsettings
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqldeployment
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqlcmdvars
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB.deploymanifest
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB.dbschema
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\obj\Debug\CLWDB.dbschema

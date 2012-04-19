@@ -29,6 +29,9 @@ namespace HtmlViewer
 
             /*LocationsFilter locFilter = new LocationsFilter();
             locFilter.Populate("http://www.craigslist.org/about/sites");*/
+
+            CategoriesFilter filter = new CategoriesFilter();
+            filter.Populate("http://chicago.craigslist.org");
         }
 
         private void btnQuery_Click(object sender, EventArgs e)

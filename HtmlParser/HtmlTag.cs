@@ -302,7 +302,31 @@ namespace HtmlParser
                     validChildren.Add(child);
             }
         }
+        public void RemoveTags(List<string> tags)
+        {
+            for (int i = 0; i < Children.Count; i++ )
+            {
+                HtmlTag child = Children[i];
+                child.RemoveTags(tags);
+                //We're keeping this tag.  Check if it has any of the remove-tags.
+                if (!tags.Contains(child.Name))
+                    continue;
 
+                Children.RemoveAt(i);
+                for (int z = 0; z < child.Children.Count; z++)
+                {
+                    HtmlTag grandChild = child.Children[z];
+                    Children.Insert(i, grandChild);
+                    i++;
+                    grandChild.Parent = this;
+                    grandChild.RemoveTags(tags);
+                }
+            }
+        }
+        private void _RRemoveTags(List<string> tags)
+        {
+
+        }
         public override string ToString()
         {
             string padding = String.Empty;

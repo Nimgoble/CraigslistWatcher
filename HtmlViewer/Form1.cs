@@ -31,7 +31,8 @@ namespace HtmlViewer
             locFilter.Populate("http://www.craigslist.org/about/sites");*/
 
             CategoriesFilter filter = new CategoriesFilter();
-            filter.Populate("http://chicago.craigslist.org");
+            Dictionary<CategoriesFilter.CategoryInfo, List<CategoriesFilter.CategoryInfo>> dict = new Dictionary<CategoriesFilter.CategoryInfo, List<CategoriesFilter.CategoryInfo>>();
+            filter.Populate("http://chicago.craigslist.org", ref dict);
         }
 
         private void btnQuery_Click(object sender, EventArgs e)

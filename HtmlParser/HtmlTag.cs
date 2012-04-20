@@ -313,14 +313,15 @@ namespace HtmlParser
                     continue;
 
                 Children.RemoveAt(i);
-                for (int z = 0; z < child.Children.Count; z++)
+                int z = 0;
+                for (; z < child.Children.Count; z++)
                 {
                     HtmlTag grandChild = child.Children[z];
-                    Children.Insert(i, grandChild);
-                    i++;
+                    Children.Insert(i + z, grandChild);
                     grandChild.Parent = this;
                     grandChild.RemoveTags(tags);
                 }
+                i += (z - 1);
             }
         }
         private void _RRemoveTags(List<string> tags)

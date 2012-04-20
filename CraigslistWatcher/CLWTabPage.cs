@@ -208,7 +208,7 @@ namespace CraigslistWatcher
                 Dictionary<string, SubsectionDetails> subsections = new Dictionary<string, SubsectionDetails>();
                 if (section_node.Checked)
                 {
-                    string section_suffix = Sections.Instance.SectionDictionary[section_name][section_name];
+                    string section_suffix = Sections.Instance.GetSuffix(section_name, null);
                     subsections.Add(section_name, new SubsectionDetails(section_suffix));
                     sections.Add(section_name, subsections);
                 }
@@ -220,7 +220,7 @@ namespace CraigslistWatcher
                         if (subsection_node.Checked)
                         {
                             string subsection_name = subsection_node.Text;
-                            string section_suffix = Sections.Instance.SectionDictionary[section_name][subsection_name];
+                            string section_suffix = Sections.Instance.GetSuffix(section_name, subsection_name);
                             subsections.Add(subsection_name, new SubsectionDetails(section_suffix));
                         }
                     }

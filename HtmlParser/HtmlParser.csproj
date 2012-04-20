@@ -70,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CLW Filters\AdFilter.cs" />
+    <Compile Include="CLW Filters\CategoriesFilter.cs" />
     <Compile Include="CLW Filters\EntryFilter.cs" />
     <Compile Include="CLW Filters\LocationsFilter.cs" />
     <Compile Include="HtmlParser.cs" />

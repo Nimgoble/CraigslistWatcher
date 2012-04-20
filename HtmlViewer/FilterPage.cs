@@ -60,18 +60,26 @@ namespace HtmlViewer
         {
             if (txtClassName.Text != String.Empty)
             {
+                //Declare file and open
                 string file_name = txtClassName.Text + ".cs";
                 System.IO.StreamWriter class_file = new System.IO.StreamWriter(file_name, false);
-                string populate = "\tpublic void Populate(string url) \n\t{";
+                //Write the includes and the class declaration
+                class_file.Write("using System;\nusing System.Collections.Generic;\nusing HtmlParser;\npublic class " + txtClassName.Text + " : PreciseParseFilter\n{\n");
+                //Init populate string
+                List<string> populate = new List<string>() {"\tpublic void Populate(string url) \n\t{"};
+                //Add the omit tags, if we have any.
                 if (filteredTags.Count > 0)
-                    populate += "\n\t\thtmlParser.AddOmitTags(new List<string>() {" + string.Join(",", filteredTags.Select(x => "\"" + x.ToString() + "\"").ToArray()) + "});\n";
-                populate += "\t\tInit(url);\n";
-                string members = "";
-                string constructor = "\tpublic " + txtClassName.Text + "()\n\t{\n";
+                    populate.Add("\n\t\thtmlParser.AddOmitTags(new List<string>() {" + string.Join(",", filteredTags.Select(x => "\"" + x.ToString() + "\"").ToArray()) + "});\n");
+                populate.Add("\t\tInit(url);\n");
+                List<string> members = new List<string>();
+                List<string> constructor = new List<string> {"\tpublic " + txtClassName.Text + "()\n\t{\n"};
                 foreach (MemberInfo member in lstvwClassMembers.Items)
                 {
-                    members += member.HTML;
-                    members += "\tpublic ";
+                    //For some reason, the HTML comment block screws up the file...
+                    /*foreach(string line in member.HTML)
+                        members.Add(line);*/
+                    members.Add("\tpublic " + member.Type + " " + member.Name + ";\n");
+                    constructor.Add(string.Format("\t\t{0} = new {1}();\n", member.Name, member.Type));
                     string format = "(FilterBySequence(new int[] {";
                     string format_tail = "}));\n";
                     if (member.Nodes.Count > 1)
@@ -87,36 +95,34 @@ namespace HtmlViewer
                                 list_sequence.Insert(0, temp.Index);
                             }
                             int[] sequence = list_sequence.ToArray();
-                            populate += "\t\t" + member.Name + ".Add" + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail;
+                            populate.Add("\t\t" + member.Name + ".Add" + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail);
                         }
-                        members += (member.Type + " ");
-                        constructor += string.Format("\t\t{0} = new {1}();\n", member.Name, member.Type);
                     }
-                    else
+                    else if (member.Nodes.Count == 1)
                     {
-                        members += (member.Type + " ");
-                        if (member.Nodes.Count == 1)
+                        TreeNode node = member.Nodes[0];
+                        List<int> list_sequence = new List<int>();
+                        list_sequence.Insert(0, node.Index);
+                        while (node.Parent != null)
                         {
-                            TreeNode node = member.Nodes[0];
-                            List<int> list_sequence = new List<int>();
+                            node = node.Parent;
                             list_sequence.Insert(0, node.Index);
-                            while (node.Parent != null)
-                            {
-                                node = node.Parent;
-                                list_sequence.Insert(0, node.Index);
-                            }
-                            int[] sequence = list_sequence.ToArray();
-                            populate += "\t\t" + member.Name + " = " + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail;
                         }
-                        constructor += string.Format("\t\t{0} = new {1}();\n", member.Name, member.Type);
+                        int[] sequence = list_sequence.ToArray();
+                        populate.Add("\t\t" + member.Name + " = " + format + string.Join(",", sequence.Select(x => x.ToString()).ToArray()) + format_tail);
                     }
-                    members += member.Name + ";\n";
                 }
-                constructor += "\t}\n";
-                populate += "\t}\n";
-                string class_string = "using System;\nusing System.Collections.Generic;\nusing HtmlParser;\npublic class " + txtClassName.Text + " : PreciseParseFilter\n{\n" + members + constructor + populate + "};\n";
-                class_file.Write(class_string);
+                constructor.Add("\t}\n");
+                populate.Add("\t}\n");
+                foreach (string line in members)
+                    class_file.Write(line);
+                foreach (string line in constructor)
+                    class_file.Write(line);
+                foreach (string line in populate)
+                    class_file.Write(line);
+                class_file.Write("};\n");
                 class_file.Close();
+                MessageBox.Show(String.Format("{0} generated successfully in {1}", txtClassName.Text, file_name));
             }
         }
 

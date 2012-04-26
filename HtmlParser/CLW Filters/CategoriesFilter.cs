@@ -1,43 +1,16 @@
 using System;
 using System.Collections.Generic;
 using HtmlParser;
+using CLWFramework;
 public class CategoriesFilter : PreciseParseFilter
 {
-    public class CategoryInfo : IComparable<object>
-    {
-        public string Name;
-        public string Suffix;
-        public CategoryInfo()
-        {
-            Name = "";
-            Suffix = "";
-        }
-        public CategoryInfo(string name, string suffix)
-        {
-            Name = name;
-            Suffix = suffix;
-        }
-        public override string ToString()
-        {
-            return Name;
-        }
-        public int CompareTo(object obj)
-        {
-            if (obj is CategoryInfo)
-                return this.Name.CompareTo(((CategoryInfo)obj).Name);
-            else if (obj is string)
-                return this.Name.CompareTo(((string)obj));
-            throw new ArgumentException("object is not a valid comparer");  
-        }
-    }
 	public CategoriesFilter()
 	{
-	}
-
-    public void Populate(string url, ref Dictionary<CategoryInfo, List<CategoryInfo>> sectionDictionary)
-    {
         htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>" });
-        Init(url);
+	}
+    public bool Populate(ref Dictionary<CategoryInfo, List<CategoryInfo>> sectionDictionary)
+    {
+        
         HtmlTag ParentNode = (FilterBySequence(new int[] { 1, 1, 0, 0, 0, 2, 4 }));
         //Set up each section
         foreach (HtmlTag child in ParentNode.Children)
@@ -83,5 +56,6 @@ public class CategoriesFilter : PreciseParseFilter
                 }
             }
         }
+        return true;
     }
 };

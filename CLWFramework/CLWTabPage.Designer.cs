@@ -1,4 +1,4 @@
-﻿namespace CraigslistWatcher
+﻿namespace CLWFramework
 {
     partial class CLWTabPage
     {

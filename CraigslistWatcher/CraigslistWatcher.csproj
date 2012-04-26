@@ -17,6 +17,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -29,7 +30,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -53,6 +53,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CLWFramework">
+      <HintPath>..\CLWFramework\bin\Debug\CLWFramework.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlParser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\HtmlParser\bin\Debug\HtmlParser.dll</HintPath>
@@ -74,41 +77,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BackgroundPoller.cs" />
-    <Compile Include="CLWTabPage.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="CLWTabPage.Designer.cs">
-      <DependentUpon>CLWTabPage.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EntryForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EntryForm.Designer.cs">
-      <DependentUpon>EntryForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Locations.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="PollHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CLWTabPage.resx">
-      <DependentUpon>CLWTabPage.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EntryForm.resx">
-      <DependentUpon>EntryForm.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -132,7 +102,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Sections.cs" />
     <Compile Include="TabStripTest.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Users]
 (
-	column_1 int NOT NULL, 
-	column_2 int NULL
+	Name text NOT NULL, 
+	Password text NOT NULL
 )

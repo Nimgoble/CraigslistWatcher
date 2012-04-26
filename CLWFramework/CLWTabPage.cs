@@ -11,37 +11,55 @@ using System.Net;
 using System.IO;
 using HtmlParser;
 
-namespace CraigslistWatcher
+namespace CLWFramework
 {
     //public partial class CLWTabPage : System.Windows.Forms.TabPage
     public partial class CLWTabPage : /*System.Windows.Forms.UserControl,*/ System.Windows.Forms.TabPage
     {
-        private List<string> Keywords_ {get;set;}
+        private List<string> keywords {get;set;}
         private TimeSpan tickInterval;
         private TimeSpan refreshInterval;
         private Int32 previousRefreshMin1;
         private Int32 Min1, Min2, Sec1, Sec2;
         private PollHandler pollHandler;
-        private String Name;
-        private TabStripTest Parent;
-        public CLWTabPage(TabStripTest parent)
+        //This is never really implemented...
+        private String tabName;
+        private Int32 totalFound;
+        private Int32 totalSearched;
+        public CLWTabPage()
         {
             InitializeComponent();
-            Parent = parent;
             tickInterval = new TimeSpan(0, 0, 1);
             refreshInterval = new TimeSpan(0, 0, 0);
-            Keywords_ = new List<string>();
+            keywords = new List<string>();
             previousRefreshMin1 = 0;
             Min1 = 0;
             Min2 = 0;
             Sec1 = 0;
             Sec2 = 0;
-            pollHandler = new PollHandler(this);
+            totalFound = 0;
+            totalSearched = 0;
+            pollHandler = new PollHandler();
+            pollHandler.PollTimerTick += new PollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
+            pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntries);
+            pollHandler.EntrySearched += new PollHandler.EntrySearchedHandler(this.UpdateEntriesSearched);
+            pollHandler.PollStarted +=new PollHandler.PollStartedHandler(this.PollStarted);
+            pollHandler.PollEnded += new PollHandler.PollEndedHandler(this.PollEnded);
             Locations.Instance.PopulateTreeView(ref this.trAreas);
-            Sections.Instance.PopulateTreeView(ref this.trSections);
+            Categories.Instance.PopulateTreeView(ref this.trSections);
             this.wbEntries.Navigate("about:blank");
             this.wbEntries.Document.OpenNew(true);
             this.wbEntries.Refresh();
+        }
+        public void PollStarted()
+        {
+            totalFound = 0;
+            totalSearched = 0;
+            UpdateEntriesFound();
+            UpdateEntriesSearched();
+        }
+        public void PollEnded()
+        {
         }
         public void UpdateRefreshTimeControl(String timeLeft)
         {
@@ -60,15 +78,15 @@ namespace CraigslistWatcher
             }
            
         }
-        public void UpdateEntriesFound(int total)
+        private void UpdateEntriesFound()
         {
             if(this.lblEntriesFound.InvokeRequired)
-                this.lblEntriesFound.Invoke(new MethodInvoker(delegate() { UpdateEntriesFound(total); }));
+                this.lblEntriesFound.Invoke(new MethodInvoker(delegate() { UpdateEntriesFound(); }));
             else
             {
                 try
                 {
-                    this.lblEntriesFound.Text = "Entries Found: " + total.ToString();
+                    this.lblEntriesFound.Text = "Entries Found: " + (++totalFound).ToString();
                 }
                 catch (System.Exception ex)
                 {
@@ -76,7 +94,7 @@ namespace CraigslistWatcher
                 }
             }
         }
-        public void UpdateEntries(string entry)
+        public void UpdateEntries(EntryInfo entry)
         {
             if(this.wbEntries.InvokeRequired)
                 this.wbEntries.Invoke(new MethodInvoker(delegate() { UpdateEntries(entry); }));
@@ -84,7 +102,8 @@ namespace CraigslistWatcher
             {
                 try
                 {
-                    this.wbEntries.Document.Write(entry);
+                    this.wbEntries.Document.Write(entry.ToString());
+                    UpdateEntriesFound();
                 }
                 catch (System.Exception ex)
                 {
@@ -96,15 +115,15 @@ namespace CraigslistWatcher
                 Application.DoEvents();
             }
         }
-        public void UpdateEntriesSearched(int total)
+        public void UpdateEntriesSearched()
         {
             if(this.lblEntriesSearched.InvokeRequired)
-                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(total); });
+                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(); });
             else
             {
                 try
                 {
-                    this.lblEntriesSearched.Text = "Entries Searched: " + total.ToString();
+                    this.lblEntriesSearched.Text = "Entries Searched: " + (++totalSearched).ToString();
                 }
                 catch (System.Exception ex)
                 {
@@ -172,9 +191,9 @@ namespace CraigslistWatcher
         {
             if (e.KeyChar == (char)Keys.Enter)
             {
-                //Keywords_.Add(txtKeywords.Text);
+                //keywords.Add(txtKeywords.Text);
                 lstKeywords.Items.Add(txtKeywords.Text);
-                Keywords_.Add(txtKeywords.Text.ToLower());
+                keywords.Add(txtKeywords.Text.ToLower());
                 txtKeywords.Text = "";
             }
         }
@@ -186,7 +205,7 @@ namespace CraigslistWatcher
             {
                 int index = lstKeywords.SelectedIndex;
                 lstKeywords.Items.RemoveAt(index);
-                Keywords_.RemoveAt(index);
+                keywords.RemoveAt(index);
             }
         }
 
@@ -208,7 +227,7 @@ namespace CraigslistWatcher
                 Dictionary<string, SubsectionDetails> subsections = new Dictionary<string, SubsectionDetails>();
                 if (section_node.Checked)
                 {
-                    string section_suffix = Sections.Instance.GetSuffix(section_name, null);
+                    string section_suffix = Categories.Instance.GetSuffix(section_name, null);
                     subsections.Add(section_name, new SubsectionDetails(section_suffix));
                     sections.Add(section_name, subsections);
                 }
@@ -220,7 +239,7 @@ namespace CraigslistWatcher
                         if (subsection_node.Checked)
                         {
                             string subsection_name = subsection_node.Text;
-                            string section_suffix = Sections.Instance.GetSuffix(section_name, subsection_name);
+                            string section_suffix = Categories.Instance.GetSuffix(section_name, subsection_name);
                             subsections.Add(subsection_name, new SubsectionDetails(section_suffix));
                         }
                     }
@@ -262,7 +281,7 @@ namespace CraigslistWatcher
                         {
                             string city_name = city_node.Text;
                             string website = Locations.Instance.LocationDictionary[country_name][state_name][city_name];
-                            city_map.Add(city_name, new CityDetails(city_name, website, Keywords_, sections));
+                            city_map.Add(city_name, new CityDetails(city_name, website, keywords, sections));
                         }
                     }
                     if (city_map.Count != 0)
@@ -284,14 +303,14 @@ namespace CraigslistWatcher
                 return;
             }
 
-            if (Keywords_.Count == 0)
+            if (keywords.Count == 0)
             {
                 MessageBox.Show("Please enter at least one keyword.", "Error", MessageBoxButtons.OK);
                 return;
             }
 
             pollHandler.Areas_ = Areas;
-            pollHandler.to_string_ = Name;
+            pollHandler.toString = tabName;
             pollHandler.Start(refreshInterval);
         }
 
@@ -351,11 +370,12 @@ namespace CraigslistWatcher
 
         private void wbEntries_Navigating(object sender, WebBrowserNavigatingEventArgs e)
         {
+            //Open anything from craigslist in the browser
             if (e.Url.ToString().Contains("craigslist"))
-            {
                 Process.Start(e.Url.ToString());
+            //anything else, besides a reset, gets the boot
+            if (!e.Url.ToString().Contains("about:blank"))
                 e.Cancel = true;
-            }
         }
     }
 }

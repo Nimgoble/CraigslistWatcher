@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using CLWFramework;
 
 namespace CraigslistWatcher
 {
@@ -47,16 +48,18 @@ namespace CraigslistWatcher
         private void TabStripTest_Load(object sender, EventArgs e)
         {
             mutex_ = new object();
-            Logger.Instance.log_form_ = this;
+            Logger.Initiate("");
+            Logger.Instance.LogMessage += new Logger.LogMessageHandler(this.Log);
             this.wbLog.Navigate("about:blank");
             this.wbLog.Document.OpenNew(true);
             this.wbLog.Refresh();
             Locations.Instance.DownloadLocations();
+            Categories.Instance.DownloadCategories();
         }
 
         private void btnNewSearch_Click(object sender, EventArgs e)
         {
-            tbQueries.Controls.Add(new CLWTabPage(this));
+            tbQueries.Controls.Add(new CLWTabPage());
         }
     }
 }

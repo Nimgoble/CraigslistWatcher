@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using CLWFramework;
 namespace HtmlViewer
 {
     public partial class Form1 : Form
@@ -31,8 +31,9 @@ namespace HtmlViewer
             locFilter.Populate("http://www.craigslist.org/about/sites");*/
 
             CategoriesFilter filter = new CategoriesFilter();
-            Dictionary<CategoriesFilter.CategoryInfo, List<CategoriesFilter.CategoryInfo>> dict = new Dictionary<CategoriesFilter.CategoryInfo, List<CategoriesFilter.CategoryInfo>>();
-            filter.Populate("http://chicago.craigslist.org", ref dict);
+            Dictionary<CategoryInfo, List<CategoryInfo>> dict = new Dictionary<CategoryInfo, List<CategoryInfo>>();
+            if(filter.ParseURL("http://chicago.craigslist.org"))
+                filter.Populate(ref dict);
         }
 
         private void btnQuery_Click(object sender, EventArgs e)

@@ -12,9 +12,13 @@ namespace HtmlParser
         {
             htmlParser = new HtmlParser();
         }
-        protected bool Init(string url)
+        public bool ParseURL(string url)
         {
             return htmlParser.ParseURL(url, true);
+        }
+        public bool ParseRawHTML(string html)
+        {
+            return htmlParser.ParseRawHTML(html, true);
         }
         protected HtmlTag FilterBySequence(int[] sequence)
         {

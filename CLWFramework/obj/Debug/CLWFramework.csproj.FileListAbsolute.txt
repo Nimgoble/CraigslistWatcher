@@ -1,0 +1,12 @@
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\bin\Debug\CLWFramework.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\bin\Debug\CLWFramework.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\CLWFramework.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\CLWFramework.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\CLWFramework.CLWTabPage.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\GenerateResource-ResGen.write.1.tlog

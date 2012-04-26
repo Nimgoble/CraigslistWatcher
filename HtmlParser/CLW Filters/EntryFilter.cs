@@ -1,81 +1,23 @@
 using System;
 using System.Collections.Generic;
-using HtmlParser;
+using CLWFramework;
 
 namespace HtmlParser
 {
     public class EntryFilter : PreciseParseFilter
     {
-        public class EntryInfo
-        {
-            public string Title { get; set; }
-            public string URL { get; set; }
-            public string Area { get; set; }
-            public string Value { get; set; }
-            private string toString;
-            public EntryInfo(string rawHtml)
-            {
-                toString = rawHtml;
-                Title = String.Empty;
-                URL = String.Empty;
-                Area = String.Empty;
-                Value = String.Empty;
-            }
-            public static EntryInfo CreateEntryInfo(HtmlTag src)
-            {
-                try
-                {
-                    if (src.Children.Count == 0)
-                        return null;
-
-                    EntryInfo info = new EntryInfo(src.ToString());
-                    List<HtmlTag> tags;
-                    src.FilterForChildrenByAttribute("href", "*", out tags);
-                    if (tags.Count == 0)
-                        return null;
-
-                    info.Title = tags[0].Value;
-                    info.URL = tags[0].Attributes["href"];
-                    tags.Clear();
-
-                    src.FilterForChildrenByName("font", out tags);
-                    if(tags.Count > 0)
-                        info.Area = tags[0].Value;
-
-                    info.Value = string.Join(",", src.MiscellaneousItems.ToArray());
-                    for (int i = 0; i < info.Value.Length; i++)
-                    {
-                        if (info.Value[i] == '$')
-                        {
-                            info.Value = info.Value.Substring(i, info.Value.Length - i);
-                            break;
-                        }
-                    }
-                    return info;
-                }
-                catch(Exception e)
-                {
-                    return null;
-                }
-            }
-            public override string ToString()
-            {
-                return toString;
-            }
-        };
         public List<EntryInfo> EntryList;
         public string NextHundred;
         public EntryFilter()
         {
+            htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>" });
             EntryList = new List<EntryInfo>();
             NextHundred = null;
         }
-        public void Populate(string url)
+        public void Populate()
         {
-            htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>" });
             EntryList.Clear();
             NextHundred = null;
-            Init(url);
             HtmlTag parent = FilterBySequence(new int[] { 1, 1, 5 });
             Dictionary<string, KeyValuePair<string, string>> classAndAttributes = new Dictionary<string, KeyValuePair<string, string>>();
             List<HtmlTag> parentList = new List<HtmlTag>();

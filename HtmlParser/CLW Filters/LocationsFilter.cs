@@ -9,12 +9,11 @@ namespace HtmlParser
         public Dictionary<String, String> SectionToName;
         public LocationsFilter()
         {
+            htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>", "<ul>", "</ul>", "<li>", "</li>" });
             SectionToName = new Dictionary<String, String>();
         }
-        public void Populate(string url, ref Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary)
+        public void Populate(ref Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary)
         {
-            htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>", "<ul>", "</ul>", "<li>", "</li>" });
-            Init(url);
             HtmlTag parent = (FilterBySequence(new int[] { 1, 1 }));
             ParseSectionNames(parent);
             ParseCountries(parent, ref LocationDictionary);

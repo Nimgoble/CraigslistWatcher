@@ -26,75 +26,41 @@ using System.Timers;
 //last_poll_starting_entry.
 //What happens if our last_poll_starting_entry is deleted?  Keep a list of the last 5 and do a list.Contains(current_entry)?
 
-namespace CraigslistWatcher
+namespace CLWFramework
 {
-    public class SubsectionDetails
-    {
-        public SubsectionDetails()
-        {
-            Suffix_ = "";
-            TopFiveEntriesFromLastSearch = new List<string>();
-        }
-        public SubsectionDetails(string suffix)
-        {
-            Suffix_ = suffix;
-            TopFiveEntriesFromLastSearch = new List<string>();
-        }
-        public string Suffix_;
-        public List<string> TopFiveEntriesFromLastSearch;
-    }
-    public class CityDetails
-    {
-        public CityDetails()
-        {
-            CityWebsite_ = "";
-            Keywords_ = new List<string>();
-            Sections_ = new Dictionary<string, Dictionary<string, SubsectionDetails>>();
-        }
-        public CityDetails(string city, string website, List<string> keywords, Dictionary<string, Dictionary<string, SubsectionDetails>> sections)
-        {
-            City_ = city;
-            Keywords_ = keywords;
-            Sections_ = sections;
-            CityWebsite_ = website;
-        }
-        public string City_;
-        public string CityWebsite_;
-        public List<string> Keywords_;
-        public Dictionary<string, Dictionary<string, SubsectionDetails>> Sections_;
-    }
     public class PollHandler
     {
         public Dictionary<string /*Country*/, Dictionary<string /*state name*/, Dictionary<string /*city name*/, CityDetails /*city website*/>>> Areas_ { get; set; }
-        private System.Timers.Timer  timer_ { get; set; }
-        private List<string/*entry website*/> entry_list_ { get; set; }
+        private System.Timers.Timer  timer { get; set; }
+        private List<string/*entry website*/> entryList { get; set; }
         private TimeSpan refreshTime;
         private TimeSpan refreshTimeCounter;
         private TimeSpan timeout;
 
-        private CLWTabPage main_form_;
-        private object lock_object_ { get; set; }
-        private bool polling_;
-        public string to_string_;
-        private System.Diagnostics.Stopwatch stop_watch_;
-        private int total_searched_;
+        private object lockObject { get; set; }
+        private bool polling;
+        public string toString;
+        private System.Diagnostics.Stopwatch stopWatch;
+        private int totalSearched;
         private int matchingEntriesFound;
 
-        public PollHandler(CLWTabPage main_form)
+        private BackgroundPoller.EntrySearchedHandler entrySearchedHandler;
+        private BackgroundPoller.EntryFoundHandler entryFoundHandler;
+
+        public PollHandler()
         {
-            main_form_ = main_form;
             Areas_ = new Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>>();
-            to_string_ = "";
+            toString = "";
+            entrySearchedHandler = new BackgroundPoller.EntrySearchedHandler(this.OnEntrySearched);
+            entryFoundHandler = new BackgroundPoller.EntryFoundHandler(this.OnEntryFound);
             InitializeMembers();
         }
 
-        public PollHandler(CLWTabPage main_form,
-            Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> Areas, 
-            string to_string)
+        public PollHandler(Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> Areas, 
+                            string to_string)
         {
-            main_form_ = main_form;
             Areas_ = Areas;
-            to_string_ = to_string;
+            toString = to_string;
             InitializeMembers();
         }
 
@@ -104,20 +70,20 @@ namespace CraigslistWatcher
 
         void InitializeMembers()
         {
-            lock_object_ = new object();
-            timer_ = new System.Timers.Timer();
-            timer_.Elapsed += new ElapsedEventHandler(Tick);
+            lockObject = new object();
+            timer = new System.Timers.Timer();
+            timer.Elapsed += new ElapsedEventHandler(Tick);
             timeout = new TimeSpan(0, 0, 1);
-            polling_ = false;
-            polling_ = false;
-            total_searched_ = 0;
+            polling = false;
+            polling = false;
+            totalSearched = 0;
             matchingEntriesFound = 0;
-            stop_watch_ = new System.Diagnostics.Stopwatch();
+            stopWatch = new System.Diagnostics.Stopwatch();
         }
 
         public override string ToString()
         {
-            return this.to_string_;
+            return this.toString;
         }
 
         public void Start(TimeSpan refreshTime)
@@ -125,15 +91,14 @@ namespace CraigslistWatcher
             try
             {
                 this.refreshTime = new TimeSpan(refreshTime.Hours, refreshTime.Minutes, refreshTime.Seconds);
-                if (polling_)
+                if (polling)
                     Logger.Instance.Log("Already refreshing.");
                 else
                 {
                     this.refreshTimeCounter = new TimeSpan(refreshTime.Hours, refreshTime.Minutes, refreshTime.Seconds);
-                    timer_.AutoReset = false;
-                    timer_.Interval = 1;
-                    timer_.Start();
-                    //DoPoll();
+                    timer.AutoReset = false;
+                    timer.Interval = 1;
+                    timer.Start();
                 }
                
             }
@@ -146,35 +111,35 @@ namespace CraigslistWatcher
         public void Tick(object sender, ElapsedEventArgs e)
         {
             refreshTimeCounter = refreshTimeCounter.Subtract(timeout);
-            if (!timer_.AutoReset)
+            if (!timer.AutoReset)
             {
                 DoPoll();
-                timer_.AutoReset = true;
-                timer_.Interval = 1000;
+                timer.AutoReset = true;
+                timer.Interval = 1000;
             }
             else if (refreshTimeCounter == TimeSpan.Zero)
             {
-                timer_.Stop();
+                timer.Stop();
                 DoPoll();
                 refreshTimeCounter = refreshTimeCounter.Add(refreshTime);
             }
             else
             {
-                main_form_.UpdateRefreshTimeControl(refreshTimeCounter.Minutes.ToString() + ":" + refreshTimeCounter.Seconds.ToString());
+                OnPollTimerTick(refreshTimeCounter.Minutes.ToString() + ":" + refreshTimeCounter.Seconds.ToString());
             }
         }
 
         public bool Stop()
         {
-            if (Monitor.TryEnter(lock_object_))
+            if (Monitor.TryEnter(lockObject))
             {
                 try
                 {
-                    timer_.Stop();
+                    timer.Stop();
                 }
                 finally
                 {
-                    Monitor.Exit(lock_object_);
+                    Monitor.Exit(lockObject);
                 }
 
                 return true;
@@ -183,16 +148,14 @@ namespace CraigslistWatcher
             return false;
         }
 
+        public delegate void RefreshBeginHandler();
+        public event RefreshBeginHandler RefreshBegin;
         public void DoPoll()
         {
-            if (polling_)
+            if (polling)
                 return;
-            main_form_.UpdateRefreshTimeControl("Refreshing...");
-            stop_watch_.Start();
+            OnPollStarted();
             //This is going to take for-fucking-ever.
-            polling_ = true;
-            Logger.Instance.Log("Poll started.", to_string_);
-
             foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, CityDetails>>> statemap_keyvalue_pair in Areas_)
             {
                 Dictionary<string, Dictionary<string, CityDetails>> state_map = statemap_keyvalue_pair.Value;
@@ -205,7 +168,10 @@ namespace CraigslistWatcher
                         foreach (KeyValuePair<string, CityDetails> city_details in city_map)
                         {
                             CityDetails details = city_details.Value;
-                            city_workers.Add(new BackgroundPoller(this, ref details));
+                            BackgroundPoller backgroundPoller = new BackgroundPoller(ref details);
+                            backgroundPoller.EntrySearched += this.entrySearchedHandler;
+                            backgroundPoller.EntryFound += this.entryFoundHandler;
+                            city_workers.Add(backgroundPoller);
                         }
                         WaitHandle.WaitAll(city_workers.ToArray());
                     }
@@ -215,29 +181,62 @@ namespace CraigslistWatcher
                     }
                 }
             }
-            stop_watch_.Stop();
-            polling_ = false;
-            
-            Logger.Instance.Log("Poll ended. Entries searched: " + total_searched_.ToString() +". Time elapsed: " + stop_watch_.Elapsed.ToString(), to_string_);
-            total_searched_ = 0;
-            timer_.Start();
+            OnPollEnded();
         }
 
-        public void UpdateEntries(string entry)
+        public delegate void EntrySearchedHandler();
+        public event EntrySearchedHandler EntrySearched;
+        public void OnEntrySearched()
         {
-            lock (lock_object_)
+            lock (lockObject)
             {
-                main_form_.UpdateEntriesFound(matchingEntriesFound++);
-                main_form_.UpdateEntries(entry);
+                if (EntrySearched != null)
+                    EntrySearched();
             }
         }
 
-        public void UpdateTotalSearched()
+        public delegate void EntryFoundHandler(EntryInfo entry);
+        public event EntryFoundHandler EntryFound;
+        public void OnEntryFound(EntryInfo entry)
         {
-            lock (lock_object_)
+            lock (lockObject)
             {
-                main_form_.UpdateEntriesSearched(total_searched_++);
+                if (EntryFound != null)
+                    EntryFound(entry);
             }
+        }
+
+        public delegate void PollTimerTickHandler(string timeleft);
+        public event PollTimerTickHandler PollTimerTick;
+        private void OnPollTimerTick(string timeleft)
+        {
+            if (PollTimerTick != null)
+                PollTimerTick(timeleft);
+        }
+
+        public delegate void PollStartedHandler();
+        public event PollStartedHandler PollStarted;
+        public void OnPollStarted()
+        {
+            OnPollTimerTick("Refreshing...");
+            stopWatch.Start();
+            polling = true;
+            Logger.Instance.Log("Poll started.", toString);
+            if (PollStarted != null)
+                PollStarted();
+        }
+
+        public delegate void PollEndedHandler();
+        public event PollEndedHandler PollEnded;
+        public void OnPollEnded()
+        {
+            stopWatch.Stop();
+            polling = false;
+            totalSearched = 0;
+            timer.Start();
+            Logger.Instance.Log("Poll ended. Entries searched: " + totalSearched.ToString() + ". Time elapsed: " + stopWatch.Elapsed.ToString(), toString);
+            if (PollEnded != null)
+                PollEnded();
         }
     }
 }

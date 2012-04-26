@@ -53,6 +53,9 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CLWFramework">
+      <HintPath>..\CLWFramework\bin\Debug\CLWFramework.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlParser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\HtmlParser\bin\Debug\HtmlParser.dll</HintPath>

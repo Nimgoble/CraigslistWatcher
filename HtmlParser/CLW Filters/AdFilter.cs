@@ -12,14 +12,14 @@ namespace HtmlParser
             Body = string.Empty;
             toString = string.Empty;
         }
-        public bool Populate()
+        public override void Populate()
         {
             try
             {
                 toString = htmlParser.ToString();
                 HtmlTag parent = FilterBySequence(new int[] { 1, 1 });
                 if (parent == null)
-                    return false;
+                    return;
                 List<HtmlTag> tags;
                 parent.FilterForChildrenByNameAndAttribute("div", new KeyValuePair<string, string>("id", "userbody"), out tags);
                 if (tags != null && tags.Count > 0)
@@ -28,9 +28,7 @@ namespace HtmlParser
             catch (System.Exception e)
             {
                 Body = e.ToString();
-                return false;
             }
-            return true;
         }
         public override string ToString()
         {

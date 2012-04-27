@@ -4,13 +4,14 @@ using HtmlParser;
 using CLWFramework;
 public class CategoriesFilter : PreciseParseFilter
 {
-	public CategoriesFilter()
+    private Dictionary<CategoryInfo, List<CategoryInfo>> sectionDictionary;
+    public CategoriesFilter(ref Dictionary<CategoryInfo, List<CategoryInfo>> _sectionDictionary)
 	{
+        sectionDictionary = _sectionDictionary;
         htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>" });
 	}
-    public bool Populate(ref Dictionary<CategoryInfo, List<CategoryInfo>> sectionDictionary)
+    public override void Populate()
     {
-        
         HtmlTag ParentNode = (FilterBySequence(new int[] { 1, 1, 0, 0, 0, 2, 4 }));
         //Set up each section
         foreach (HtmlTag child in ParentNode.Children)
@@ -56,6 +57,5 @@ public class CategoriesFilter : PreciseParseFilter
                 }
             }
         }
-        return true;
     }
 };

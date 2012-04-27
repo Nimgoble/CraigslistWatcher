@@ -44,19 +44,19 @@
 			</Property>
 			<Relationship Name="Columns">
 				<Entry>
-					<Element Type="ISql90ComputedColumn" Name="[dbo].[TestView].[column_1]">
+					<Element Type="ISql90ComputedColumn" Name="[dbo].[TestView].[Name]">
 						<Relationship Name="ExpressionDependencies">
 							<Entry>
-								<References Name="[dbo].[Users].[column_1]" />
+								<References Name="[dbo].[Users].[Name]" />
 							</Entry>
 						</Relationship>
 					</Element>
 				</Entry>
 				<Entry>
-					<Element Type="ISql90ComputedColumn" Name="[dbo].[TestView].[column_2]">
+					<Element Type="ISql90ComputedColumn" Name="[dbo].[TestView].[Password]">
 						<Relationship Name="ExpressionDependencies">
 							<Entry>
-								<References Name="[dbo].[Users].[column_2]" />
+								<References Name="[dbo].[Users].[Password]" />
 							</Entry>
 						</Relationship>
 					</Element>
@@ -83,14 +83,14 @@
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
 				<Entry>
-					<Element Type="ISql100SimpleColumn" Name="[dbo].[Users].[column_1]">
+					<Element Type="ISql100SimpleColumn" Name="[dbo].[Users].[Name]">
 						<Property Name="IsNullable" Value="False" />
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="ISql90TypeSpecifier">
 									<Relationship Name="Type">
 										<Entry>
-											<References ExternalSource="BuiltIns" Name="[int]" />
+											<References ExternalSource="BuiltIns" Name="[text]" />
 										</Entry>
 									</Relationship>
 								</Element>
@@ -99,13 +99,14 @@
 					</Element>
 				</Entry>
 				<Entry>
-					<Element Type="ISql100SimpleColumn" Name="[dbo].[Users].[column_2]">
+					<Element Type="ISql100SimpleColumn" Name="[dbo].[Users].[Password]">
+						<Property Name="IsNullable" Value="False" />
 						<Relationship Name="TypeSpecifier">
 							<Entry>
 								<Element Type="ISql90TypeSpecifier">
 									<Relationship Name="Type">
 										<Entry>
-											<References ExternalSource="BuiltIns" Name="[int]" />
+											<References ExternalSource="BuiltIns" Name="[text]" />
 										</Entry>
 									</Relationship>
 								</Element>

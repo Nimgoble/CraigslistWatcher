@@ -14,7 +14,7 @@ namespace HtmlParser
             EntryList = new List<EntryInfo>();
             NextHundred = null;
         }
-        public void Populate()
+        public override void Populate()
         {
             EntryList.Clear();
             NextHundred = null;

@@ -30,10 +30,10 @@ namespace HtmlViewer
             /*LocationsFilter locFilter = new LocationsFilter();
             locFilter.Populate("http://www.craigslist.org/about/sites");*/
 
-            CategoriesFilter filter = new CategoriesFilter();
+            /*CategoriesFilter filter = new CategoriesFilter();
             Dictionary<CategoryInfo, List<CategoryInfo>> dict = new Dictionary<CategoryInfo, List<CategoryInfo>>();
             if(filter.ParseURL("http://chicago.craigslist.org"))
-                filter.Populate(ref dict);
+                filter.Populate(ref dict);*/
         }
 
         private void btnQuery_Click(object sender, EventArgs e)

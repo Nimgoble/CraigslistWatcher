@@ -5,21 +5,8 @@ using System.Text;
 
 namespace HtmlParser
 {
-    public class PreciseParseFilter
+    public class PreciseParseFilter : ParseFilter
     {
-        protected HtmlParser htmlParser;
-        public PreciseParseFilter()
-        {
-            htmlParser = new HtmlParser();
-        }
-        public bool ParseURL(string url)
-        {
-            return htmlParser.ParseURL(url, true);
-        }
-        public bool ParseRawHTML(string html)
-        {
-            return htmlParser.ParseRawHTML(html, true);
-        }
         protected HtmlTag FilterBySequence(int[] sequence)
         {
             try

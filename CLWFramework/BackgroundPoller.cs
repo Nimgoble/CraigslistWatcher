@@ -20,6 +20,7 @@ namespace CLWFramework
         private int matchingEntriesFound;
         private int entriesSearched;
         private System.Diagnostics.Stopwatch stopWatch;
+        private ParseFilter.ParseURLCompletedHandler parseURLCompletedHandler;
         public BackgroundPoller(ref CityDetails details)
             : base(false, EventResetMode.ManualReset)
         {
@@ -28,6 +29,7 @@ namespace CLWFramework
             worker = new BackgroundWorker();
             entriesSearched = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
+            parseURLCompletedHandler = new ParseFilter.ParseURLCompletedHandler(this.SearchEntry);
             worker.DoWork += this.PollCity;
             worker.RunWorkerCompleted += this.OnPollDone;
             worker.RunWorkerAsync();
@@ -36,6 +38,7 @@ namespace CLWFramework
         public void PollCity(object sender, DoWorkEventArgs e)
         {
             stopWatch.Start();
+            //List<List<EntryInfo>> EntryInfoSectionList = new List<List<EntryInfo>>();
             foreach (Dictionary<string, SubsectionDetails> subSections in details.Sections.Values)
             {
                 foreach (SubsectionDetails subSection in subSections.Values)
@@ -75,7 +78,10 @@ namespace CLWFramework
                     return;
                 }
                 else
-                    SearchEntry(entryInfo);
+                {
+                    AdFilter adFilter = new AdFilter();
+                    adFilter.ParseURLAsync(entryInfo, parseURLCompletedHandler);
+                }
             }
             if (entryFilter.NextHundred != null)
                 SearchSection(sectionSite, entryFilter.NextHundred, ref LastFiveEntriesSearched);
@@ -93,14 +99,38 @@ namespace CLWFramework
 
         //title = <html><head><title>
         //body = <html><body><div id="userbody">
-        private void SearchEntry(EntryInfo entry)
+        private void SearchEntry(EntryInfo info, ParseFilter filter)
         {
             try
             {
-                AdFilter adFilter = new AdFilter();
+                AdFilter adFilter = (AdFilter)filter;
+                if (adFilter.Body != null && adFilter.Body != String.Empty)
+                {
+                    string body = adFilter.Body.ToLower();
+                    string title = info.Title.ToLower();
+                    foreach (string keyword in details.Keywords)
+                    {
+                        if (body.Contains(keyword) || title.Contains(keyword))
+                        {
+                            OnEntryFound(info);
+                            return;
+                        }
+                    }
+                }
+            }
+            finally
+            {
+                OnEntrySearched();
+            }
+        }
+        /*private void SearchEntry(string html)
+        {
+            try
+            {
+                
                 try 
                 { 
-                    if(adFilter.ParseURL(entry.URL))
+                    if(adFilter.ParseRawHTML(html))
                         adFilter.Populate(); 
                 }
                 catch (Exception error) { OnPollError(details.City, error.ToString()); }
@@ -124,7 +154,7 @@ namespace CLWFramework
                 OnEntrySearched();
             }
 
-        }
+        }*/
 
         public delegate void PollDoneHandler(string message);
         public event PollDoneHandler PollDone;
@@ -143,28 +173,40 @@ namespace CLWFramework
 
         public delegate void PollErrorHandler(string area, string message);
         public event PollErrorHandler PollError;
+        private readonly object PollErrorLock = new object();
         public void OnPollError(string area, string message)
         {
-            if (PollError != null)
-                PollError(area, message);
+            lock (PollErrorLock)
+            {
+                if (PollError != null)
+                    PollError(area, message);
+            }
         }
 
         public delegate void EntryFoundHandler(EntryInfo info);
         public event EntryFoundHandler EntryFound;
+        private readonly object EntryFoundLock = new object();
         protected void OnEntryFound(EntryInfo info)
         {
-            matchingEntriesFound++;
-            if(EntryFound != null)
-                EntryFound(info);
+            lock (EntryFoundLock)
+            {
+                matchingEntriesFound++;
+                if (EntryFound != null)
+                    EntryFound(info);
+            }
         }
 
         public delegate void EntrySearchedHandler();
         public event EntrySearchedHandler EntrySearched;
+        private readonly object EntrySearchedLock = new object();
         protected void OnEntrySearched()
         {
-            entriesSearched++;
-            if (EntrySearched != null)
-                EntrySearched();
+            lock (EntrySearchedLock)
+            {
+                entriesSearched++;
+                if (EntrySearched != null)
+                    EntrySearched();
+            }
         }
     }
 }

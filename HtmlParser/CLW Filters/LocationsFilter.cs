@@ -7,16 +7,18 @@ namespace HtmlParser
     public class LocationsFilter : PreciseParseFilter
     {
         public Dictionary<String, String> SectionToName;
-        public LocationsFilter()
+        private Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary;
+        public LocationsFilter(ref Dictionary<string, Dictionary<string, Dictionary<string, string>>> _LocationDictionary)
         {
+            LocationDictionary = _LocationDictionary;
             htmlParser.AddOmitTags(new List<string>() { "<br>", "</br>", "<ul>", "</ul>", "<li>", "</li>" });
             SectionToName = new Dictionary<String, String>();
         }
-        public void Populate(ref Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary)
+        public override void Populate()
         {
             HtmlTag parent = (FilterBySequence(new int[] { 1, 1 }));
             ParseSectionNames(parent);
-            ParseCountries(parent, ref LocationDictionary);
+            ParseCountries(parent);
         }
         private void ParseSectionNames(HtmlTag parent)
         {
@@ -37,7 +39,7 @@ namespace HtmlParser
             }
         }
 
-        private void ParseCountries(HtmlTag parent, ref Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary)
+        private void ParseCountries(HtmlTag parent)
         {
             List<HtmlTag> tagList = null;
             string currentCountry = "";

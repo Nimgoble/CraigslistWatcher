@@ -83,9 +83,9 @@ namespace CLWFramework
         public void DownloadLocations()
         {
             string site = "http://www.craigslist.org/about/sites";
-            LocationsFilter filter = new LocationsFilter();
+            LocationsFilter filter = new LocationsFilter(ref locationDictionary);
             if(filter.ParseURL(site))
-                filter.Populate(ref locationDictionary);
+                filter.Populate();
         }
     }
 }

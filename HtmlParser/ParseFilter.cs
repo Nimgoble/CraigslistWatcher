@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.ComponentModel;
-using CLWFramework;
+
 namespace HtmlParser
 {
     public class ParseFilter
@@ -32,25 +32,25 @@ namespace HtmlParser
         {
         }
         //Async stuff
-        public void ParseURLAsync(EntryInfo info, ParseURLCompletedHandler handler)
+        public void ParseURLAsync(string url, ParseURLCompletedHandler handler)
         {
             ParseURLCompleted += handler;
-            worker.BeginInvoke(info, callback, info);
+            worker.BeginInvoke(url, callback, url);
         }
-        private delegate void ParseURLWorkerHandler(EntryInfo info);
-        private void ParseURLWorker(EntryInfo info)
+        private delegate void ParseURLWorkerHandler(string url);
+        private void ParseURLWorker(string url)
         {
-            htmlParser.ParseURL(info.URL, true);
+            htmlParser.ParseURL(url, true);
             Populate();
         }
-        public delegate void ParseURLCompletedHandler(EntryInfo info, ParseFilter filter);
+        public delegate void ParseURLCompletedHandler(string url, ParseFilter filter);
         public event ParseURLCompletedHandler ParseURLCompleted;
         private void OnParseURLCompleted(IAsyncResult e)
         {
             if (ParseURLCompleted != null)
             {
-                EntryInfo info = (EntryInfo)e.AsyncState;
-                ParseURLCompleted(info, this);
+                string url = (string)e.AsyncState;
+                ParseURLCompleted(url, this);
             }
         }
     }

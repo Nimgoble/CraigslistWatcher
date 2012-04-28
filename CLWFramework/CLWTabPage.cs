@@ -26,6 +26,8 @@ namespace CLWFramework
         private String tabName;
         private Int32 totalFound;
         private Int32 totalSearched;
+        private Int32 totalEntries;
+        private static string entryFormat = "<font style=\"font-size:12px;text-align:left\">{0}</font>";
         public CLWTabPage()
         {
             InitializeComponent();
@@ -39,12 +41,14 @@ namespace CLWFramework
             Sec2 = 0;
             totalFound = 0;
             totalSearched = 0;
+            totalEntries = 0;
             pollHandler = new PollHandler();
             pollHandler.PollTimerTick += new PollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
             pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntries);
             pollHandler.EntrySearched += new PollHandler.EntrySearchedHandler(this.UpdateEntriesSearched);
             pollHandler.PollStarted +=new PollHandler.PollStartedHandler(this.PollStarted);
             pollHandler.PollEnded += new PollHandler.PollEndedHandler(this.PollEnded);
+            pollHandler.NumberOfEntriesFound += new PollHandler.NumberOfEntriesFoundHandler(this.UpdateTotalEntries);
             Locations.Instance.PopulateTreeView(ref this.trAreas);
             Categories.Instance.PopulateTreeView(ref this.trSections);
             this.wbEntries.Navigate("about:blank");
@@ -53,8 +57,8 @@ namespace CLWFramework
         }
         public void PollStarted()
         {
-            totalFound = 0;
-            totalSearched = 0;
+            totalFound = -1;
+            totalSearched = -1;
             UpdateEntriesFound();
             UpdateEntriesSearched();
         }
@@ -94,6 +98,22 @@ namespace CLWFramework
                 }
             }
         }
+        private void UpdateTotalEntries(Int32 numEntries)
+        {
+            if (this.lblTotalEntries.InvokeRequired)
+                this.lblTotalEntries.Invoke(new MethodInvoker(delegate() { UpdateTotalEntries(numEntries); }));
+            else
+            {
+                try
+                {
+                    this.lblTotalEntries.Text = "Entries Found: " + (totalEntries += numEntries).ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
+                }
+            }
+        }
         public void UpdateEntries(EntryInfo entry)
         {
             if(this.wbEntries.InvokeRequired)
@@ -102,7 +122,8 @@ namespace CLWFramework
             {
                 try
                 {
-                    this.wbEntries.Document.Write(entry.ToString());
+                    string output = String.Format(CLWTabPage.entryFormat, entry.ToString());
+                    this.wbEntries.Document.Write(output);
                     UpdateEntriesFound();
                 }
                 catch (System.Exception ex)
@@ -215,6 +236,13 @@ namespace CLWFramework
 
             if (this.btnForceRefresh.Text == "Start Search")
                 this.btnForceRefresh.Text = "Refresh";
+
+            totalFound = -1;
+            totalSearched = -1;
+            UpdateEntriesFound();
+            UpdateEntriesSearched();
+            totalEntries = 0;
+            UpdateTotalEntries(0);
 
             Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> Areas = new Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>>();
             Dictionary<string, Dictionary<string, SubsectionDetails>> sections = new Dictionary<string, Dictionary<string, SubsectionDetails>>();

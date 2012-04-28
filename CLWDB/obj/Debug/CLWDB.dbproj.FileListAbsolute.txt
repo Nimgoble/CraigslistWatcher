@@ -6,3 +6,11 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB.deploymanifest
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\sql\debug\CLWDB.dbschema
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWDB\obj\Debug\CLWDB.dbschema
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Script.PreDeployment.sql
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Script.PostDeployment.sql
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqlsettings
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqldeployment
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB_Database.sqlcmdvars
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB.deploymanifest
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\sql\debug\CLWDB.dbschema
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWDB\obj\Debug\CLWDB.dbschema

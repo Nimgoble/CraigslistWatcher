@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
-
+using CLWFramework.CLWFilters;
 namespace CLWFramework
 {
     public sealed class Categories

@@ -32,6 +32,7 @@
             this.wbLog = new System.Windows.Forms.WebBrowser();
             this.label2 = new System.Windows.Forms.Label();
             this.btnNewSearch = new System.Windows.Forms.Button();
+            this.btnRemoveSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbQueries
@@ -73,11 +74,22 @@
             this.btnNewSearch.UseVisualStyleBackColor = true;
             this.btnNewSearch.Click += new System.EventHandler(this.btnNewSearch_Click);
             // 
+            // btnRemoveSearch
+            // 
+            this.btnRemoveSearch.Location = new System.Drawing.Point(13, 51);
+            this.btnRemoveSearch.Name = "btnRemoveSearch";
+            this.btnRemoveSearch.Size = new System.Drawing.Size(121, 23);
+            this.btnRemoveSearch.TabIndex = 21;
+            this.btnRemoveSearch.Text = "Remove Search";
+            this.btnRemoveSearch.UseVisualStyleBackColor = true;
+            this.btnRemoveSearch.Click += new System.EventHandler(this.btnRemoveSearch_Click);
+            // 
             // TabStripTest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(873, 585);
+            this.Controls.Add(this.btnRemoveSearch);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.wbLog);
             this.Controls.Add(this.tbQueries);
@@ -96,5 +108,6 @@
         private System.Windows.Forms.WebBrowser wbLog;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnNewSearch;
+        private System.Windows.Forms.Button btnRemoveSearch;
     }
 }

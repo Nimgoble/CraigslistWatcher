@@ -49,6 +49,11 @@
     <Compile Include="BackgroundPoller.cs" />
     <Compile Include="CategoryInfo.cs" />
     <Compile Include="CityDetails.cs" />
+    <Compile Include="CLWFilters\AdFilter.cs" />
+    <Compile Include="CLWFilters\CategoriesFilter.cs" />
+    <Compile Include="CLWFilters\CLWParseFilter.cs" />
+    <Compile Include="CLWFilters\EntryFilter.cs" />
+    <Compile Include="CLWFilters\LocationsFilter.cs" />
     <Compile Include="CLWTabPage.cs">
       <SubType>Component</SubType>
     </Compile>

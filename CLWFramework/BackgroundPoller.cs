@@ -10,6 +10,7 @@ using HtmlParser;
 using System.Windows.Forms;
 using System.Diagnostics;
 using System.Timers;
+using CLWFramework.CLWFilters;
 
 namespace CLWFramework
 {
@@ -20,7 +21,7 @@ namespace CLWFramework
         private int matchingEntriesFound;
         private int entriesSearched;
         private System.Diagnostics.Stopwatch stopWatch;
-        private ParseFilter.ParseURLCompletedHandler parseURLCompletedHandler;
+        private CLWParseFilter.CLWParseURLCompletedHandler clwParseURLCompletedHandler;
         public BackgroundPoller(ref CityDetails details)
             : base(false, EventResetMode.ManualReset)
         {
@@ -29,7 +30,7 @@ namespace CLWFramework
             worker = new BackgroundWorker();
             entriesSearched = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
-            parseURLCompletedHandler = new ParseFilter.ParseURLCompletedHandler(this.SearchEntry);
+            clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.SearchEntry);
             worker.DoWork += this.PollCity;
             worker.RunWorkerCompleted += this.OnPollDone;
             worker.RunWorkerAsync();
@@ -38,25 +39,43 @@ namespace CLWFramework
         public void PollCity(object sender, DoWorkEventArgs e)
         {
             stopWatch.Start();
-            //List<List<EntryInfo>> EntryInfoSectionList = new List<List<EntryInfo>>();
+            List<List<EntryInfo>> EntryInfoSectionList = new List<List<EntryInfo>>();
+            Int32 numEntriesToSearch = 0;
             foreach (Dictionary<string, SubsectionDetails> subSections in details.Sections.Values)
             {
+                List<EntryInfo> entries = new List<EntryInfo>();
                 foreach (SubsectionDetails subSection in subSections.Values)
                 {
                     try
                     {
                         string site = details.CityWebsite + "/" + subSection.Suffix;
-                        SearchSection(site, "", ref subSection.TopFiveEntriesFromLastSearch);
+                        SearchSection(site, "", ref subSection.TopFiveEntriesFromLastSearch, ref entries);
                     }
                     catch (Exception error)
                     {
                         OnPollError(details.City, error.ToString());
                     }
                 }
+                numEntriesToSearch += entries.Count;
+                EntryInfoSectionList.Add(entries);
+            }
+
+            OnNumberOfEntriesFound(numEntriesToSearch);
+
+            foreach (List<EntryInfo> entryList in EntryInfoSectionList)
+            {
+                foreach (EntryInfo entry in entryList)
+                {
+                    AdFilter filter = new AdFilter();
+                    filter.ParseURLAsync(entry, clwParseURLCompletedHandler);
+                }
             }
         }
 
-        private void SearchSection(string sectionSite, string indexSuffix, ref List<string> LastFiveEntriesSearched)
+        private void SearchSection(string sectionSite, 
+                                    string indexSuffix, 
+                                    ref List<string> LastFiveEntriesSearched, 
+                                    ref List<EntryInfo> entries )
         {
             //Well, fuck.  This doesn't work for Personals because of that stupid "I'm aware that I could see nudie pics" page.
             EntryFilter entryFilter = new EntryFilter();
@@ -78,13 +97,12 @@ namespace CLWFramework
                     return;
                 }
                 else
-                {
-                    AdFilter adFilter = new AdFilter();
-                    adFilter.ParseURLAsync(entryInfo, parseURLCompletedHandler);
-                }
+                    entries.Add(entryInfo);
             }
             if (entryFilter.NextHundred != null)
-                SearchSection(sectionSite, entryFilter.NextHundred, ref LastFiveEntriesSearched);
+                SearchSection(sectionSite, entryFilter.NextHundred, ref LastFiveEntriesSearched, ref entries);
+            else//No more.  Fill Last Five
+                FillLastFive(ref LastFiveEntriesSearched, entries);
         }
 
         private void FillLastFive(ref List<string> LastFiveEntriesSearched, List<EntryInfo> entries)
@@ -123,38 +141,14 @@ namespace CLWFramework
                 OnEntrySearched();
             }
         }
-        /*private void SearchEntry(string html)
-        {
-            try
-            {
-                
-                try 
-                { 
-                    if(adFilter.ParseRawHTML(html))
-                        adFilter.Populate(); 
-                }
-                catch (Exception error) { OnPollError(details.City, error.ToString()); }
-                
-                if (adFilter.Body != null && adFilter.Body != String.Empty)
-                {
-                    string body = adFilter.Body.ToLower();
-                    string title = entry.Title.ToLower();
-                    foreach (string keyword in details.Keywords)
-                    {
-                        if (body.Contains(keyword) || title.Contains(keyword))
-                        {
-                            OnEntryFound(entry);
-                            return;
-                        }
-                    }
-                }
-            }
-            finally
-            {
-                OnEntrySearched();
-            }
 
-        }*/
+        public delegate void NumberOfEntriesFoundHandler(Int32 numEntries);
+        public event NumberOfEntriesFoundHandler NumberOfEntriesFound;
+        private void OnNumberOfEntriesFound(Int32 numEntries)
+        {
+            if (NumberOfEntriesFound != null)
+                NumberOfEntriesFound(numEntries);
+        }
 
         public delegate void PollDoneHandler(string message);
         public event PollDoneHandler PollDone;

@@ -13,9 +13,11 @@ namespace CraigslistWatcher
     public partial class TabStripTest : Form
     {
         public object mutex_ { get; set; }
+        private Int32 tabCounter;
         public TabStripTest()
         {
             InitializeComponent();
+            tabCounter = 0;
         }
 
         public void Log(string text)
@@ -59,7 +61,16 @@ namespace CraigslistWatcher
 
         private void btnNewSearch_Click(object sender, EventArgs e)
         {
-            tbQueries.Controls.Add(new CLWTabPage());
+            CLWTabPage page = new CLWTabPage();
+            page.Text = (++tabCounter).ToString();
+            tbQueries.Controls.Add(page);
+        }
+
+        private void btnRemoveSearch_Click(object sender, EventArgs e)
+        {
+            if (tbQueries.SelectedIndex == -1)
+                return;
+            tbQueries.Controls.Remove(tbQueries.SelectedTab);
         }
     }
 }

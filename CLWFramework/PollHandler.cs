@@ -46,6 +46,7 @@ namespace CLWFramework
 
         private BackgroundPoller.EntrySearchedHandler entrySearchedHandler;
         private BackgroundPoller.EntryFoundHandler entryFoundHandler;
+        private BackgroundPoller.NumberOfEntriesFoundHandler numberOfEntriesFoundHandler;
 
         public PollHandler()
         {
@@ -53,6 +54,7 @@ namespace CLWFramework
             toString = "";
             entrySearchedHandler = new BackgroundPoller.EntrySearchedHandler(this.OnEntrySearched);
             entryFoundHandler = new BackgroundPoller.EntryFoundHandler(this.OnEntryFound);
+            numberOfEntriesFoundHandler = new BackgroundPoller.NumberOfEntriesFoundHandler(this.OnNumberOfEntriesFound);
             InitializeMembers();
         }
 
@@ -171,6 +173,7 @@ namespace CLWFramework
                             BackgroundPoller backgroundPoller = new BackgroundPoller(ref details);
                             backgroundPoller.EntrySearched += this.entrySearchedHandler;
                             backgroundPoller.EntryFound += this.entryFoundHandler;
+                            backgroundPoller.NumberOfEntriesFound += this.numberOfEntriesFoundHandler;
                             city_workers.Add(backgroundPoller);
                         }
                         WaitHandle.WaitAll(city_workers.ToArray());
@@ -184,11 +187,24 @@ namespace CLWFramework
             OnPollEnded();
         }
 
+        public delegate void NumberOfEntriesFoundHandler(Int32 numEntries);
+        public event NumberOfEntriesFoundHandler NumberOfEntriesFound;
+        private readonly object onNumberOfEntriesFoundLock = new object();
+        public void OnNumberOfEntriesFound(Int32 numEntries)
+        {
+            lock (onNumberOfEntriesFoundLock)
+            {
+                if (NumberOfEntriesFound != null)
+                    NumberOfEntriesFound(numEntries);
+            }
+        }
+
         public delegate void EntrySearchedHandler();
         public event EntrySearchedHandler EntrySearched;
+        private readonly object onEntrySearchedLock = new object();
         public void OnEntrySearched()
         {
-            lock (lockObject)
+            lock (onEntrySearchedLock)
             {
                 if (EntrySearched != null)
                     EntrySearched();
@@ -197,9 +213,10 @@ namespace CLWFramework
 
         public delegate void EntryFoundHandler(EntryInfo entry);
         public event EntryFoundHandler EntryFound;
+        private readonly object onEntryFoundLock = new object();
         public void OnEntryFound(EntryInfo entry)
         {
-            lock (lockObject)
+            lock (onEntryFoundLock)
             {
                 if (EntryFound != null)
                     EntryFound(entry);
@@ -208,35 +225,47 @@ namespace CLWFramework
 
         public delegate void PollTimerTickHandler(string timeleft);
         public event PollTimerTickHandler PollTimerTick;
+        private readonly object onPollTimerTickLock = new object();
         private void OnPollTimerTick(string timeleft)
         {
-            if (PollTimerTick != null)
-                PollTimerTick(timeleft);
+            lock (onPollTimerTickLock)
+            {
+                if (PollTimerTick != null)
+                    PollTimerTick(timeleft);
+            }
         }
 
         public delegate void PollStartedHandler();
         public event PollStartedHandler PollStarted;
+        private readonly object onPollStartedLock = new object();
         public void OnPollStarted()
         {
-            OnPollTimerTick("Refreshing...");
-            stopWatch.Start();
-            polling = true;
-            Logger.Instance.Log("Poll started.", toString);
-            if (PollStarted != null)
-                PollStarted();
+            lock (onPollStartedLock)
+            {
+                OnPollTimerTick("Refreshing...");
+                stopWatch.Start();
+                polling = true;
+                Logger.Instance.Log("Poll started.", toString);
+                if (PollStarted != null)
+                    PollStarted();
+            }
         }
 
         public delegate void PollEndedHandler();
         public event PollEndedHandler PollEnded;
+        private readonly object onPollEndedLock = new object();
         public void OnPollEnded()
         {
-            stopWatch.Stop();
-            polling = false;
-            totalSearched = 0;
-            timer.Start();
-            Logger.Instance.Log("Poll ended. Entries searched: " + totalSearched.ToString() + ". Time elapsed: " + stopWatch.Elapsed.ToString(), toString);
-            if (PollEnded != null)
-                PollEnded();
+            lock (onPollEndedLock)
+            {
+                stopWatch.Stop();
+                polling = false;
+                totalSearched = 0;
+                timer.Start();
+                Logger.Instance.Log("Poll ended. Entries searched: " + totalSearched.ToString() + ". Time elapsed: " + stopWatch.Elapsed.ToString(), toString);
+                if (PollEnded != null)
+                    PollEnded();
+            }
         }
     }
 }

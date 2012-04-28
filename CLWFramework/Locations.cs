@@ -6,7 +6,7 @@ using System.Net;
 using System.IO;
 using HtmlParser;
 using System.Windows.Forms;
-
+using CLWFramework.CLWFilters;
 namespace CLWFramework
 {
     public sealed class Locations

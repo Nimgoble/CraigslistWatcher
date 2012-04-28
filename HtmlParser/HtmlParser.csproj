@@ -53,9 +53,6 @@
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CLWFramework">
-      <HintPath>..\CLWFramework\bin\Debug\CLWFramework.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -72,10 +69,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CLW Filters\AdFilter.cs" />
-    <Compile Include="CLW Filters\CategoriesFilter.cs" />
-    <Compile Include="CLW Filters\EntryFilter.cs" />
-    <Compile Include="CLW Filters\LocationsFilter.cs" />
     <Compile Include="HtmlParser.cs" />
     <Compile Include="HtmlTag.cs" />
     <Compile Include="HtmlTree.cs">

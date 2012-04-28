@@ -47,6 +47,7 @@
             this.lblRefreshCountdown = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.lblEntriesSearched = new System.Windows.Forms.Label();
+            this.lblTotalEntries = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.nudMin1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMin2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudSec1)).BeginInit();
@@ -115,13 +116,12 @@
             // 
             // wbEntries
             // 
-            this.wbEntries.AllowNavigation = true;
             this.wbEntries.AllowWebBrowserDrop = false;
             this.wbEntries.IsWebBrowserContextMenuEnabled = false;
-            this.wbEntries.Location = new System.Drawing.Point(438, 36);
+            this.wbEntries.Location = new System.Drawing.Point(438, 53);
             this.wbEntries.MinimumSize = new System.Drawing.Size(20, 20);
             this.wbEntries.Name = "wbEntries";
-            this.wbEntries.Size = new System.Drawing.Size(394, 375);
+            this.wbEntries.Size = new System.Drawing.Size(394, 358);
             this.wbEntries.TabIndex = 29;
             this.wbEntries.WebBrowserShortcutsEnabled = false;
             this.wbEntries.Navigating += new System.Windows.Forms.WebBrowserNavigatingEventHandler(this.wbEntries_Navigating);
@@ -243,8 +243,18 @@
             this.lblEntriesSearched.TabIndex = 46;
             this.lblEntriesSearched.Text = "Entries Searched:";
             // 
+            // lblTotalEntries
+            // 
+            this.lblTotalEntries.AutoSize = true;
+            this.lblTotalEntries.Location = new System.Drawing.Point(435, 37);
+            this.lblTotalEntries.Name = "lblTotalEntries";
+            this.lblTotalEntries.Size = new System.Drawing.Size(69, 13);
+            this.lblTotalEntries.TabIndex = 47;
+            this.lblTotalEntries.Text = "Total Entries:";
+            // 
             // CLWTabPage
             // 
+            this.Controls.Add(this.lblTotalEntries);
             this.Controls.Add(this.lblEntriesSearched);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.lblRefreshCountdown);
@@ -296,5 +306,6 @@
         private System.Windows.Forms.Label lblRefreshCountdown;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label lblEntriesSearched;
+        private System.Windows.Forms.Label lblTotalEntries;
     }
 }

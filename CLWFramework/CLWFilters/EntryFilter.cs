@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
-using CLWFramework;
+using HtmlParser;
 
-namespace HtmlParser
+namespace CLWFramework.CLWFilters
 {
-    public class EntryFilter : PreciseParseFilter
+    public class EntryFilter : CLWParseFilter
     {
         public List<EntryInfo> EntryList;
         public string NextHundred;

@@ -1,8 +1,9 @@
 using HtmlParser;
 using System.Collections.Generic;
-namespace HtmlParser
+
+namespace CLWFramework.CLWFilters
 {
-    public class AdFilter : PreciseParseFilter
+    public class AdFilter : CLWParseFilter
     {
         private string toString;
         public string Body { get; set; }

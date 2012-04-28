@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using HtmlParser;
 
-namespace HtmlParser
+namespace CLWFramework.CLWFilters
 {
-    public class LocationsFilter : PreciseParseFilter
+    public class LocationsFilter : CLWParseFilter
     {
         public Dictionary<String, String> SectionToName;
         private Dictionary<string, Dictionary<string, Dictionary<string, string>>> LocationDictionary;

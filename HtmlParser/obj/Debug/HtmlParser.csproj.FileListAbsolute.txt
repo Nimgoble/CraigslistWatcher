@@ -18,3 +18,5 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\obj\Debug\HtmlParser.pdb
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\bin\Debug\CLWFramework.dll
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlParser\bin\Debug\CLWFramework.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlParser\obj\Debug\GenerateResource-ResGen.write.1.tlog

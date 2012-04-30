@@ -18,7 +18,6 @@ namespace CLWFramework
     {
         private BackgroundWorker worker;
         private CityDetails details;
-        private int matchingEntriesFound;
         private int entriesSearched;
         private System.Diagnostics.Stopwatch stopWatch;
         private CLWParseFilter.CLWParseURLCompletedHandler clwParseURLCompletedHandler;
@@ -26,11 +25,10 @@ namespace CLWFramework
             : base(false, EventResetMode.ManualReset)
         {
             this.details = details;
-            matchingEntriesFound = 0;
             worker = new BackgroundWorker();
             entriesSearched = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
-            clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.SearchEntry);
+            clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.OnEntryFound);
             worker.DoWork += this.PollCity;
             worker.RunWorkerCompleted += this.OnPollDone;
             worker.RunWorkerAsync();
@@ -64,10 +62,11 @@ namespace CLWFramework
 
             foreach (List<EntryInfo> entryList in EntryInfoSectionList)
             {
-                foreach (EntryInfo entry in entryList)
+                for (int i = 0; i < entryList.Count; i++ )
                 {
+                    EntryInfo entry = entryList[i];
                     AdFilter filter = new AdFilter();
-                    filter.ParseURLAsync(entry, clwParseURLCompletedHandler);
+                    filter.ParseURLAsync(ref entry, clwParseURLCompletedHandler);
                 }
             }
         }
@@ -115,33 +114,6 @@ namespace CLWFramework
             }
         }
 
-        //title = <html><head><title>
-        //body = <html><body><div id="userbody">
-        private void SearchEntry(EntryInfo info, ParseFilter filter)
-        {
-            try
-            {
-                AdFilter adFilter = (AdFilter)filter;
-                if (adFilter.Body != null && adFilter.Body != String.Empty)
-                {
-                    string body = adFilter.Body.ToLower();
-                    string title = info.Title.ToLower();
-                    foreach (string keyword in details.Keywords)
-                    {
-                        if (body.Contains(keyword) || title.Contains(keyword))
-                        {
-                            OnEntryFound(info);
-                            return;
-                        }
-                    }
-                }
-            }
-            finally
-            {
-                OnEntrySearched();
-            }
-        }
-
         public delegate void NumberOfEntriesFoundHandler(Int32 numEntries);
         public event NumberOfEntriesFoundHandler NumberOfEntriesFound;
         private void OnNumberOfEntriesFound(Int32 numEntries)
@@ -158,7 +130,7 @@ namespace CLWFramework
 
             if (PollDone != null)
             {
-                string output = "Found " + matchingEntriesFound.ToString() + " new entries out of " + entriesSearched.ToString() + " entries searched in " + stopWatch.Elapsed.ToString();
+                string output = entriesSearched.ToString() + " entries searched in " + stopWatch.Elapsed.ToString();
                 PollDone(output);
             }
 
@@ -180,26 +152,13 @@ namespace CLWFramework
         public delegate void EntryFoundHandler(EntryInfo info);
         public event EntryFoundHandler EntryFound;
         private readonly object EntryFoundLock = new object();
-        protected void OnEntryFound(EntryInfo info)
+        protected void OnEntryFound(EntryInfo info, ParseFilter filter)
         {
             lock (EntryFoundLock)
             {
-                matchingEntriesFound++;
+                entriesSearched++;
                 if (EntryFound != null)
                     EntryFound(info);
-            }
-        }
-
-        public delegate void EntrySearchedHandler();
-        public event EntrySearchedHandler EntrySearched;
-        private readonly object EntrySearchedLock = new object();
-        protected void OnEntrySearched()
-        {
-            lock (EntrySearchedLock)
-            {
-                entriesSearched++;
-                if (EntrySearched != null)
-                    EntrySearched();
             }
         }
     }

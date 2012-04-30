@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using CLWFramework;
+using CLWFramework.CLWFilters;
 namespace HtmlViewer
 {
     public partial class Form1 : Form
@@ -26,6 +27,11 @@ namespace HtmlViewer
             filter.Populate(url);
             while (filter.NextHundred != null)
                 filter.Populate(url + filter.NextHundred);*/
+
+            AdFilter filter = new AdFilter();
+            filter.ParseURL("http://chicago.craigslist.org/wcl/msg/2988125335.html");
+            filter.Populate();
+            int i = 0;
 
             /*LocationsFilter locFilter = new LocationsFilter();
             locFilter.Populate("http://www.craigslist.org/about/sites");*/
@@ -157,6 +163,35 @@ namespace HtmlViewer
         {
             if(tbTabs.SelectedIndex != -1 && tbTabs.SelectedIndex != 0)
                 this.tbTabs.Controls.RemoveAt(tbTabs.SelectedIndex);
+        }
+
+        private void trParsedURL_ItemDrag(object sender, ItemDragEventArgs e)
+        {
+            DoDragDrop(e.Item, DragDropEffects.Move);
+        }
+
+        private void txtNodeSequence_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Move;
+        }
+
+        private void txtNodeSequence_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent("System.Windows.Forms.TreeNode", false))
+            {
+                TreeNode node = (TreeNode)e.Data.GetData("System.Windows.Forms.TreeNode");
+                if (node == null)
+                    return;
+
+                List<string> sequence = new List<string>();
+                sequence.Insert(0, node.Index.ToString());
+                while (node.Parent != null)
+                {
+                    node = node.Parent;
+                    sequence.Insert(0, node.Index.ToString());
+                }
+                txtNodeSequence.Text = String.Join(",", sequence.ToArray());
+            }
         }
     }
 }

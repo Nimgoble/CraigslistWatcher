@@ -1,0 +1,13 @@
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\CraigslistScraper.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\CraigslistScraper.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.ProjectInstaller.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.CraigslistScraper.resources
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\CLWFramework.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\CLWFramework.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\HtmlParser.pdb

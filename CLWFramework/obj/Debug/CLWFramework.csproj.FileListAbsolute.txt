@@ -24,3 +24,5 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWFramework\obj\Debug\ResGen.write.1.tlog
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWFramework\obj\Debug\CLWFramework.dll
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CLWFramework\obj\Debug\CLWFramework.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\ResGen.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLWFramework\obj\Debug\ResGen.write.1.tlog

@@ -45,7 +45,6 @@ namespace CLWFramework
             pollHandler = new PollHandler();
             pollHandler.PollTimerTick += new PollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
             pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntries);
-            pollHandler.EntrySearched += new PollHandler.EntrySearchedHandler(this.UpdateEntriesSearched);
             pollHandler.PollStarted +=new PollHandler.PollStartedHandler(this.PollStarted);
             pollHandler.PollEnded += new PollHandler.PollEndedHandler(this.PollEnded);
             pollHandler.NumberOfEntriesFound += new PollHandler.NumberOfEntriesFoundHandler(this.UpdateTotalEntries);
@@ -57,10 +56,10 @@ namespace CLWFramework
         }
         public void PollStarted()
         {
-            totalFound = -1;
-            totalSearched = -1;
+            totalFound = 0;
+            totalSearched = 0;
             UpdateEntriesFound();
-            UpdateEntriesSearched();
+            UpdateEntriesSearched(null);
         }
         public void PollEnded()
         {
@@ -122,9 +121,17 @@ namespace CLWFramework
             {
                 try
                 {
-                    string output = String.Format(CLWTabPage.entryFormat, entry.ToString());
-                    this.wbEntries.Document.Write(output);
-                    UpdateEntriesFound();
+                    string body = entry.Body.ToLower();
+                    string title = entry.Title.ToLower();
+                    foreach (string key in keywords)
+                    {
+                        if (!body.Contains(key) && !title.Contains(key))
+                            continue;
+                        
+                        string output = String.Format(CLWTabPage.entryFormat, entry.ToString());
+                        this.wbEntries.Document.Write(output);
+                        UpdateEntriesFound();
+                    }
                 }
                 catch (System.Exception ex)
                 {
@@ -136,15 +143,17 @@ namespace CLWFramework
                 Application.DoEvents();
             }
         }
-        public void UpdateEntriesSearched()
+        public void UpdateEntriesSearched(EntryInfo entry)
         {
             if(this.lblEntriesSearched.InvokeRequired)
-                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(); });
+                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(entry); });
             else
             {
                 try
                 {
                     this.lblEntriesSearched.Text = "Entries Searched: " + (++totalSearched).ToString();
+                    if(entry != null)
+                        UpdateEntries(entry);
                 }
                 catch (System.Exception ex)
                 {
@@ -240,7 +249,7 @@ namespace CLWFramework
             totalFound = -1;
             totalSearched = -1;
             UpdateEntriesFound();
-            UpdateEntriesSearched();
+            UpdateEntriesSearched(null);
             totalEntries = 0;
             UpdateTotalEntries(0);
 
@@ -309,7 +318,7 @@ namespace CLWFramework
                         {
                             string city_name = city_node.Text;
                             string website = Locations.Instance.LocationDictionary[country_name][state_name][city_name];
-                            city_map.Add(city_name, new CityDetails(city_name, website, keywords, sections));
+                            city_map.Add(city_name, new CityDetails(city_name, website, sections));
                         }
                     }
                     if (city_map.Count != 0)
@@ -337,7 +346,7 @@ namespace CLWFramework
                 return;
             }
 
-            pollHandler.Areas_ = Areas;
+            pollHandler.Areas = Areas;
             pollHandler.toString = tabName;
             pollHandler.Start(refreshInterval);
         }

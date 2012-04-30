@@ -38,6 +38,8 @@
             this.btnAddClass = new System.Windows.Forms.Button();
             this.tpParsedURL = new System.Windows.Forms.TabPage();
             this.tbTabs = new System.Windows.Forms.TabControl();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNodeSequence = new System.Windows.Forms.TextBox();
             this.grpOptions.SuspendLayout();
             this.tpParsedURL.SuspendLayout();
             this.tbTabs.SuspendLayout();
@@ -63,11 +65,13 @@
             // 
             // trParsedURL
             // 
+            this.trParsedURL.AllowDrop = true;
             this.trParsedURL.CheckBoxes = true;
             this.trParsedURL.Location = new System.Drawing.Point(3, 3);
             this.trParsedURL.Name = "trParsedURL";
             this.trParsedURL.Size = new System.Drawing.Size(609, 426);
             this.trParsedURL.TabIndex = 2;
+            this.trParsedURL.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.trParsedURL_ItemDrag);
             // 
             // label1
             // 
@@ -90,6 +94,8 @@
             // 
             // grpOptions
             // 
+            this.grpOptions.Controls.Add(this.txtNodeSequence);
+            this.grpOptions.Controls.Add(this.label2);
             this.grpOptions.Controls.Add(this.btnRemoveClass);
             this.grpOptions.Controls.Add(this.btnAddClass);
             this.grpOptions.Controls.Add(this.btnFilterOutTags);
@@ -141,6 +147,28 @@
             this.tbTabs.Size = new System.Drawing.Size(623, 455);
             this.tbTabs.TabIndex = 13;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 175);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Node Sequence:";
+            // 
+            // txtNodeSequence
+            // 
+            this.txtNodeSequence.AllowDrop = true;
+            this.txtNodeSequence.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.txtNodeSequence.Location = new System.Drawing.Point(2, 191);
+            this.txtNodeSequence.Multiline = true;
+            this.txtNodeSequence.Name = "txtNodeSequence";
+            this.txtNodeSequence.ReadOnly = true;
+            this.txtNodeSequence.Size = new System.Drawing.Size(97, 81);
+            this.txtNodeSequence.TabIndex = 16;
+            this.txtNodeSequence.DragDrop += new System.Windows.Forms.DragEventHandler(this.txtNodeSequence_DragDrop);
+            this.txtNodeSequence.DragEnter += new System.Windows.Forms.DragEventHandler(this.txtNodeSequence_DragEnter);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -173,6 +201,8 @@
         private System.Windows.Forms.Button btnAddClass;
         private System.Windows.Forms.TabPage tpParsedURL;
         private System.Windows.Forms.TabControl tbTabs;
+        private System.Windows.Forms.TextBox txtNodeSequence;
+        private System.Windows.Forms.Label label2;
     }
 }
 

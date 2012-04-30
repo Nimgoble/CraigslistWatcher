@@ -12,6 +12,8 @@ namespace CLWFramework
         public string URL { get; set; }
         public string Area { get; set; }
         public string Value { get; set; }
+        public string Body { get; set; }
+        public DateTime Date { get; set; }
         private string toString;
         public EntryInfo(string rawHtml)
         {
@@ -20,6 +22,8 @@ namespace CLWFramework
             URL = String.Empty;
             Area = String.Empty;
             Value = String.Empty;
+            Body = String.Empty;
+            Date = new DateTime();
         }
         public static EntryInfo CreateEntryInfo(HtmlTag src)
         {

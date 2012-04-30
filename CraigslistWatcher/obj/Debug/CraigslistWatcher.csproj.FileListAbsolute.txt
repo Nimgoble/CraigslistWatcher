@@ -102,3 +102,8 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\CLWFramework.pdb
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource-ResGen.read.1.tlog
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResGen.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\ResGen.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe.config
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.write.1.tlog

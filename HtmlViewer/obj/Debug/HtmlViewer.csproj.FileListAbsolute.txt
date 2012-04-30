@@ -30,3 +30,8 @@ C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\bin\Debug\CLWFramework.pdb
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\GenerateResource-ResGen.read.1.tlog
 C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\HtmlViewer\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\ResGen.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\ResGen.write.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\bin\Debug\HtmlViewer.exe.config
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\HtmlViewer\obj\Debug\GenerateResource.write.1.tlog

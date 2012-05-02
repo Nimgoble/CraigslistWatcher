@@ -72,5 +72,18 @@ namespace CLWFramework
             if(filter.ParseURL("http://chicago.craigslist.org"))
                 filter.Populate();
         }
+
+        public void FormatForCityDetails(out Dictionary<string, Dictionary<string, SubsectionDetails>> sections)
+        {
+            sections = new Dictionary<string, Dictionary<string, SubsectionDetails>>();
+            foreach(KeyValuePair<CategoryInfo, List<CategoryInfo>> pair in categoriesDictionary)
+            {
+                Dictionary<string, SubsectionDetails> subDetails = new Dictionary<string, SubsectionDetails>();
+                foreach (CategoryInfo info in pair.Value)
+                    subDetails.Add(info.Name, new SubsectionDetails(info.Suffix));
+
+                sections.Add(pair.Key.Name, subDetails);
+            }
+        }
     }
 }

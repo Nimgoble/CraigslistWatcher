@@ -28,10 +28,29 @@ namespace HtmlViewer
             while (filter.NextHundred != null)
                 filter.Populate(url + filter.NextHundred);*/
 
-            AdFilter filter = new AdFilter();
+            /*AdFilter filter = new AdFilter();
             filter.ParseURL("http://chicago.craigslist.org/wcl/msg/2988125335.html");
             filter.Populate();
-            int i = 0;
+            int i = 0;*/
+
+            try
+            {
+                System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
+                message.To.Add("mechanicalanimal125@yahoo.com");
+                message.Subject = "This is the Subject line";
+                message.From = new System.Net.Mail.MailAddress("mechanicalanimal125@yahoo.com");
+                message.Body = "This is the message body";
+                System.Net.Mail.SmtpClient smtp = new System.Net.Mail.SmtpClient("plus.smtp.mail.yahoo.com");
+                smtp.EnableSsl = true;
+                smtp.Port = 465;
+                smtp.DeliveryMethod = System.Net.Mail.SmtpDeliveryMethod.Network;
+                smtp.Send(message);
+            }
+            catch (System.Exception ex)
+            {
+                string e = ex.ToString();
+            }
+            
 
             /*LocationsFilter locFilter = new LocationsFilter();
             locFilter.Populate("http://www.craigslist.org/about/sites");*/

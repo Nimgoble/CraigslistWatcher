@@ -87,5 +87,26 @@ namespace CLWFramework
             if(filter.ParseURL(site))
                 filter.Populate();
         }
+
+        public void FormatForPollHandler(Dictionary<string, Dictionary<string, SubsectionDetails>> sections,
+                                        out Dictionary<string/*country*/, Dictionary<string/*state*/, Dictionary<string/*city*/, CityDetails /*website*/>>> locations)
+        {
+            locations = new Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>>();
+            foreach (KeyValuePair<string, Dictionary<string, Dictionary<string, string>>> pair in locationDictionary)
+            {
+                //Initialize state map for each country
+                Dictionary<string, Dictionary<string, CityDetails>> stateMap = new Dictionary<string, Dictionary<string, CityDetails>>();
+                foreach (KeyValuePair<string, Dictionary<string, string>> statePair in pair.Value)
+                {
+                    //fill each state map with the cities
+                    Dictionary<string, CityDetails> cityMap = new Dictionary<string, CityDetails>();
+                    foreach (KeyValuePair<string, string> cityPair in statePair.Value)
+                        cityMap.Add(cityPair.Key, new CityDetails(cityPair.Key, cityPair.Value, sections));
+                    //Add the city map to the stateMap
+                    stateMap.Add(statePair.Key, cityMap);
+                }
+                locations.Add(pair.Key, stateMap);
+            }
+        }
     }
 }

@@ -11,21 +11,17 @@ namespace CraigslistScraper
 {
     public partial class CraigslistScraper : ServiceBase
     {
-        private PollHandler pollHandler;
+        private CLWSQL client;
         public CraigslistScraper()
         {
-            Logger.Initiate("");
-            InitializeComponent();
-            pollHandler = null;
+            client = new CLWSQL();
         }
 
         protected override void OnStart(string[] args)
         {
             try
             {
-                Locations.Instance.DownloadLocations();
-                Categories.Instance.DownloadCategories();
-
+                client.Open("");
             }
             catch (System.Exception ex)
             {

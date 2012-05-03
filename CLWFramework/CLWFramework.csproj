@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AreaDetails.cs" />
+    <Compile Include="Areas.cs" />
     <Compile Include="BackgroundPoller.cs" />
     <Compile Include="CategoryInfo.cs" />
     <Compile Include="CityDetails.cs" />

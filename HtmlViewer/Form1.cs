@@ -33,6 +33,11 @@ namespace HtmlViewer
             filter.Populate();
             int i = 0;*/
 
+            /*Locations.Instance.DownloadLocations();
+            Categories.Instance.DownloadCategories();*/
+
+            Areas.Instance.Initialize();
+
             try
             {
                 System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();

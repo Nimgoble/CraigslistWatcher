@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="AreaDetails.cs" />
     <Compile Include="Areas.cs" />
+    <Compile Include="BackgroundAreaPoller.cs" />
     <Compile Include="BackgroundPoller.cs" />
     <Compile Include="CategoryInfo.cs" />
     <Compile Include="CityDetails.cs" />
@@ -63,8 +64,11 @@
       <DependentUpon>CLWTabPage.cs</DependentUpon>
     </Compile>
     <Compile Include="EntryInfo.cs" />
+    <Compile Include="BaseBackgroundPoller.cs" />
+    <Compile Include="BasePollEventHandler.cs" />
     <Compile Include="Locations.cs" />
     <Compile Include="Logger.cs" />
+    <Compile Include="AreaPollHandler.cs" />
     <Compile Include="PollHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Categories.cs" />

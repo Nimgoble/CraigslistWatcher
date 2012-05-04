@@ -74,9 +74,26 @@ namespace CLWFramework
             outList = areasList.FindAll(area => (area.Country == country) && (area.State == state));
         }
 
-        public void GetAreaDetails(string country, string state, string city, out AreaDetails areaDetails)
+        public void GetAreaDetails(string country, string state, string city, out List<AreaDetails> areaDetails)
         {
-            areaDetails = areasList.Find(area => (area.Country == country) && (area.State == state) && (area.City == city));
+            areaDetails = areasList.FindAll(area => (area.Country == country) && (area.State == state) && (area.City == city));
+        }
+
+        public void GetAreaDetails(string country, string state, string city, string section, out List<AreaDetails> areaDetails)
+        {
+            areaDetails = areasList.FindAll(area => (area.Country == country) &&
+                                        area.State == state &&
+                                        area.City == city &&
+                                        area.Section == section);
+        }
+
+        public void GetAreaDetails(string country, string state, string city, string section, string subSection, out AreaDetails areaDetails)
+        {
+            areaDetails = areasList.Find(area => (area.Country == country) &&
+                                        area.State == state &&
+                                        area.City == city &&
+                                        area.Section == section &&
+                                        area.Subsection == subSection);
         }
     }
 }

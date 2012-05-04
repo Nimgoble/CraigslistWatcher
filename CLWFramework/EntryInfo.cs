@@ -6,7 +6,7 @@ using HtmlParser;
 
 namespace CLWFramework
 {
-    public class EntryInfo
+    public class EntryInfo : IComparable<EntryInfo>
     {
         public string Title { get; set; }
         public string URL { get; set; }
@@ -65,6 +65,10 @@ namespace CLWFramework
         public override string ToString()
         {
             return toString;
+        }
+        public int CompareTo(EntryInfo other)
+        {
+            return URL.CompareTo(other.URL);
         }
     };
 }

@@ -1,21 +1,26 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Data.Sql;
 using System.Data.SqlClient;
 using CLWFramework;
+
 namespace CraigslistScraper
 {
-    public class CLWSQL
+    public class CLWSQL : BasePollEventHandler
     {
+        private ArrayList list;
+        private const int listSize = 5;
         private SqlConnection connection;
-        private PollHandler pollHandler;
+        private AreaPollHandler areaPollHandler;
         public CLWSQL()
         {
             connection = new SqlConnection();
             Logger.Initiate("");
-            pollHandler = null;
+            areaPollHandler = null;
+            list = new ArrayList(5);
         }
 
         public bool Open(string dbName)
@@ -31,16 +36,11 @@ namespace CraigslistScraper
                 //That way we don't get any duplicates.
 
                 //Make a Handler for each subscribed user in the users.db
-
-                Locations.Instance.DownloadLocations();
-                Categories.Instance.DownloadCategories();
-                Dictionary<string, Dictionary<string, SubsectionDetails>> sections;
-                Categories.Instance.FormatForCityDetails(out sections);
-                Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> areas;
-                Locations.Instance.FormatForPollHandler(sections, out areas);
-                pollHandler = new PollHandler(areas, "Craigslist Scraper");
-                pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.OnEntryFound);
-                pollHandler.Start(new TimeSpan(0, 15, 0));
+                Areas.Instance.Initialize();
+                areaPollHandler = new AreaPollHandler();
+                //Subscribe to all with this.
+                areaPollHandler.Subscribe(Areas.Instance.AreasList, this);
+                areaPollHandler.Start(new TimeSpan(0, 15, 0));
             }
             catch (System.Exception ex)
             {
@@ -49,7 +49,7 @@ namespace CraigslistScraper
             return true;
         }
 
-        private void OnEntryFound(EntryInfo info)
+        protected void OnEntryFound(BaseBackgroundPoller poller, EntryInfo info)
         {
 
         }

@@ -69,7 +69,7 @@
 			</Relationship>
 			<Relationship Name="QueryDependencies">
 				<Entry>
-					<References Name="[dbo].[Users]" />
+					<References Name="[dbo].[users]" />
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
@@ -79,7 +79,7 @@
 				<Property Name="HeaderContents" Value="CREATE VIEW [dbo].[TestView]&#xD;&#xA;&#x9;AS" />
 			</Annotation>
 		</Element>
-		<Element Type="ISql100Table" Name="[dbo].[Users]">
+		<Element Type="ISql100Table" Name="[dbo].[users]">
 			<Property Name="IsAnsiNullsOn" Value="True" />
 			<Relationship Name="Columns">
 				<Entry>

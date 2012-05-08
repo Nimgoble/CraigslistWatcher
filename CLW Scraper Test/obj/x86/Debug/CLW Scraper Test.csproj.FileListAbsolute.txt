@@ -1,0 +1,10 @@
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\CLW Scraper Test.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\CLW Scraper Test.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\CLWFramework.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\HtmlParser.dll
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\CLWFramework.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\HtmlParser.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\obj\x86\Debug\CLW Scraper Test.exe
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\obj\x86\Debug\CLW Scraper Test.pdb
+C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CLW Scraper Test\bin\Debug\CLW Scraper Test.exe.config

@@ -67,13 +67,6 @@ GO
 */
 
 GO
-PRINT N'Creating [dbo].[TestView]...';
-
-
-GO
-CREATE VIEW [dbo].[TestView]
-	AS SELECT * FROM [Users]
-GO
 /*
 Post-Deployment Script Template							
 --------------------------------------------------------------------------------------

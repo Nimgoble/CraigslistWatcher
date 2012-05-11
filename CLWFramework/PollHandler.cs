@@ -83,13 +83,16 @@ namespace CLWFramework
             return this.toString;
         }
 
-        public void Start(TimeSpan refreshTime)
+        public bool Start(TimeSpan refreshTime)
         {
             try
             {
                 this.refreshTime = new TimeSpan(refreshTime.Hours, refreshTime.Minutes, refreshTime.Seconds);
                 if (polling)
+                {
                     Logger.Instance.Log("Already refreshing.");
+                    return false;
+                }
                 else
                 {
                     this.refreshTimeCounter = new TimeSpan(refreshTime.Hours, refreshTime.Minutes, refreshTime.Seconds);
@@ -97,12 +100,14 @@ namespace CLWFramework
                     timer.Interval = 1;
                     timer.Start();
                 }
-               
+                return true;
             }
             catch (System.Exception ex)
             {
                 Logger.Instance.Log(ex.ToString());
+                return false;
             }
+            return true;
         }
 
         public void Tick(object sender, ElapsedEventArgs e)

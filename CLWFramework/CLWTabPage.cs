@@ -44,7 +44,7 @@ namespace CLWFramework
             totalEntries = 0;
             pollHandler = new PollHandler();
             pollHandler.PollTimerTick += new PollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
-            pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntries);
+            pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntriesSearched);
             pollHandler.PollStarted +=new PollHandler.PollStartedHandler(this.PollStarted);
             pollHandler.PollEnded += new PollHandler.PollEndedHandler(this.PollEnded);
             pollHandler.NumberOfEntriesFound += new PollHandler.NumberOfEntriesFoundHandler(this.UpdateTotalEntries);
@@ -246,13 +246,6 @@ namespace CLWFramework
             if (this.btnForceRefresh.Text == "Start Search")
                 this.btnForceRefresh.Text = "Refresh";
 
-            totalFound = -1;
-            totalSearched = -1;
-            UpdateEntriesFound();
-            UpdateEntriesSearched(null);
-            totalEntries = 0;
-            UpdateTotalEntries(0);
-
             Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> Areas = new Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>>();
             Dictionary<string, Dictionary<string, SubsectionDetails>> sections = new Dictionary<string, Dictionary<string, SubsectionDetails>>();
 
@@ -348,7 +341,15 @@ namespace CLWFramework
 
             pollHandler.Areas = Areas;
             pollHandler.toString = tabName;
-            pollHandler.Start(refreshInterval);
+            if (!pollHandler.Start(refreshInterval))
+                return;
+
+            totalFound = -1;
+            totalSearched = -1;
+            UpdateEntriesFound();
+            UpdateEntriesSearched(null);
+            totalEntries = 0;
+            UpdateTotalEntries(0);
         }
 
         private void nudMin1_ValueChanged(object sender, EventArgs e)

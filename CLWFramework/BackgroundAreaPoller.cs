@@ -34,6 +34,10 @@ namespace CLWFramework
             clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.OnEntryParsed);
             worker.DoWork += this.PollCity;
             worker.RunWorkerCompleted += this.OnPollDone;
+        }
+
+        public void Start()
+        {
             worker.RunWorkerAsync();
         }
 

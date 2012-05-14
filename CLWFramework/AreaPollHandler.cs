@@ -136,7 +136,9 @@ namespace CLWFramework
             List<EventWaitHandle> cityWorkers = new List<EventWaitHandle>();
             foreach (KeyValuePair<AreaDetails, List<BasePollEventHandler>> areaPair in areaDetailsDictionary)
             {
+                //New background poller
                 BackgroundAreaPoller backgroundPoller = new BackgroundAreaPoller(areaPair.Key);
+                //Add each of our subscribers to the background poller's callbacks
                 foreach (BasePollEventHandler handler in areaPair.Value)
                 {
                     backgroundPoller.EntryFound += handler.entryFoundHandler;
@@ -145,11 +147,17 @@ namespace CLWFramework
                     backgroundPoller.PollError += handler.pollErrorHandler;
                     backgroundPoller.aggregatedEntryParsedHandlers += handler.entryParsedHandler;
                 }
+                //Add to list
                 cityWorkers.Add(backgroundPoller);
                 //Cap at 100.  Wait for one to quit and then add another.
                 if (cityWorkers.Count == 100)
-                    EventWaitHandle.WaitAny(cityWorkers.ToArray());
+                {
+                    int index = EventWaitHandle.WaitAny(cityWorkers.ToArray());
+                    cityWorkers.RemoveAt(index);
+                }
             }
+            //wait for the last of the to finish.
+            EventWaitHandle.WaitAll(cityWorkers.ToArray());
             
             OnPollEnded();
         }

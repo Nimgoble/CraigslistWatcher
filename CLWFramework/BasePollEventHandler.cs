@@ -5,15 +5,15 @@ using System.Text;
 
 namespace CLWFramework
 {
-    public class BasePollEventHandler
+    public interface BasePollEventHandler
     {
-        public BaseBackgroundPoller.NumberOfEntriesFoundHandler numberOfEntriesFoundHandler;
-        public BaseBackgroundPoller.EntryFoundHandler entryFoundHandler;
-        public BaseBackgroundPoller.EntryParsedHandler entryParsedHandler;
-        public BaseBackgroundPoller.PollDoneHandler pollDoneHandler;
-        public BaseBackgroundPoller.PollErrorHandler pollErrorHandler;
+        BaseBackgroundPoller.NumberOfEntriesFoundHandler numberOfEntriesFoundHandler {get;}
+        BaseBackgroundPoller.EntryFoundHandler entryFoundHandler { get; }
+        BaseBackgroundPoller.EntryParsedHandler entryParsedHandler { get; }
+        BaseBackgroundPoller.PollDoneHandler pollDoneHandler { get; }
+        BaseBackgroundPoller.PollErrorHandler pollErrorHandler { get; }
 
-        public BasePollEventHandler()
+        /*public BasePollEventHandler()
         {
             numberOfEntriesFoundHandler = new BaseBackgroundPoller.NumberOfEntriesFoundHandler(this.OnNumberOfEntriesFound);
             entryFoundHandler = new BaseBackgroundPoller.EntryFoundHandler(this.OnEntryFound);
@@ -36,6 +36,6 @@ namespace CLWFramework
         }
         protected virtual void OnPollError(BaseBackgroundPoller poller, string area, string message)
         {
-        }
+        }*/
     }
 }

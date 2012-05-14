@@ -107,7 +107,6 @@ namespace CLWFramework
                 Logger.Instance.Log(ex.ToString());
                 return false;
             }
-            return true;
         }
 
         public void Tick(object sender, ElapsedEventArgs e)

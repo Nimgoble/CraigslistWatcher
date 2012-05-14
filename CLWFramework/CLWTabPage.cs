@@ -14,20 +14,62 @@ using HtmlParser;
 namespace CLWFramework
 {
     //public partial class CLWTabPage : System.Windows.Forms.TabPage
-    public partial class CLWTabPage : /*System.Windows.Forms.UserControl,*/ System.Windows.Forms.TabPage
+    public partial class CLWTabPage : /*System.Windows.Forms.UserControl,*/ System.Windows.Forms.TabPage, BasePollEventHandler
     {
         private List<string> keywords {get;set;}
         private TimeSpan tickInterval;
         private TimeSpan refreshInterval;
         private Int32 previousRefreshMin1;
         private Int32 Min1, Min2, Sec1, Sec2;
-        private PollHandler pollHandler;
+        private AreaPollHandler pollHandler;
         //This is never really implemented...
         private String tabName;
         private Int32 totalFound;
         private Int32 totalSearched;
         private Int32 totalEntries;
         private static string entryFormat = "<font style=\"font-size:12px;text-align:left\">{0}</font>";
+
+        BaseBackgroundPoller.NumberOfEntriesFoundHandler _numberOfEntriesFoundHandler;
+        BaseBackgroundPoller.EntryFoundHandler _entryFoundHandler;
+        BaseBackgroundPoller.EntryParsedHandler _entryParsedHandler;
+        BaseBackgroundPoller.PollDoneHandler _pollDoneHandler;
+        BaseBackgroundPoller.PollErrorHandler _pollErrorHandler;
+
+        public BaseBackgroundPoller.NumberOfEntriesFoundHandler numberOfEntriesFoundHandler 
+        {
+            get
+            {
+                return _numberOfEntriesFoundHandler;
+            }
+        }
+        public BaseBackgroundPoller.EntryFoundHandler entryFoundHandler 
+        {
+            get
+            {
+                return _entryFoundHandler;
+            }
+        }
+        public BaseBackgroundPoller.EntryParsedHandler entryParsedHandler 
+        {
+            get
+            {
+                return _entryParsedHandler;
+            }
+        }
+        public BaseBackgroundPoller.PollDoneHandler pollDoneHandler 
+        {
+            get
+            {
+                return _pollDoneHandler;
+            }
+        }
+        public BaseBackgroundPoller.PollErrorHandler pollErrorHandler 
+        {
+            get
+            {
+                return _pollErrorHandler;
+            }
+        }
         public CLWTabPage()
         {
             InitializeComponent();
@@ -42,12 +84,17 @@ namespace CLWFramework
             totalFound = 0;
             totalSearched = 0;
             totalEntries = 0;
-            pollHandler = new PollHandler();
-            pollHandler.PollTimerTick += new PollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
-            pollHandler.EntryFound += new PollHandler.EntryFoundHandler(this.UpdateEntriesSearched);
-            pollHandler.PollStarted +=new PollHandler.PollStartedHandler(this.PollStarted);
-            pollHandler.PollEnded += new PollHandler.PollEndedHandler(this.PollEnded);
-            pollHandler.NumberOfEntriesFound += new PollHandler.NumberOfEntriesFoundHandler(this.UpdateTotalEntries);
+            pollHandler = new AreaPollHandler();
+            pollHandler.PollTimerTick += new AreaPollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
+            pollHandler.PollStarted += new AreaPollHandler.PollStartedHandler(this.PollStarted);
+            pollHandler.PollEnded += new AreaPollHandler.PollEndedHandler(this.PollEnded);
+
+            _pollErrorHandler = new BaseBackgroundPoller.PollErrorHandler(this.OnPollError);
+            _pollDoneHandler = new BaseBackgroundPoller.PollDoneHandler(this.OnPollDone);
+            _numberOfEntriesFoundHandler = new BaseBackgroundPoller.NumberOfEntriesFoundHandler(this.OnNumberOfEntriesFound);
+            _entryParsedHandler = new BaseBackgroundPoller.EntryParsedHandler(this.OnEntryParsed);
+            _entryFoundHandler = new BaseBackgroundPoller.EntryFoundHandler(this.OnEntryFound);
+
             Locations.Instance.PopulateTreeView(ref this.trAreas);
             Categories.Instance.PopulateTreeView(ref this.trSections);
             this.wbEntries.Navigate("about:blank");
@@ -246,85 +293,30 @@ namespace CLWFramework
             if (this.btnForceRefresh.Text == "Start Search")
                 this.btnForceRefresh.Text = "Refresh";
 
-            Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>> Areas = new Dictionary<string, Dictionary<string, Dictionary<string, CityDetails>>>();
-            Dictionary<string, Dictionary<string, SubsectionDetails>> sections = new Dictionary<string, Dictionary<string, SubsectionDetails>>();
-
-            //Iterate through sections
-            for (int sections_counter = 0; sections_counter < trSections.Nodes.Count; sections_counter++)
+            if (keywords.Count == 0)
             {
-                TreeNode section_node = trSections.Nodes[sections_counter];
-                string section_name = section_node.Text;
-                Dictionary<string, SubsectionDetails> subsections = new Dictionary<string, SubsectionDetails>();
-                if (section_node.Checked)
+                MessageBox.Show("Please enter at least one keyword.", "Error", MessageBoxButtons.OK);
+                return;
+            }
+
+            //Get each section.
+            List<KeyValuePair<string, string>> sections = new List<KeyValuePair<string, string>>();
+            foreach(TreeNode sectionNode in trSections.Nodes)
+            {
+                if(sectionNode.Checked)
                 {
-                    string section_suffix = Categories.Instance.GetSuffix(section_name, null);
-                    subsections.Add(section_name, new SubsectionDetails(section_suffix));
-                    sections.Add(section_name, subsections);
+                    //We want this whole section
+                    sections.Add(new KeyValuePair<string, string>(sectionNode.Text, String.Empty));
+                    continue;
                 }
                 else
                 {
-                    for (int subsection_counter = 0; subsection_counter < section_node.Nodes.Count; subsection_counter++)
+                    foreach(TreeNode subsectionNode in sectionNode.Nodes)
                     {
-                        TreeNode subsection_node = section_node.Nodes[subsection_counter];
-                        if (subsection_node.Checked)
-                        {
-                            string subsection_name = subsection_node.Text;
-                            string section_suffix = Categories.Instance.GetSuffix(section_name, subsection_name);
-                            subsections.Add(subsection_name, new SubsectionDetails(section_suffix));
-                        }
+                        if(subsectionNode.Checked)
+                            sections.Add(new KeyValuePair<string,string>(sectionNode.Text, subsectionNode.Text));
                     }
-                    if (subsections.Count != 0)
-                        sections.Add(section_name, subsections);
                 }
-            }
-
-
-            //This is wrong.  It just copies the whole thing, whether they are checked or not.
-            //Iterate through countries
-            for (int parent_area_counter = 0; parent_area_counter < trAreas.Nodes.Count; parent_area_counter++)
-            {
-                //Current country in tree
-                TreeNode country_node = trAreas.Nodes[parent_area_counter];
-                string country_name = country_node.Text;
-                //Add country and its new state_map to our new dictionary
-                //Areas.Add(country_name, new Dictionary<string, Dictionary<string, string>>());
-                //Get the above state_map
-                //Dictionary<string, Dictionary<string, string>> state_map = Areas[country_name];
-                Dictionary<string, Dictionary<string, CityDetails>> state_map = new Dictionary<string, Dictionary<string, CityDetails>>();
-                //Iterate through states in this country
-                for (int state_counter = 0; state_counter < country_node.Nodes.Count; state_counter++)
-                {
-                    //Current state in tree
-                    TreeNode state_node = country_node.Nodes[state_counter];
-                    string state_name = state_node.Text;
-                    //Add state and its new city_map to our new dictionary
-                    //state_map.Add(state_name, new Dictionary<string, string>());
-                    //Get the above city_map
-                    //Dictionary<string, string> city_map = Areas[country_name][state_name];
-                    Dictionary<string, CityDetails> city_map = new Dictionary<string, CityDetails>();
-                    //Iterate through cities in this state
-                    for (int city_counter = 0; city_counter < state_node.Nodes.Count; city_counter++)
-                    {
-                        //Current state in tree
-                        TreeNode city_node = state_node.Nodes[city_counter];
-                        if (city_node.Checked)
-                        {
-                            string city_name = city_node.Text;
-                            string website = Locations.Instance.LocationDictionary[country_name][state_name][city_name];
-                            city_map.Add(city_name, new CityDetails(city_name, website, sections));
-                        }
-                    }
-                    if (city_map.Count != 0)
-                        state_map.Add(state_name, city_map);
-                }
-                if (state_map.Count != 0)
-                    Areas.Add(country_name, state_map);
-            }
-
-            if (Areas.Count == 0)
-            {
-                MessageBox.Show("Please choose at least one area.", "Error", MessageBoxButtons.OK);
-                return;
             }
 
             if (sections.Count == 0)
@@ -333,14 +325,55 @@ namespace CLWFramework
                 return;
             }
 
-            if (keywords.Count == 0)
+            List<AreaDetails> areaDetails = new List<AreaDetails>();
+            foreach(TreeNode CountryNode in trAreas.Nodes)
             {
-                MessageBox.Show("Please enter at least one keyword.", "Error", MessageBoxButtons.OK);
+                //We want the whole country.
+                if(CountryNode.Checked)
+                {
+                    foreach(KeyValuePair<string, string> section in sections)
+                        areaDetails.AddRange(Areas.Instance.AreasList.FindAll(area => area.Country == CountryNode.Text && 
+                                                                              area.Section == section.Key &&
+                                                                              area.Subsection == section.Value));
+                }
+                else
+                {
+                    foreach(TreeNode StateNode in CountryNode.Nodes)
+                    {
+                        if(StateNode.Checked)
+                        {
+                            foreach(KeyValuePair<string, string> section in sections)
+                                areaDetails.AddRange(Areas.Instance.AreasList.FindAll(area => area.Country == CountryNode.Text && 
+                                                                              area.State == StateNode.Text &&
+                                                                              area.Section == section.Key &&
+                                                                              area.Subsection == section.Value));
+                        }
+                        else
+                        {
+                            foreach(TreeNode CityNode in StateNode.Nodes)
+                            {
+                                if(CityNode.Checked)
+                                {
+                                    foreach(KeyValuePair<string, string> section in sections)
+                                        areaDetails.AddRange(Areas.Instance.AreasList.FindAll(area => area.Country == CountryNode.Text && 
+                                                                              area.State == StateNode.Text &&
+                                                                              area.City == CityNode.Text &&
+                                                                              area.Section == section.Key &&
+                                                                              area.Subsection == section.Value));
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            if(areaDetails.Count == 0)
+            {
+                MessageBox.Show("Please choose at least one area.", "Error", MessageBoxButtons.OK);
                 return;
             }
 
-            pollHandler.Areas = Areas;
-            pollHandler.toString = tabName;
+            pollHandler.Subscribe(areaDetails, this);
             if (!pollHandler.Start(refreshInterval))
                 return;
 
@@ -414,6 +447,22 @@ namespace CLWFramework
             //anything else, besides a reset, gets the boot
             if (!e.Url.ToString().Contains("about:blank"))
                 e.Cancel = true;
+        }
+
+        protected void OnNumberOfEntriesFound(BaseBackgroundPoller poller, Int32 numEntries)
+        {
+        }
+        protected void OnEntryFound(BaseBackgroundPoller poller, EntryInfo info)
+        {
+        }
+        protected void OnEntryParsed(BaseBackgroundPoller poller, EntryInfo info)
+        {
+        }
+        protected void OnPollDone(BaseBackgroundPoller poller, string message)
+        {
+        }
+        protected void OnPollError(BaseBackgroundPoller poller, string area, string message)
+        {
         }
     }
 }

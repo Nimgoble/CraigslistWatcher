@@ -155,6 +155,7 @@ namespace CLWFramework
                 //Add to list
                 cityWorkers.Add(backgroundPoller);
                 //Cap at 100.  Wait for one to quit and then add another.
+                backgroundPoller.Start();
                 if (cityWorkers.Count == 100)
                 {
                     int index = EventWaitHandle.WaitAny(cityWorkers.ToArray());
@@ -163,6 +164,8 @@ namespace CLWFramework
             }
             //wait for the last of the to finish.
             EventWaitHandle.WaitAll(cityWorkers.ToArray());
+
+            cityWorkers.Clear();
             
             OnPollEnded();
         }

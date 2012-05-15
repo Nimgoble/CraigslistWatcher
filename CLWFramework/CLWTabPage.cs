@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,6 +29,8 @@ namespace CLWFramework
         private Int32 totalSearched;
         private Int32 totalEntries;
         private static string entryFormat = "<font style=\"font-size:12px;text-align:left\">{0}</font>";
+
+        private Dictionary<AreaDetails, List<string>> areaLastFiveSearched;
 
         BaseBackgroundPoller.NumberOfEntriesFoundHandler _numberOfEntriesFoundHandler;
         BaseBackgroundPoller.EntryFoundHandler _entryFoundHandler;
@@ -85,6 +88,9 @@ namespace CLWFramework
             totalSearched = 0;
             totalEntries = 0;
             pollHandler = new AreaPollHandler();
+
+            areaLastFiveSearched = new Dictionary<AreaDetails, List<string>>();
+
             pollHandler.PollTimerTick += new AreaPollHandler.PollTimerTickHandler(this.UpdateRefreshTimeControl);
             pollHandler.PollStarted += new AreaPollHandler.PollStartedHandler(this.PollStarted);
             pollHandler.PollEnded += new AreaPollHandler.PollEndedHandler(this.PollEnded);
@@ -101,15 +107,31 @@ namespace CLWFramework
             this.wbEntries.Document.OpenNew(true);
             this.wbEntries.Refresh();
         }
+        private void Reset()
+        {
+            if(this.InvokeRequired)
+                this.Invoke((MethodInvoker)delegate() { Reset(); });
+            else
+            {
+                this.lblEntriesFound.Text = "Entries Found: " + (totalFound = 0).ToString();
+                this.lblEntriesSearched.Text = "Entries Searched: " + (totalSearched = 0).ToString();
+                this.lblTotalEntries.Text = "Total Entries: " + (totalEntries = 0).ToString();
+            }
+        }
         public void PollStarted()
         {
-            totalFound = 0;
-            totalSearched = 0;
-            UpdateEntriesFound();
-            UpdateEntriesSearched(null);
+            if (this.InvokeRequired)
+                this.Invoke((MethodInvoker)delegate() { PollStarted(); });
+            Reset();
+            txtKeywords.Enabled = false;
+            lstKeywords.Enabled = false;
         }
         public void PollEnded()
         {
+            if (this.InvokeRequired)
+                this.Invoke((MethodInvoker)delegate() { PollEnded(); });
+            txtKeywords.Enabled = true;
+            lstKeywords.Enabled = true;
         }
         public void UpdateRefreshTimeControl(String timeLeft)
         {
@@ -127,86 +149,6 @@ namespace CLWFramework
                 }
             }
            
-        }
-        private void UpdateEntriesFound()
-        {
-            if(this.lblEntriesFound.InvokeRequired)
-                this.lblEntriesFound.Invoke(new MethodInvoker(delegate() { UpdateEntriesFound(); }));
-            else
-            {
-                try
-                {
-                    this.lblEntriesFound.Text = "Entries Found: " + (++totalFound).ToString();
-                }
-                catch (System.Exception ex)
-                {
-                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
-                }
-            }
-        }
-        private void UpdateTotalEntries(Int32 numEntries)
-        {
-            if (this.lblTotalEntries.InvokeRequired)
-                this.lblTotalEntries.Invoke(new MethodInvoker(delegate() { UpdateTotalEntries(numEntries); }));
-            else
-            {
-                try
-                {
-                    this.lblTotalEntries.Text = "Entries Found: " + (totalEntries += numEntries).ToString();
-                }
-                catch (System.Exception ex)
-                {
-                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
-                }
-            }
-        }
-        public void UpdateEntries(EntryInfo entry)
-        {
-            if(this.wbEntries.InvokeRequired)
-                this.wbEntries.Invoke(new MethodInvoker(delegate() { UpdateEntries(entry); }));
-            else
-            {
-                try
-                {
-                    string body = entry.Body.ToLower();
-                    string title = entry.Title.ToLower();
-                    foreach (string key in keywords)
-                    {
-                        if (!body.Contains(key) && !title.Contains(key))
-                            continue;
-                        
-                        string output = String.Format(CLWTabPage.entryFormat, entry.ToString());
-                        this.wbEntries.Document.Write(output);
-                        UpdateEntriesFound();
-                    }
-                }
-                catch (System.Exception ex)
-                {
-                    Logger.Instance.Log(ex.ToString() + ": " + entry, LogType.ltError);
-                }
-                if (this.wbEntries.Document.Body != null)
-                    this.wbEntries.Document.Window.ScrollTo(0, this.wbEntries.Document.Body.ScrollRectangle.Bottom);
-
-                Application.DoEvents();
-            }
-        }
-        public void UpdateEntriesSearched(EntryInfo entry)
-        {
-            if(this.lblEntriesSearched.InvokeRequired)
-                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(entry); });
-            else
-            {
-                try
-                {
-                    this.lblEntriesSearched.Text = "Entries Searched: " + (++totalSearched).ToString();
-                    if(entry != null)
-                        UpdateEntries(entry);
-                }
-                catch (System.Exception ex)
-                {
-                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
-                }
-            }
         }
 
         private void trAreas_AfterCheck(object sender, TreeViewEventArgs e)
@@ -373,16 +315,14 @@ namespace CLWFramework
                 return;
             }
 
+            areaLastFiveSearched = areaDetails.ToDictionary(v => v, v => new List<string>());
+
             pollHandler.Subscribe(areaDetails, this);
             if (!pollHandler.Start(refreshInterval))
+            {
+                areaLastFiveSearched.Clear();
                 return;
-
-            totalFound = -1;
-            totalSearched = -1;
-            UpdateEntriesFound();
-            UpdateEntriesSearched(null);
-            totalEntries = 0;
-            UpdateTotalEntries(0);
+            }
         }
 
         private void nudMin1_ValueChanged(object sender, EventArgs e)
@@ -451,18 +391,111 @@ namespace CLWFramework
 
         protected void OnNumberOfEntriesFound(BaseBackgroundPoller poller, Int32 numEntries)
         {
+            if (this.lblTotalEntries.InvokeRequired)
+                this.lblTotalEntries.Invoke(new MethodInvoker(delegate() { OnNumberOfEntriesFound(poller, numEntries); }));
+            else
+            {
+                try
+                {
+                    if (!areaLastFiveSearched.Keys.Contains(poller.PollerAreaDetails))
+                        return;
+                    this.lblTotalEntries.Text = "Total Entries: " + (totalEntries += numEntries).ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
+                }
+            }
+            
         }
         protected void OnEntryFound(BaseBackgroundPoller poller, EntryInfo info)
         {
+            List<string> lastFiveSearched = null;
+            if (!areaLastFiveSearched.TryGetValue(poller.PollerAreaDetails, out lastFiveSearched) || lastFiveSearched.Contains(info.URL))
+            {
+                poller.EntryFound -= this._entryFoundHandler;
+                return;
+            }
+
+            lastFiveSearched.Insert(0, info.URL);
         }
         protected void OnEntryParsed(BaseBackgroundPoller poller, EntryInfo info)
         {
+            if (this.wbEntries.InvokeRequired)
+                this.wbEntries.Invoke(new MethodInvoker(delegate() { OnEntryParsed(poller, info); }));
+            else
+            {
+                try
+                {
+                    string body = info.Body.ToLower();
+                    string title = info.Title.ToLower();
+                    foreach (string key in keywords)
+                    {
+                        if (body.Contains(key) || title.Contains(key))
+                        {
+                            string output = String.Format(CLWTabPage.entryFormat, info.ToString());
+                            this.wbEntries.Document.Write(output);
+                            if (this.wbEntries.Document.Body != null)
+                                this.wbEntries.Document.Window.ScrollTo(0, this.wbEntries.Document.Body.ScrollRectangle.Bottom);
+                            Application.DoEvents();
+                            UpdateEntriesFound();
+                            break;
+                        }
+                    }
+                    UpdateEntriesSearched();
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString() + ": " + info, LogType.ltError);
+                }
+            }
         }
         protected void OnPollDone(BaseBackgroundPoller poller, string message)
         {
+            List<string> lastFiveSearched = null;
+            if (!areaLastFiveSearched.TryGetValue(poller.PollerAreaDetails, out lastFiveSearched))
+            {
+                if(lastFiveSearched.Count > 5)
+                    lastFiveSearched.RemoveRange(5, lastFiveSearched.Count - 5);
+            }
+            Logger.Instance.Log(message, poller.PollerAreaDetails.City, LogType.ltArea);
         }
         protected void OnPollError(BaseBackgroundPoller poller, string area, string message)
         {
+            Logger.Instance.Log(message, area, LogType.ltError);
+        }
+
+        private void UpdateEntriesFound()
+        {
+            if (this.lblEntriesFound.InvokeRequired)
+                this.lblEntriesFound.Invoke(new MethodInvoker(delegate() { UpdateEntriesFound(); }));
+            else
+            {
+                try
+                {
+                    this.lblEntriesFound.Text = "Entries Found: " + (++totalFound).ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
+                }
+            }
+        }
+        public void UpdateEntriesSearched()
+        {
+            if (this.lblEntriesSearched.InvokeRequired)
+                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(); });
+            else
+            {
+                try
+                {
+                    this.lblEntriesSearched.Text = "Entries Searched: " + (++totalSearched).ToString();
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString(), LogType.ltError);
+                }
+            }
         }
     }
 }

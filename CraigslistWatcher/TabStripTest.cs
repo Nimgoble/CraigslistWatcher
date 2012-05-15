@@ -55,8 +55,9 @@ namespace CraigslistWatcher
             this.wbLog.Navigate("about:blank");
             this.wbLog.Document.OpenNew(true);
             this.wbLog.Refresh();
-            Locations.Instance.DownloadLocations();
-            Categories.Instance.DownloadCategories();
+            //Locations.Instance.DownloadLocations();
+            //Categories.Instance.DownloadCategories();
+            Areas.Instance.Initialize();
         }
 
         private void btnNewSearch_Click(object sender, EventArgs e)

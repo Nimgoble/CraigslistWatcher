@@ -18,18 +18,29 @@ namespace CLWFramework
     {
         private BackgroundWorker worker;
         private AreaDetails areaDetails;
+        public override AreaDetails PollerAreaDetails 
+        {
+            get
+            {
+                return areaDetails;
+            }
+        }
         private int entriesSearched;
         private System.Diagnostics.Stopwatch stopWatch;
         private CLWParseFilter.CLWParseURLCompletedHandler clwParseURLCompletedHandler;
         private Dictionary<string, BaseBackgroundPoller.EntryParsedHandler> entryCallbacks;
         public BaseBackgroundPoller.EntryParsedHandler aggregatedEntryParsedHandlers;
+        private EventWaitHandle waitHandle;
+        private Int32 numEntriesToSearch;
         public BackgroundAreaPoller(AreaDetails _areaDetails)
         {
             aggregatedEntryParsedHandlers = null;
             entryCallbacks = new Dictionary<string, BaseBackgroundPoller.EntryParsedHandler>();
             this.areaDetails = _areaDetails;
             worker = new BackgroundWorker();
+            waitHandle = new EventWaitHandle(false, EventResetMode.ManualReset);
             entriesSearched = 0;
+            numEntriesToSearch = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
             clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.OnEntryParsed);
             worker.DoWork += this.PollCity;
@@ -45,7 +56,6 @@ namespace CLWFramework
         {
             stopWatch.Start();
             List<EntryInfo> entries = new List<EntryInfo>();
-            Int32 numEntriesToSearch = 0;
             SearchSection(areaDetails.Website, "", ref entries);
             numEntriesToSearch += entries.Count;
 
@@ -57,6 +67,7 @@ namespace CLWFramework
                 AdFilter filter = new AdFilter();
                 filter.ParseURLAsync(ref entry, clwParseURLCompletedHandler);
             }
+            waitHandle.WaitOne();
         }
 
         private void SearchSection(string sectionSite, 
@@ -78,16 +89,24 @@ namespace CLWFramework
             bool parseMore = true;
             foreach (EntryInfo entryInfo in entryFilter.EntryList)
             {
+                if (entryCallbacks.Keys.Contains(entryInfo.URL))
+                    continue;
                 if(!(parseMore = OnEntryFound(entryInfo)))
                     break;
 
-                entryCallbacks.Add(entryInfo.URL, (BaseBackgroundPoller.EntryParsedHandler)this.aggregatedEntryParsedHandlers.Clone());
+                entries.Add(entryInfo);
+                BaseBackgroundPoller.EntryParsedHandler eph = null;
+                foreach (BaseBackgroundPoller.EntryParsedHandler _eph in this.aggregatedEntryParsedHandlers.GetInvocationList())
+                {
+                    eph += _eph;
+                }
+                entryCallbacks.Add(entryInfo.URL, eph);
             }
             if (entryFilter.NextHundred != null & parseMore)
                 SearchSection(sectionSite, entryFilter.NextHundred, ref entries);
         }
 
-        public void OnPollDone(object sender, RunWorkerCompletedEventArgs e)
+        public new void OnPollDone(object sender, RunWorkerCompletedEventArgs e)
         {
             stopWatch.Stop();
             base.OnPollDone(entriesSearched.ToString() + " entries searched in " + stopWatch.Elapsed.ToString());
@@ -95,7 +114,7 @@ namespace CLWFramework
 
         
         private readonly object PollErrorLock = new object();
-        public void OnPollError(string area, string message)
+        public new void OnPollError(string area, string message)
         {
             lock (PollErrorLock)
             {
@@ -105,7 +124,7 @@ namespace CLWFramework
 
        
         private readonly object EntryFoundLock = new object();
-        protected bool OnEntryFound(EntryInfo info)
+        protected new bool OnEntryFound(EntryInfo info)
         {
             lock (EntryFoundLock)
             {
@@ -114,14 +133,15 @@ namespace CLWFramework
         }
 
         private readonly object EntryParsedLock = new object();
-        protected void OnEntryParsed(EntryInfo info, ParseFilter filter)
+        protected new void OnEntryParsed(EntryInfo info, ParseFilter filter)
         {
             lock (EntryParsedLock)
             {
-                entriesSearched++;
                 BaseBackgroundPoller.EntryParsedHandler handler = null;
                 if (entryCallbacks.TryGetValue(info.URL, out handler))
                     handler(this, info);
+                if (++entriesSearched == numEntriesToSearch)
+                    waitHandle.Set();
             }
         }
     }

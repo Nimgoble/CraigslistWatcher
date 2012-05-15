@@ -31,6 +31,7 @@ namespace CLWFramework
 
         public void Initialize()
         {
+            areasList.Clear();
             Locations.Instance.DownloadLocations();
             Categories.Instance.DownloadCategories();
             foreach (KeyValuePair<CategoryInfo, List<CategoryInfo>> catPair in Categories.Instance.CategoriesDictionary)

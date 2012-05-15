@@ -68,6 +68,7 @@ namespace CLWFramework
         }
         public void DownloadCategories()
         {
+            categoriesDictionary.Clear();
             CategoriesFilter filter = new CategoriesFilter(ref categoriesDictionary);
             if(filter.ParseURL("http://chicago.craigslist.org"))
                 filter.Populate();

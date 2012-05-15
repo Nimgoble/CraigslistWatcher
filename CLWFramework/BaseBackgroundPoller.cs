@@ -8,6 +8,13 @@ namespace CLWFramework
 {
     public class BaseBackgroundPoller : EventWaitHandle
     {
+        public virtual AreaDetails PollerAreaDetails 
+        { 
+            get
+            {
+                return null;
+            }
+        }
         public BaseBackgroundPoller() : base(false, EventResetMode.ManualReset) { }
         public delegate void NumberOfEntriesFoundHandler(BaseBackgroundPoller poller, Int32 numEntries);
         public event NumberOfEntriesFoundHandler NumberOfEntriesFound;

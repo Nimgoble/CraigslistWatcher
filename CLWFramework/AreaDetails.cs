@@ -57,6 +57,18 @@ namespace CLWFramework
             return String.Format("{0} - {1} - {2} - {3} - {4}", Country, State, City, Section, Subsection);
         }
 
+        public override int GetHashCode()
+        {
+            return this.ToString().GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj != null && obj is AreaDetails)
+                return this.ToString() == (obj as AreaDetails).ToString();
+            return false;
+        }
+
         public int CompareTo(AreaDetails other)
         {
             return this.ToString().CompareTo(other.ToString());

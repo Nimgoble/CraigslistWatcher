@@ -12,7 +12,7 @@ namespace HtmlParser
         {
             Attributes = new Dictionary<string, string>();
             Children = new List<HtmlTag>();
-            MiscellaneousItems = new List<string>();
+            //MiscellaneousItems = new List<string>();
             TrailingSlash = false;
             Value = null;
             Name = null;
@@ -49,7 +49,7 @@ namespace HtmlParser
         /// </summary>
         public List<HtmlTag> Children { get; set; }
 
-        public List<string> MiscellaneousItems { get; set; }
+        //public List<string> MiscellaneousItems { get; set; }
 
         /// <summary>
         /// JH: Used for tracking parent tags

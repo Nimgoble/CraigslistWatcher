@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using HtmlParser;
-
+using CLWFramework.CLWFilters;
 namespace CLWFramework
 {
     public class EntryInfo : IComparable<EntryInfo>
@@ -15,6 +15,8 @@ namespace CLWFramework
         public string Body { get; set; }
         public DateTime Date { get; set; }
         private string toString;
+        public BackgroundAreaPoller.ParseEntriesHandler parseEntriesHandler;
+        public BaseBackgroundPoller.EntryParsedHandler entryParsedHandler;
         public EntryInfo(string rawHtml)
         {
             toString = rawHtml;
@@ -24,6 +26,8 @@ namespace CLWFramework
             Value = String.Empty;
             Body = String.Empty;
             Date = new DateTime();
+            parseEntriesHandler = new BackgroundAreaPoller.ParseEntriesHandler(this.ParseEntry);
+            entryParsedHandler = null;
         }
         public static EntryInfo CreateEntryInfo(HtmlTag src)
         {
@@ -46,7 +50,7 @@ namespace CLWFramework
                 if (tags.Count > 0)
                     info.Area = tags[0].Value;
 
-                info.Value = string.Join(",", src.MiscellaneousItems.ToArray());
+                //info.Value = string.Join(",", src.MiscellaneousItems.ToArray());
                 for (int i = 0; i < info.Value.Length; i++)
                 {
                     if (info.Value[i] == '$')
@@ -69,6 +73,20 @@ namespace CLWFramework
         public int CompareTo(EntryInfo other)
         {
             return URL.CompareTo(other.URL);
+        }
+        private void ParseEntry(CLWParseFilter.CLWParseURLCompletedHandler clwParseURLCompletedHandler)
+        {
+            AdFilter filter = new AdFilter();
+            filter.ParseURLAsync(this, clwParseURLCompletedHandler);
+        }
+        private void ParseEntry()
+        {
+            AdFilter filter = new AdFilter();
+            filter.ParseURL(URL);
+            filter.Populate();
+            this.Body = filter.Body;
+            this.Date = filter.Date;
+            entryParsedHandler(this);
         }
     };
 }

@@ -24,7 +24,7 @@ namespace CLWFramework
         public event PollErrorHandler PollError;
         public delegate void EntryFoundHandler(BaseBackgroundPoller poller, EntryInfo info);
         public event EntryFoundHandler EntryFound;
-        public delegate void EntryParsedHandler(BaseBackgroundPoller poller, EntryInfo info);
+        public delegate void EntryParsedHandler( EntryInfo info);
 
         protected virtual void OnNumberOfEntriesFound(Int32 numEntries)
         {

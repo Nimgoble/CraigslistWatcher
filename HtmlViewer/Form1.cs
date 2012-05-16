@@ -21,11 +21,13 @@ namespace HtmlViewer
             currentURL = "";
 
             /*AdFilter adfilter = new AdFilter();
-            adfilter.Populate("http://chicago.craigslist.org/sox/msg/2939038242.html");
-            EntryFilter filter = new EntryFilter();
-            string url = "http://chicago.craigslist.org/msg/";
-            filter.Populate(url);
-            while (filter.NextHundred != null)
+            adfilter.Populate("http://chicago.craigslist.org/sox/msg/2939038242.html");*/
+
+            AdFilter filter = new AdFilter();
+            filter.ParseURL("http://chicago.craigslist.org/wcl/msg/3013272531.html");
+            filter.Populate();
+
+            /*while (filter.NextHundred != null)
                 filter.Populate(url + filter.NextHundred);*/
 
             /*AdFilter filter = new AdFilter();
@@ -38,7 +40,7 @@ namespace HtmlViewer
 
             Areas.Instance.Initialize();
 
-            try
+            /*try
             {
                 System.Net.Mail.MailMessage message = new System.Net.Mail.MailMessage();
                 message.To.Add("mechanicalanimal125@yahoo.com");
@@ -54,7 +56,7 @@ namespace HtmlViewer
             catch (System.Exception ex)
             {
                 string e = ex.ToString();
-            }
+            }*/
             
 
             /*LocationsFilter locFilter = new LocationsFilter();

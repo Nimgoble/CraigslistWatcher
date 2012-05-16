@@ -122,7 +122,6 @@ namespace CLWFramework
         {
             if (this.InvokeRequired)
                 this.Invoke((MethodInvoker)delegate() { PollStarted(); });
-            Reset();
             txtKeywords.Enabled = false;
             lstKeywords.Enabled = false;
         }
@@ -235,16 +234,10 @@ namespace CLWFramework
             if (this.btnForceRefresh.Text == "Start Search")
                 this.btnForceRefresh.Text = "Refresh";
 
-            if (keywords.Count == 0)
+            if (lstKeywords.Items.Count == 0)
             {
                 MessageBox.Show("Please enter at least one keyword.", "Error", MessageBoxButtons.OK);
                 return;
-            }
-
-            if (areaLastFiveSearched.Count > 0)
-            {
-                pollHandler.Unsubscribe(areaLastFiveSearched.Keys.ToList(), this);
-                areaLastFiveSearched.Clear();
             }
 
             //Get each section.
@@ -321,13 +314,37 @@ namespace CLWFramework
                 return;
             }
 
-            areaLastFiveSearched = areaDetails.ToDictionary(v => v, v => new List<string>());
-
-            pollHandler.Subscribe(areaDetails, this);
-            if (!pollHandler.Start(refreshInterval))
+            List<string> newKeywords = new List<string>();
+            foreach(string item in lstKeywords.Items)
+                newKeywords.Add(item);
+            
+            //We just want to refresh our previous search
+            if (areaDetails == areaLastFiveSearched.Keys.ToList() && newKeywords == keywords)
             {
-                areaLastFiveSearched.Clear();
-                return;
+                if (!pollHandler.Start(refreshInterval))
+                {
+                    areaLastFiveSearched.Clear();
+                    return;
+                }
+            }
+            else //New search criteria
+            {
+                if (areaLastFiveSearched.Count > 0)
+                {
+                    pollHandler.Unsubscribe(areaLastFiveSearched.Keys.ToList(), this);
+                    areaLastFiveSearched.Clear();
+                }
+
+                keywords = newKeywords;
+                areaLastFiveSearched = areaDetails.ToDictionary(v => v, v => new List<string>());
+
+                pollHandler.Subscribe(areaDetails, this);
+                if (!pollHandler.Start(refreshInterval))
+                {
+                    areaLastFiveSearched.Clear();
+                    return;
+                }
+                Reset();
             }
         }
 
@@ -398,7 +415,7 @@ namespace CLWFramework
         protected void OnNumberOfEntriesFound(BaseBackgroundPoller poller, Int32 numEntries)
         {
             if (this.lblTotalEntries.InvokeRequired)
-                this.lblTotalEntries.Invoke(new MethodInvoker(delegate() { OnNumberOfEntriesFound(poller, numEntries); }));
+                this.lblTotalEntries.BeginInvoke(new MethodInvoker(delegate() { OnNumberOfEntriesFound(poller, numEntries); }));
             else
             {
                 try
@@ -425,10 +442,10 @@ namespace CLWFramework
 
             lastFiveSearched.Insert(0, info.URL);
         }
-        protected void OnEntryParsed(BaseBackgroundPoller poller, EntryInfo info)
+        protected void OnEntryParsed(EntryInfo info)
         {
             if (this.wbEntries.InvokeRequired)
-                this.wbEntries.Invoke(new MethodInvoker(delegate() { OnEntryParsed(poller, info); }));
+                this.wbEntries.BeginInvoke(new MethodInvoker(delegate() { OnEntryParsed(info); }));
             else
             {
                 try
@@ -459,7 +476,7 @@ namespace CLWFramework
         protected void OnPollDone(BaseBackgroundPoller poller, string message)
         {
             List<string> lastFiveSearched = null;
-            if (!areaLastFiveSearched.TryGetValue(poller.PollerAreaDetails, out lastFiveSearched))
+            if (areaLastFiveSearched.TryGetValue(poller.PollerAreaDetails, out lastFiveSearched))
             {
                 if(lastFiveSearched.Count > 5)
                     lastFiveSearched.RemoveRange(5, lastFiveSearched.Count - 5);
@@ -474,7 +491,7 @@ namespace CLWFramework
         private void UpdateEntriesFound()
         {
             if (this.lblEntriesFound.InvokeRequired)
-                this.lblEntriesFound.Invoke(new MethodInvoker(delegate() { UpdateEntriesFound(); }));
+                this.lblEntriesFound.BeginInvoke(new MethodInvoker(delegate() { UpdateEntriesFound(); }));
             else
             {
                 try
@@ -490,7 +507,7 @@ namespace CLWFramework
         public void UpdateEntriesSearched()
         {
             if (this.lblEntriesSearched.InvokeRequired)
-                this.lblEntriesSearched.Invoke((MethodInvoker)delegate() { UpdateEntriesSearched(); });
+                this.lblEntriesSearched.BeginInvoke((MethodInvoker)delegate() { UpdateEntriesSearched(); });
             else
             {
                 try

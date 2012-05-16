@@ -25,7 +25,7 @@ namespace CLWFramework
         private int totalSearched;
         private Dictionary<AreaDetails, List<BasePollEventHandler>> areaDetailsDictionary;
         private List<BackgroundPoller.EntryFoundHandler> entryFoundHandlerList;
-
+        private List<EventWaitHandle> cityWorkers;
         public AreaPollHandler()
         {
             areaDetailsDictionary = new Dictionary<AreaDetails, List<BasePollEventHandler>>();
@@ -47,6 +47,7 @@ namespace CLWFramework
             polling = false;
             totalSearched = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
+            cityWorkers = new List<EventWaitHandle>();
         }
 
         public void Subscribe(List<AreaDetails> areaDetails, BasePollEventHandler handler)
@@ -153,7 +154,6 @@ namespace CLWFramework
                 return;
             OnPollStarted();
 
-            List<EventWaitHandle> cityWorkers = new List<EventWaitHandle>();
             foreach (KeyValuePair<AreaDetails, List<BasePollEventHandler>> areaPair in areaDetailsDictionary)
             {
                 //New background poller
@@ -225,6 +225,7 @@ namespace CLWFramework
                 totalSearched = 0;
                 timer.Start();
                 Logger.Instance.Log("Poll ended. Time elapsed: " + stopWatch.Elapsed.ToString());
+                stopWatch.Reset();
                 if (PollEnded != null)
                     PollEnded();
             }

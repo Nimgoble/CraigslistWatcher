@@ -240,8 +240,11 @@ namespace HtmlParser
                     //Check if there is something in between the end of this tag and our previous first child
                     index++;
                     SkipWhitespace(ref index);
+                    //If our parent had children and the first child's tag doesn't begin at the end of this tag,
+                    //then we have some residual stuff to add to our parent's body
                     if (parent.Children.Count > 0 && parent.Children[0].OpenTag_Start != index)
-                        parent.MiscellaneousItems.Insert(0, _html.Substring(index, (parent.Children[0].OpenTag_Start - index)));
+                        parent.Value = _html.Substring(index, (parent.Children[0].OpenTag_Start - index)) + " " + parent.Value;
+                    //parent.MiscellaneousItems.Insert(0, _html.Substring(index, (parent.Children[0].OpenTag_Start - index)));
                     //Insert at head of children
                     parent.Children.Insert(0, child_tag);
                 }
@@ -271,8 +274,11 @@ namespace HtmlParser
                         child_tag.OpenTag_Start = _pos;
                         child_tag.Parent = parent;
                         ParseTagAttributes(ref child_tag, ref index);
+                        //If we were a self-closing tag, we had a child, and the child's tag does not start immediately after our end-tag,
+                        //then add the misc stuff to our parent's body.
                         if (child_tag.TrailingSlash && parent.Children.Count > 0 && parent.Children[0].OpenTag_Start != index)
-                            parent.MiscellaneousItems.Insert(0, _html.Substring(index, (parent.Children[0].OpenTag_Start - index)));
+                            parent.Value = _html.Substring(index, (parent.Children[0].OpenTag_Start - index)) + " " + parent.Value;
+                        //parent.MiscellaneousItems.Insert(0, _html.Substring(index, (parent.Children[0].OpenTag_Start - index)));
                         parent.Children.Insert(0, child_tag);
                     }
                 }
@@ -324,7 +330,7 @@ namespace HtmlParser
             index++;
             int value_end = _html.IndexOf("<", index);
             if( value_end != -1 )
-                tag.Value = _html.Substring(index, value_end - index);  
+                tag.Value = _html.Substring(index, value_end - index) + tag.Value;  
         }
         protected string ParseAttributeName(ref int index)
         {

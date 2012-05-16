@@ -32,6 +32,8 @@ namespace CLWFramework
         public BaseBackgroundPoller.EntryParsedHandler aggregatedEntryParsedHandlers;
         private EventWaitHandle waitHandle;
         private Int32 numEntriesToSearch;
+        private AsyncCallback onEntryParsedCallback;
+        private List<string> entries;
         public BackgroundAreaPoller(AreaDetails _areaDetails)
         {
             aggregatedEntryParsedHandlers = null;
@@ -42,7 +44,9 @@ namespace CLWFramework
             entriesSearched = 0;
             numEntriesToSearch = 0;
             stopWatch = new System.Diagnostics.Stopwatch();
-            clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.OnEntryParsed);
+            onEntryParsedCallback = new AsyncCallback(this.OnEntryParsed);
+            entries = new List<string>();
+            //clwParseURLCompletedHandler = new CLWParseFilter.CLWParseURLCompletedHandler(this.OnEntryParsed);
             worker.DoWork += this.PollCity;
             worker.RunWorkerCompleted += this.OnPollDone;
         }
@@ -52,31 +56,42 @@ namespace CLWFramework
             worker.RunWorkerAsync();
         }
 
+        public delegate void ParseEntriesHandler();
+        public event ParseEntriesHandler ParseEntries;
         public void PollCity(object sender, DoWorkEventArgs e)
         {
             stopWatch.Start();
-            List<EntryInfo> entries = new List<EntryInfo>();
-            SearchSection(areaDetails.Website, "", ref entries);
+            SearchSection(areaDetails.Website, "");
             numEntriesToSearch += entries.Count;
-
             OnNumberOfEntriesFound(numEntriesToSearch);
 
             if (numEntriesToSearch == 0)
                 return;
 
-            for (int i = 0; i < entries.Count; i++)
+            /*for (int i = 0; i < entries.Count; i++)
             {
                 EntryInfo entry = entries[i];
                 AdFilter filter = new AdFilter();
                 filter.ParseURLAsync(ref entry, clwParseURLCompletedHandler);
+            }*/
+
+            if (ParseEntries != null)
+            {
+                try
+                {
+                    foreach(ParseEntriesHandler parseEntriesHandler in ParseEntries.GetInvocationList())
+                        parseEntriesHandler.BeginInvoke(onEntryParsedCallback, null);
+                }
+                catch (System.Exception ex)
+                {
+                    Logger.Instance.Log(ex.ToString(), areaDetails.ToString(), LogType.ltError);
+                }
             }
             
             waitHandle.WaitOne();
         }
 
-        private void SearchSection(string sectionSite, 
-                                    string indexSuffix, 
-                                    ref List<EntryInfo> entries )
+        private void SearchSection(string sectionSite, string indexSuffix)
         {
             //Well, fuck.  This doesn't work for Personals because of that stupid "I'm aware that I could see nudie pics" page.
             EntryFilter entryFilter = new EntryFilter();
@@ -93,20 +108,25 @@ namespace CLWFramework
             bool parseMore = true;
             foreach (EntryInfo entryInfo in entryFilter.EntryList)
             {
-                if (entryCallbacks.Keys.Contains(entryInfo.URL))
+                if (entries.Contains(entryInfo.URL))
                     continue;
                 if(!(parseMore = OnEntryFound(entryInfo)))
                     break;
 
-                entries.Add(entryInfo);
-                BaseBackgroundPoller.EntryParsedHandler eph = null;
+                entries.Add(entryInfo.URL);
+                /*BaseBackgroundPoller.EntryParsedHandler eph = null;
                 foreach (BaseBackgroundPoller.EntryParsedHandler _eph in this.aggregatedEntryParsedHandlers.GetInvocationList())
                     eph += _eph;
 
-                entryCallbacks.Add(entryInfo.URL, eph);
+                entryCallbacks.Add(entryInfo.URL, eph);*/
+
+                foreach (BaseBackgroundPoller.EntryParsedHandler eph in this.aggregatedEntryParsedHandlers.GetInvocationList())
+                    entryInfo.entryParsedHandler += eph;
+
+                ParseEntries += entryInfo.parseEntriesHandler;
             }
             if (entryFilter.NextHundred != null & parseMore)
-                SearchSection(sectionSite, entryFilter.NextHundred, ref entries);
+                SearchSection(sectionSite, entryFilter.NextHundred);
         }
 
         public new void OnPollDone(object sender, RunWorkerCompletedEventArgs e)
@@ -135,17 +155,23 @@ namespace CLWFramework
             }
         }
 
-        private readonly object EntryParsedLock = new object();
+       /* private readonly object EntryParsedLock = new object();
         protected new void OnEntryParsed(EntryInfo info, ParseFilter filter)
         {
-            lock (EntryParsedLock)
-            {
+            //lock (EntryParsedLock)
+            //{
                 BaseBackgroundPoller.EntryParsedHandler handler = null;
                 if (entryCallbacks.TryGetValue(info.URL, out handler))
                     handler(this, info);
                 if (++entriesSearched == numEntriesToSearch)
                     waitHandle.Set();
-            }
+            //}
+        }*/
+
+        protected void OnEntryParsed(IAsyncResult result)
+        {
+            if (++entriesSearched == numEntriesToSearch)
+                waitHandle.Set();
         }
     }
 }

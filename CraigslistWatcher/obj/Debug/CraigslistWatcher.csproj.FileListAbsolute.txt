@@ -107,3 +107,6 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe.config
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.read.1.tlog
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\bin\Debug\CraigslistWatcher.exe.config
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistWatcher\obj\Debug\GenerateResource.write.1.tlog

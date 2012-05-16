@@ -61,12 +61,16 @@ namespace CLWFramework
 
             OnNumberOfEntriesFound(numEntriesToSearch);
 
+            if (numEntriesToSearch == 0)
+                return;
+
             for (int i = 0; i < entries.Count; i++)
             {
                 EntryInfo entry = entries[i];
                 AdFilter filter = new AdFilter();
                 filter.ParseURLAsync(ref entry, clwParseURLCompletedHandler);
             }
+            
             waitHandle.WaitOne();
         }
 
@@ -97,9 +101,8 @@ namespace CLWFramework
                 entries.Add(entryInfo);
                 BaseBackgroundPoller.EntryParsedHandler eph = null;
                 foreach (BaseBackgroundPoller.EntryParsedHandler _eph in this.aggregatedEntryParsedHandlers.GetInvocationList())
-                {
                     eph += _eph;
-                }
+
                 entryCallbacks.Add(entryInfo.URL, eph);
             }
             if (entryFilter.NextHundred != null & parseMore)

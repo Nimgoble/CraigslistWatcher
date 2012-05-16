@@ -66,6 +66,21 @@ namespace CLWFramework
                 areaDetailsDictionary.Add(areaDetails, areaHandlers);
             }
         }
+        public void Unsubscribe(List<AreaDetails> areaDetails, BasePollEventHandler handler)
+        {
+            foreach (AreaDetails details in areaDetails)
+                Unsubscribe(details, handler);
+        }
+        public void Unsubscribe(AreaDetails areaDetails, BasePollEventHandler handler)
+        {
+            List<BasePollEventHandler> areaHandlers = null;
+            if (areaDetailsDictionary.TryGetValue(areaDetails, out areaHandlers))
+            {
+                areaHandlers.Remove(handler);
+                if (areaHandlers.Count == 0)
+                    areaDetailsDictionary.Remove(areaDetails);
+            }
+        }
         public bool Start(TimeSpan refreshTime)
         {
             try
@@ -209,7 +224,7 @@ namespace CLWFramework
                 polling = false;
                 totalSearched = 0;
                 timer.Start();
-                Logger.Instance.Log("Poll ended. Entries searched: " + totalSearched.ToString() + ". Time elapsed: " + stopWatch.Elapsed.ToString(), "");
+                Logger.Instance.Log("Poll ended. Time elapsed: " + stopWatch.Elapsed.ToString());
                 if (PollEnded != null)
                     PollEnded();
             }

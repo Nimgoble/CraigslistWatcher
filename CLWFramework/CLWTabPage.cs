@@ -241,6 +241,12 @@ namespace CLWFramework
                 return;
             }
 
+            if (areaLastFiveSearched.Count > 0)
+            {
+                pollHandler.Unsubscribe(areaLastFiveSearched.Keys.ToList(), this);
+                areaLastFiveSearched.Clear();
+            }
+
             //Get each section.
             List<KeyValuePair<string, string>> sections = new List<KeyValuePair<string, string>>();
             foreach(TreeNode sectionNode in trSections.Nodes)

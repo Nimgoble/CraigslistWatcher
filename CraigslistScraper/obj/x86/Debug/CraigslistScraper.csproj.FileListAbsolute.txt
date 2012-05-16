@@ -11,3 +11,10 @@ C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\Craig
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\HtmlParser.dll
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\CLWFramework.pdb
 C:\Documents and Settings\jharris\My Documents\Visual Studio 2008\Projects\CraigslistWatcher\CraigslistScraper\bin\Debug\HtmlParser.pdb
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.ProjectInstaller.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.CraigslistScraper.resources
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.exe
+C:\Users\Pat\Documents\Programming\Projects\CraigslistWatcher\CraigslistWatcher\CraigslistScraper\obj\x86\Debug\CraigslistScraper.pdb
